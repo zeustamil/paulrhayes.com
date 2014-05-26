@@ -1,0 +1,22 @@
+<article class="article" role="main">
+  <header class="article-header">
+    <h1 class="main-content-title entry-title">
+      <%= post.title %>
+    </h1>
+  </header>
+  <div class="article-meta" role="contentinfo">
+    <time datetime="<%= date_xml(post.date) %>" class="entry-date published" pubdate>
+      <%= date(post.date, config.date_format) %>
+    </time>
+    <%- partial('post/nav') %>
+  </div>
+  <div class="article-content entry-content">
+    <%- post.content %>
+  </div>
+  <footer class="article-footer media">
+    <img src="http://1.gravatar.com/avatar/71f534a5deac2c9aa23b1a9c6de4f2e1?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" alt="Paul Hayes" class="media-pull-left paul-avatar" />
+    <p class="media-body">
+      <strong>Paul Hayes</strong> is a developer at <a href="http://www.last.fm/user/fofr">Last.fm</a>. You should <a href="http://twitter.com/fofr">follow him on Twitter</a>, where he talks about UX, HTML, CSS and JavaScript, amongst other cool stuff.
+    </p>
+  </footer>
+</article>

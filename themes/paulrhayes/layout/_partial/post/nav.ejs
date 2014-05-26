@@ -1,0 +1,11 @@
+<% if (post.prev || post.next) { %>
+  <nav>
+    <% if (post.next) { %>
+      <a href="<%- config.root %><%- post.next.path %>" title="<%= post.next.title %>" rel="next">&larr; Prev</a>
+    <% } %>
+    <% if (post.prev && post.next) { %> | <% } %>
+    <% if (post.prev) { %>
+      <a href="<%- config.root %><%- post.prev.path %>" title="<%= post.prev.title %>" rel="prev">Next &rarr;</a>
+    <% } %>
+  </nav>
+<% } %>
