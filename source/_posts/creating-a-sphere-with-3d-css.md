@@ -15,7 +15,7 @@ date: 2011-02-10 23:33:33
 
 With CSS3’s 3D transforms I've illustrated how to build a [cube](/2009-07/animated-css3-cube-interface-using-3d-transforms/) and a [tetrahedron](/2010-10/css-tetrahedron/). It is also possible to create a sphere-like object, albeit with many elements.
 
-[3D CSS Sphere](http://www.paulrhayes.com/experiments/sphere/)
+[3D CSS Sphere](/experiments/sphere/)
 Works in the latest Safari and iOS (just about runs on an iPhone 4).
 
 <div class="edit">

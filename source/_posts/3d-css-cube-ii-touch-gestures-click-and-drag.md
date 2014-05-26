@@ -16,7 +16,7 @@ date: 2010-09-28 22:20:49
 
 An update to the [original 3D cube](/2009-07/animated-css3-cube-interface-using-3d-transforms/) (from July 2009 no less), I've added touch gesture support (iOS) and click-and-drag behaviour. Animation is incredibly smooth on the iPhone, even the 3G model. Arrow key presses will still rotate the cube, and ESC will reset it.
 
-[Experiment: 3D cube with touch gestures and click and drag](http://www.paulrhayes.com/experiments/cube-3d/touch.html)
+[Experiment: 3D cube with touch gestures and click and drag](/experiments/cube-3d/touch.html)
 One year on and the cube still only works in Safari. Chrome, which says it supports `webkit-perspective` and `webkit-transform`, still renders differently. Firefox doesn't support 3D transforms _[yet](https://developer.mozilla.org/En/CSS/Using_CSS_transforms)_.
 <div class="edit">
 <time datetime="2012-02-12">12 Feb 2012</time> Experiment updated for Firefox 10 which supports 3D transforms. Although the perspective appears off, probably due to a [perspective-origin bug](https://bugzilla.mozilla.org/show_bug.cgi?id=726397).

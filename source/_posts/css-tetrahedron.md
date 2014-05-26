@@ -13,7 +13,7 @@ date: 2010-10-06 19:59:59
 
 A triangle can be created in CSS by manipulating the borders of an element. Combining four triangles in a 3D space using `-webkit-transform`, these can be positioned to form a tetrahedron (or pyramid if you prefer).
 
-[CSS pyramid - proof of concept](http://www.paulrhayes.com/experiments/pyramid/)
+[CSS pyramid - proof of concept](/experiments/pyramid/)
 For now this only works in Safari 5.0.2+ and iOS, although 3D transforms will surface in Firefox 4 and the next build of Chrome. The demo doesn't use JavaScript.
 
 <div class="edit">
@@ -28,7 +28,7 @@ For now this only works in Safari 5.0.2+ and iOS, although 3D transforms will su
 
 Combining squares and triangles, [cubes](http://www.paulrhayes.com/2010-09/3d-css-cube-ii-touch-gestures-click-and-drag/) and pyramids, all sorts of 3D structures are now possible, if you are so inclined. Not necessarily useful, but possible.
 
-[![CSS pyramid](http://host.trivialbeing.org/up/small/css-pyramid.png)](http://www.paulrhayes.com/experiments/pyramid/)
+[![CSS pyramid](http://host.trivialbeing.org/up/small/css-pyramid.png)](/experiments/pyramid/)
 
 The rotation is performed using a `-webkit-animation`, I've given the animation the name "spin", which rotates the pyramid around Y from 0 to 360 degrees:
 
