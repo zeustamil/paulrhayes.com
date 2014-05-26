@@ -55,7 +55,7 @@ Similar to my previous experiments, the HTML markup is very simple. Each of the 
 		Content
 	&lt;/div&gt;
 &lt;/div&gt;
-</pre>
+```
 
 A short disclaimer, the geometry in this example is 'fudged', in that the values have been adjusted to appear roughly correct. I know that the dimensions are slightly out of whack, this is merely to save my head from mathematics and to get the concept out there quickly for people to see. With that said, let's crack on with the CSS.
 
@@ -80,7 +80,7 @@ Each of the three rectangles is given a slightly different shade of gray to give
 .topFace {
 	position: absolute;
 }
-</pre>
+```
 
 Now for the fun bit. The left and right rectangles are skewed by ±30˚ along the vertical axis, with the right face shifted left by 200px, cleanly lining up the two edges to create a corner that is center aligned.
 
@@ -97,7 +97,7 @@ Now for the fun bit. The left and right rectangles are skewed by ±30˚ along th
 	background-color: #ddd;
 	left: 200px;
 }
-</pre>
+```
 
 The top face proves more problematic; it needs to be skewed, scaled, rotated and positioned. The skew is the same, -30˚ along the vertical axis, this skewed rectangle must then be rotated clockwise by 60˚. Rotating the rectangle itself leads to a change in orientation of its content, a container must be added and then rotated.
 
@@ -117,7 +117,7 @@ A simple way of creating a top face without resorting to maths is to duplicate t
 	top: -158px;
 	left: 100px;
 }
-</pre>
+```
 
 The final CSS looks like this:
 
@@ -167,4 +167,4 @@ The final CSS looks like this:
 	top: -158px;
 	left: 100px;
 }
-</pre>
+```

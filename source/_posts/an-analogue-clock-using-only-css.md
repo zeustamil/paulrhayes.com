@@ -32,7 +32,7 @@ Before getting into the nitty gritty I created four images, a clock face and thr
 	&lt;div id=&quot;minute&quot;&gt;&lt;img src=&quot;images/minuteHand.png&quot; /&gt;&lt;/div&gt;
 	&lt;div id=&quot;second&quot;&gt;&lt;img src=&quot;images/secondHand.png&quot; /&gt;&lt;/div&gt;
 &lt;/div&gt;
-</pre>
+```
 
 <pre class='prettyprint'>
 #clock {
@@ -47,7 +47,7 @@ margin: 5em 0 0 -189px;
 #clock div {
 position: absolute;
 }
-</pre>
+```
 
 The magic that rotates the clock's hands comes via two WebKit specific CSS properties, `-webkit-transition` ([documentation](http://webkit.org/specs/CSSVisualEffects/CSSTransitions.html)) and `-webkit-transform` ([documentation](http://webkit.org/specs/CSSVisualEffects/CSSTransforms.html)). The transform property can alter the appearance of an element via a two dimensional transformation, for instance: scaling, rotating and skewing a DIV element. In this case it is used to rotate the clock hands to the correct angles; the CSS below puts the hour hand at 3 o'clock:
 
@@ -55,7 +55,7 @@ The magic that rotates the clock's hands comes via two WebKit specific CSS prope
 #clock img[src*='hour'] {
 -webkit-transform: rotate(90deg);
 }
-</pre>
+```
 
 The transition property creates an animation of a specified property between two values when triggered, for instance fading the opacity on a DIV element from 1 to 0 - triggered using the :hover pseudo class. Transition duration and the transition timing function (e.g. linear) should also be set, amongst other optional properties. In this example the transition is from one transformation angle to another with durations that match the appropriate clock hand, so the second hand takes 60 seconds to complete a 360 degree rotation. The transition is triggered using the :target pseudo element - if the URI contains the 'clock' fragment then the time piece shall start ticking.
 
@@ -68,7 +68,7 @@ The transition property creates an animation of a specified property between two
 #clock:target img[src*='second'] {
 -webkit-transform: rotate(360deg);
 }
-</pre>
+```
 
 The above transition lasts only one rotation but by altering the duration length and degree of rotation in accordance the second hand can keep on going (e.g. 600 seconds and 3600 degrees rotation gives a battery life of 10 minutes), a fairly safe assumption that users will not stay on the page for too long.
 
@@ -88,7 +88,7 @@ The above transition lasts only one rotation but by altering the duration length
 #clock:target img[src*='minute'] {
 -webkit-transform: rotate(36000deg);
 }
-</pre>
+```
 
 ### Grab the current time
 
@@ -110,6 +110,6 @@ function startClock() {
 	$('second').setStyle('-webkit-transform: rotate('+angle*second+'deg)');
 	$('hour').setStyle('-webkit-transform: rotate('+hourAngle+'deg)');
 }
-</pre>
+```
 
 A word of warning - applying the inline style directly to the image will override the transition effects defined in the CSS file.

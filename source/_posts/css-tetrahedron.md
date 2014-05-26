@@ -32,7 +32,7 @@ Combining squares and triangles, [cubes](http://www.paulrhayes.com/2010-09/3d-cs
 
 The rotation is performed using a `-webkit-animation`, I've given the animation the name "spin", which rotates the pyramid around Y from 0 to 360 degrees:
 
-<pre>
+```
 #pyramid {
 -webkit-animation: spin 5s linear infinite;
 -moz-animation: spin 5s linear infinite;
@@ -55,10 +55,10 @@ The rotation is performed using a `-webkit-animation`, I've given the animation 
   	-moz-transform: rotateY(360deg) rotateX(-20deg);
   }
 }
-</pre>
+```
 
 If you haven't seen it before, the code to create an approximate equilateral triangle is as follows:
-<pre>
+```
 #pyramid > div {
 position: absolute;
 border-color: transparent transparent transparent rgba(50, 50, 50, 0.5);
@@ -66,13 +66,13 @@ border-style: solid;
 border-radius: 3px;
 border-width: 200px 0 200px 346px;
 }
-</pre>
+```
 
 Tantek Çelik coined this technique in his [study of regular polygons](http://tantek.com/CSS/Examples/polygons.html) which includes pentagons, hexagons and octagons. The methods are explained over at the [Filament Group](http://www.filamentgroup.com/lab/image_free_css_tooltip_pointers_a_use_for_polygonal_css/).
 
 The 3D techniques I've used in this experiment are explained in my [3D cube post](http://www.paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/) (July 2009). This is a proof of concept and I haven't delved into the mathematics or geometry too much, instead opting for the slightly faster but significantly less clever and less reproducible trial-and-error approach.
 
-<pre>
+```
 #pyramid > div:first-child  {
 -webkit-transform: rotateY(-19.5deg);
 -moz-transform: rotateY(-19.5deg);
@@ -95,4 +95,4 @@ The 3D techniques I've used in this experiment are explained in my [3D cube post
 -moz-transform: rotateX(-60deg) rotateY(19.5deg) translateX(-116px) translateY(-200px);
 -moz-transform-origin: 0 0 -326px;
 }
-</pre>
+```

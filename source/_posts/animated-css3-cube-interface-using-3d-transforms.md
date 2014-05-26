@@ -61,7 +61,7 @@ I'll start with the markup, because it's simple. Each of the six cube faces is g
 			More content
 		&lt;/div&gt;
 	&lt;/div&gt;
-&lt;/div&gt;</pre>
+&lt;/div&gt;```
 
 The outer wrapper serves as a camera, on which you apply some perspective - appropriate 3D transformations are then applied to descendants. `-webkit-perspective` defines the depth of the Z-plane and relative sizes of elements above and below it, `-webkit-perspective-origin` specifies the perspective's origin. [View a perspective example (webkit.org)](http://webkit.org/blog-files/3d-transforms/perspective-by-example.html)
 
@@ -70,7 +70,7 @@ The outer wrapper serves as a camera, on which you apply some perspective - appr
       -webkit-perspective: 800;
       -webkit-perspective-origin: 50% 200px;
     }
-</pre>
+```
 
 The second container, the actual cube, has a specified height, margin, position, etc. as usual. The height and width are necessary to create some confines for the cube face transformations - alternatively the width defaults to 100% and the cube's appearance would vary with window width. `-webkit-transition` ([documentation](http://www.w3.org/TR/css3-transitions/)) defines the animated property, duration and timing-function - we're animating the 3d transformation (via `-webkit-transform`) linearly for two seconds. `-webkit-transform-style` determines whether child elements lie flat against their parent ("flat") or remain in 3D space ("preserve-3d").
 
@@ -83,7 +83,7 @@ The second container, the actual cube, has a specified height, margin, position,
       -webkit-transition: -webkit-transform 2s linear;
       -webkit-transform-style: preserve-3d;
     }
-</pre>
+```
 
 Using the `.face` class common styles are applied to the six sides; coloring, size, padding, etc. Importantly they are each positioned absolutely, relative to the cube container. The background rgba property is included to make the cube look pretty and transparent.
 
@@ -95,7 +95,7 @@ Using the `.face` class common styles are applied to the six sides; coloring, si
       padding: 20px;
       background-color: rgba(50, 50, 50, 0.7);
     }
-</pre>
+```
 
 Each of the faces, one through six, needs to be rotated in 3D space to its correct starting position. Using `translateZ` the elements are brought 200px (half their width) off the Z-plane. Each of the faces must be at 90 degrees. Rotating solely in the X plane positions the top and bottom faces (one, six), before rotating the last four faces in the Y plane, much like origami. The extra rotate on the sixth face rotates the content in 2D space to correct its orientation.
 
@@ -123,7 +123,7 @@ Each of the faces, one through six, needs to be rotated in 3D space to its corre
     #cube .six {
       -webkit-transform: rotateX(-90deg) translateZ(200px) rotate(180deg);
     }
-</pre>
+```
 
 Our cube is now complete - but it doesn't move! With a keydown event listener we can increment X and Y angles based on different key presses, before applying them as inline styles on the cube container. In combination with the transition effect on #cube, all six faces rotate in sync from their original position to the newly defined angle, creating a seamless 3D cube interface.
 
@@ -153,4 +153,4 @@ Our cube is now complete - but it doesn't move! With a keydown event listener we
 
 		$('cube').style.webkitTransform = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
 	}, false);
-</pre>
+```

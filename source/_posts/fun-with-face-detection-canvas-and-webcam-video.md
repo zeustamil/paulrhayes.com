@@ -52,37 +52,37 @@ Presently (Nov 2012) Chrome 21+ and Opera 12+ are the only browsers that [suppor
 
 Before we begin it's best to normalise this stuff. [This gist](https://gist.github.com/f2ac64ed7fc467ccdfe3) and its comments were helpful, as was [HTML5 Doctor's guidance](http://html5doctor.com/getusermedia/).
 
-<pre>
+```
 //normalise window.URL
 window.URL || (window.URL = window.webkitURL || window.msURL || window.oURL);
 
 //normalise navigator.getUserMedia
 navigator.getUserMedia || (navigator.getUserMedia = navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia);
-</pre>
+```
 
 Now let's call it:
-<pre>
+```
 // toString for the older implementation (found by https://github.com/agektmr)
 var options = {video: true, toString: function(){ return "video"; }};
 navigator.getUserMedia(options, successCallback, errorCallback);
-</pre>
+```
 
 ### Converting a stream to a video element
 
 To show a webcam stream in a video element we need only set the video source to the stream returned by getUserMedia in the success callback. This is done either directly or using a [URL object](https://developer.mozilla.org/en-US/docs/DOM/window.URL.createObjectURL) of that stream:
 
-<pre>
+```
 // using the normalised window.URL
 function successCallback(stream) {
     video.src = (window.URL && window.URL.createObjectURL) ? window.URL.createObjectURL(stream) : stream;
 }
-</pre>
+```
 
 ### Transplanting to canvas
 
 For the video to render within canvas we need to take the current video frame and apply it to the canvas with drawImage. We need to do this as often as possible. A timer that calls the same function again after 50ms works well enough.
 
-<pre>
+```
 function drawFrame() {
     var canvas = document.querySelector('canvas'),
         context = canvas.getContext('2d');
@@ -90,19 +90,19 @@ function drawFrame() {
     context.drawImage(video, 0, 0, canvas.width, canvas.height);
     setTimeout(drawFrame, 50);
 }
-</pre>
+```
 
 ### Face detection
 
 First we include the wonderful [CCV library](https://github.com/liuliu/ccv/tree/stable/js) (ccv.js) and another file which defines a face object (face.js). To detect the faces in our canvas we simply call the detect_objects method and pass in our canvas:
 
-<pre>
+```
 ccv.detect_objects({canvas : (ccv.pre(canvas)), cascade: cascade, interval: 2, min_neighbors: 1});
-</pre>
+```
 
 This gives an array of detected objects, each with x and y co-ordinates, a width and a height. It looks a bit like:
 
-<pre>
+```
 {
     confidence: 0.16752329000000035,
     height: 48.500000000000014,
@@ -111,19 +111,19 @@ This gives an array of detected objects, each with x and y co-ordinates, a width
     x: 80.50000000000001,
     y: 104.50000000000003
 }
-</pre>
+```
 
 This operation is relatively slow. To speed up the face detection I recommend using a small canvas (200x160) and hence a scaled down video frame. This gives the algorithm much less data to assess and reduces processing time per frame from ~500ms to a more manageable ~100ms. The algorithm can also detect multiple faces, by default the scaling experiment uses the first found face, and only begins when there is only one face on screen. (The masks work for everyone).
 
 To highlight the face or draw a mask over it:
 
-<pre>
+```
 // highlight
 context.fillRect(face.x, face.y, face.width, face.height);
 
 // mask
 context.drawImage(mask, face.x, face.y, face.width, face.height);
-</pre>
+```
 
 ### Face size
 

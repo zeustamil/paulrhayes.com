@@ -14,7 +14,7 @@ date: 2009-03-18 16:06:20
 <!--more-->
 
 GA gives the ability to [create your own events](http://code.google.com/apis/analytics/docs/eventTrackerGuide.html) with a category, action, label and numerical value using the syntax:
-<pre class="thin">_trackEvent(category, action, optional_label, optional_value)</pre>
+<pre class="thin">_trackEvent(category, action, optional_label, optional_value)```
 
 Hence, on an outbound link click, by calling this JavaScript method you can trigger a tracked event in GA. An obtrusive onclick attribute on every outbound link is both cumbersome to implement and difficult to manage, it also goes against the best practices of progressive enhancement and unobtrusiveness.
 
@@ -40,7 +40,7 @@ a[href^="http"]
 
 /* Catch all - any link that starts with http but doesn't link to your domain */
 a[href^="http"]:not(a[href*="yourdomain.com"])
-</pre>
+```
 
 With an array of all the outbound links at hand, adding a click listener is simple. But we do need to set up the category, action and label. I have opted to create an arbitrary "Outbound Link" category that uses the link's text (with HTML tags stripped out) as the action and the url as the label:
 
@@ -49,7 +49,7 @@ Event.observe(outboundLink, 'click', function() {
         // category, action, label
         pageTracker._trackEvent('Outbound Link', outboundLink.innerHTML.replace(/(&lt;([^&gt;]+)&gt;)/ig,&quot;&quot;), outboundLink.href);
 }
-</pre>
+```
 
 ### The complete code
 
@@ -67,4 +67,4 @@ $$('a[href^=&quot;http&quot;]:not(a[href*=&quot;'+domainName+'&quot;])').each(fu
         pageTracker._trackEvent('Outbound Link', outboundLink.innerHTML.replace(/(&lt;([^&gt;]+)&gt;)/ig,&quot;&quot;), outboundLink.href);
         }
 });
-</pre>
+```

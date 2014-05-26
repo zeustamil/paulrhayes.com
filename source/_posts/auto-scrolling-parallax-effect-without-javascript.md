@@ -32,7 +32,7 @@ The HTML markup is fairly simple, one DIV for the background and another for the
 &lt;div id=&quot;content&quot;&gt;
 	Content
 &lt;/div&gt;
-</pre>
+```
 
 For the CSS the background container is set to a fixed position (for convenience more than anything) and spread across the bottom of the page using the top, left, bottom and right properties. The background images are defined using the background shorthand property with multiple declarations being comma delimited, the first being the top-most. Each of the images has a different position defined in percentage, so as the size of the container changes (e.g. on window resize) the images move disproportionately to each other; creating the impressive parallax effect.
 
@@ -42,7 +42,7 @@ For the CSS the background container is set to a fixed position (for convenience
 		url('../images/midground.png') 20% 20%,
 		url('../images/background.png') 90% 110%;
 }
-</pre>
+```
 
 Ordinarily this effect is only seen when the page is re-sized or JavaScript is used for animation. My first approach to animation via CSS was to apply the transition to the background-positions, with background-position being an _animatable_ property as defined in the proposed specification. However this doesn't yet work in the latest WebKit nightly build (r42142), it is a [known](https://bugs.webkit.org/show_bug.cgi?id=23219) [bug](http://farukat.es/bugs/webkit-background-pos-trans.html).
 
@@ -56,7 +56,7 @@ As an alternate route, albeit a temporary one, I have opted to use transitions t
 
 #experiment:target #background {
 	left: -5000px;
-}</pre>
+}```
 
 To make things a bit more fun I've increased the 'flying speed' when the mouse hovers over the background area. The final CSS looks like this:
 
@@ -80,4 +80,4 @@ To make things a bit more fun I've increased the 'flying speed' when the mouse h
 #experiment:hover #background {
 	left: -9999px;
 }
-</pre>
+```

@@ -15,11 +15,11 @@ We need a way of testing media query rules in JavaScript, and a way of generatin
 
 matchMedia has support in Chrome, Firefox 6+ and Safari 5.1+ and there's even a [polyfill](https://github.com/paulirish/matchMedia.js/blob/master/matchMedia.js) (by Scott Jehl, Paul Irish, Nicholas Zakas) for other browsers. So we can happily perform our one off tests in JavaScript (probably on page load):
 
-<pre>
+```
 if (matchMedia('only screen and (max-width: 480px)').matches) {
   // iphone specific JS
 }
-</pre>
+```
 
 However media query list listeners (that's a mouthful) are only supported in Firefox 6+. This is the magic of firing events when something changes, it completes the circle.
 
@@ -27,7 +27,7 @@ All is not lost, there is another way of using CSS to generate events and that's
 
 ### Simple transition CSS and event listener
 
-<pre>
+```
 .mq {
 -webkit-transition: width 0.001ms;
 -moz-transition: width 0.001ms;
@@ -41,14 +41,14 @@ width: 0;
 width: 1px;
 }
 }
-</pre>
+```
 
-<pre>
+```
 var mq = document.querySelectorAll('.mq')[0],
 mq.addEventListener('webkitTransitionEnd', function() {
 	/* Transition ends, media query matched */
 }, false);
-</pre>
+```
 
 ### Proof of concept
 
@@ -57,9 +57,9 @@ I've taken the excellent [matchMedia polyfill](https://github.com/paulirish/matc
 [Proof of concept demo](/experiments/media-query-transitions/)
 (and on [Github](https://github.com/fofr/matchMedia.js))
 
-<pre>
+```
 mql('all and (max-width: 700px)', callback);
-</pre>
+```
 
 Pass in a media query string and callback. It immediately returns the test result and the callback will fire whenever the test result changes, the only argument being the MediaQueryList object. This isn't a polyfill because it doesn't yet match the specification, if it did the originally returned MQL object would have addListener and removeListener functions (that's a work in progress).
 
@@ -69,7 +69,7 @@ Element transitions are bidirectional, so the event fires when the rule matches 
 
 The CSS transition event tells us which element triggered the transition but no details about the media query rules that governed it. So we use unique elements for each rule to connect the dots.
 
-<pre>
+```
 .mq {
 -webkit-transition: width 0.001ms;
 -moz-transition: width 0.001ms;
@@ -77,9 +77,9 @@ The CSS transition event tells us which element triggered the transition but no 
 transition: width 0.001ms;
 width: 0;
 }
-</pre>
+```
 
-<pre>
+```
 mql = (function(doc, undefined){
 
   var bool,
@@ -110,11 +110,11 @@ mql = (function(doc, undefined){
   };
 
 })(document);
-</pre>
+```
 
 ### Demo code
 
-<pre>
+```
 $(function() {
 
     var $dynamic = $('.dynamic');
@@ -127,7 +127,7 @@ $(function() {
         $dynamic.prepend(&#39;&lt;p&gt;&#39; + mql.media + &#39; &amp;mdash; &#39; + mql.matches + &#39;&lt;/p&gt;&#39;);
     }
 });
-</pre>
+```
 
 ### Support
 

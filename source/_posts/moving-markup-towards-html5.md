@@ -25,13 +25,13 @@ Even though these tags accept style they don't come with their default rendering
 		document.createElement(e[i++])
 	}
 })();
-</pre>
+```
 
 <pre class='prettyprint'>
 article, aside, dialog, footer, header, section, footer, nav, figure {
 	display: block;
 }
-</pre>
+```
 
 I've also updated the Eric Meyer reset script, removing now deprecated HTML 4 tags and applying reset to the new elements, so they do not unexpectedly inherit padding, margin, etc. in the future. These changes are not yet exhaustive.
 
@@ -43,7 +43,7 @@ Moving onto the page's actual markup, the new DOCTYPE and character encoding set
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot; /&gt;
 	&lt;title&gt;FofR Online&lt;/title&gt;
-</pre>
+```
 
 The header section has been placed in the appropriate `&lt;header&gt;` tags, and similarly with the footer. I'd hoped to include the 'About Me' section within this, but as part of the specification you cannot include headings within a `&lt;footer&gt;` element.
 
@@ -73,7 +73,7 @@ The previous and next links that follow the article can comfortably sit within a
 	&lt;div class=&quot;nav-previous&quot;&gt;&lt;/div&gt;
 	&lt;div class=&quot;nav-next&quot;&gt;&lt;/div&gt;
 &lt;/nav&gt;
-</pre>
+```
 
 One avenue I should explore is the inclusion of the `&lt;section&gt;` tag, which I'd like to break up individual posts, probably by splitting the content at level three headings downwards; thereby becoming the header of each new section.
 

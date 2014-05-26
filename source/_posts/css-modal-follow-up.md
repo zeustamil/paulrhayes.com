@@ -32,12 +32,12 @@ Onclick handlers are added to the “post comment” links to add classes and to
 
 I took the opportunity to play with some HTML5 features. The comment form now uses placeholder attributes, and if supported, labels are hidden. The feature detection is delightfully simple:
 
-<pre>
+```
 supportPlaceholder: function() {
 	  var i = document.createElement('input');
 	  return 'placeholder' in i;
 }()
-</pre>
+```
 
 See [Dive into HTML5](http://diveintohtml5.org/detect.html#input-placeholder) for more.
 

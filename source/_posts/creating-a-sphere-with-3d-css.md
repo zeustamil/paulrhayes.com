@@ -45,7 +45,7 @@ Animating the border radius on all 192 panels (if your machine can cope), gives 
 ### Code
 
 The generated HTML is simply a couple of `&lt;div&gt;`s containing lists:
-<pre>&lt;div id="sphere"&gt;
+```&lt;div id="sphere"&gt;
 	&lt;div class="container"&gt;
 		&lt;ul&gt;
 			&lt;li&gt;&lt;/li&gt;
@@ -54,11 +54,11 @@ The generated HTML is simply a couple of `&lt;div&gt;`s containing lists:
 		&lt;/ul&gt;
 		…
 	&lt;/div&gt;
-&lt;/div&gt;</pre>
+&lt;/div&gt;```
 To transform each set of panels into a circle the total number is divided by 360 to get the angle of rotation. Merely rotating will put all panels on top of each other, translating in the Z axis will move them out from the centre point. The correct translation distance so the panels slightly overlap (i.e. the circle radius) is worked out with some [simple trigonometry](http://en.wikipedia.org/wiki/Trigonometry#Mnemonics). Lists are rotated in the X axis, simply the number of lists divided by 360.
 
 Looping through each panel for each list, the angles of rotation are gradually increased by the calculated increments and applied to the elements:
-<pre>var panels = p || this.panels,
+```var panels = p || this.panels,
 rounds = r || this.rounds,
 rotationPerPanel = 360/panels,
 rotationPerRound = 360/2/rounds,
@@ -81,9 +81,9 @@ for(i = 0; i &lt; rounds; i++) {
 		$ul.append($li);
 	}
 	$container.append($ul);
-}</pre>
+}```
 To achieve the 3D effect we give `#sphere` some perspective, which forms the containing block. A second container transitions between different transforms, letting us rotate the sphere. The complicated transform parts are applied inline via the JavaScript above, but each list element needs `preserve-3d` so its direct descendants are transformed in the same 3D space (rather than in 2D).
-<pre>#sphere {
+```#sphere {
 width: 100px;
 height: 100px;
 margin: 200px auto;
@@ -118,4 +118,4 @@ background: #000;
 border: 1px solid #fff;
 opacity: 0.1;
 border-radius: 50px;
-}</pre>
+}```

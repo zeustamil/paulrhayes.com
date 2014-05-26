@@ -29,7 +29,7 @@ Of course, using images and JS will only make the modal better, and something li
 
 The :target pseudo-selector changes the style of a targeted element. Combining a link pointing to an element with :target and altering visibility/display/opacity gives a hide/show mechanism. To facilitate the animations, which were jerky when using display:none, I’ve used a combination of :target, opacity and [pointer events](https://developer.mozilla.org/en/css/pointer-events):
 
-<pre>.modal {
+```.modal {
 opacity: 0;
 pointer-events: none;
 }
@@ -37,11 +37,11 @@ pointer-events: none;
 .modal:target {
 opacity: 1;
 pointer-events: auto;
-}</pre>
+}```
 
 The modal is two parts, one part container, one part content. Ideally the container would be generated using a pseudo-element, but I haven’t got that working yet. The container spreads across the whole page and dims the background with rgba. A high z-index puts the modal on top.
 
-<pre>.modal {
+```.modal {
 position: fixed;
 top: 0;
 left: 0;
@@ -50,7 +50,7 @@ bottom: 0;
 background: rgba(0,0,0,0.5);
 z-index: 10000;
 …
-}</pre>
+}```
 
 The content is positioned roughly in the middle and is prettified with a sprinkling of text shadow, border radius, box shadow and gradient.
 
@@ -58,16 +58,16 @@ There are two animations, one named “bounce” (scale to slightly larger than 
 
 The simple opacity transition:
 
-<pre>.modal {
+```.modal {
 …
 -webkit-transition: opacity 500ms ease-in;
 -moz-transition: opacity 500ms ease-in;
 transition: opacity 500ms ease-in;
-}</pre>
+}```
 
 The scaling animations, although only 2D, uses scale3d for hardware acceleration. To make the bounce more realistic box shadow is also animated, which comes with a performance hit. Showing only the webkit version for brevity:
 
-<pre>@-webkit-keyframes bounce {
+```@-webkit-keyframes bounce {
   0% {
   	-webkit-transform: scale3d(0.1,0.1,1);
   	box-shadow: 0 3px 20px rgba(0,0,0,0.9);
@@ -93,22 +93,22 @@ The scaling animations, although only 2D, uses scale3d for hardware acceleration
   100% {
   	-webkit-transform: scale3d(0.1,0.1,1);
   }
-}</pre>
+}```
 
 To change the animation on open we can use the cascade and override the default animation with a more specific one, using :target again:
 
-<pre>.modal > div {
+```.modal > div {
 …
 -webkit-animation: minimise 500ms linear;
 }
 
 .modal:target > div {
 -webkit-animation-name: bounce;
-}</pre>
+}```
 
 The close button is a hidden close link with a styled ::after pseudo-element that scales on hover/focus/active. As we’re hiding the original close link, there are some hoops to jump through to make the :focus state change on the pseudo-element. The traditional clip, text indent or visibility hidden methods all fail, and I’ve resorted to color:transparent and some specific focus styles to override the confused native ones.
 
-<pre>.modal a[href="#close"] {
+```.modal a[href="#close"] {
 …
 color: transparent;
 }
@@ -127,7 +127,7 @@ display: block;
 
 .modal a[href="#close"]:focus:after {
 outline: 1px solid #000;
-}</pre>
+}```
 
 ### Caveats
 

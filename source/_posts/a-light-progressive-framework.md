@@ -18,14 +18,14 @@ We use [RequireJS](http://requirejs.org/) for dependency management, [Jasmine](h
 On creation each module is passed an instance of the app, from which the module can communicate upwards and outwards, as well as an element, the bounding box of the module, as defined by the position of the data attribute.
 
 This markup:
-<pre class="pretty">
+```
 &lt;div data-require=&quot;path/to/module&quot;&gt;
 …
 &lt;/div&gt;
-</pre>
+```
 
 Instantiates:
-<pre class="pretty">
+```
 define(['some-dependency'], function(someDependency) {
 
     var MODULE = function(app, $el) {
@@ -39,17 +39,17 @@ define(['some-dependency'], function(someDependency) {
 
     return MODULE;
 });
-</pre>
+```
 
 Looking at our legacy code this deals with three of the serious problems we'd faced: Knowing what JavaScript files are affected or used by others; providing a simple means to get a module up and running without resorting to inline JavaScript; and naturally limiting the module to operate within its bounds.
 
 Configuration is commonly provided via further data attributes. Examples might be an ajax end point with data-url, or perhaps a Mustache template with data-template, etc.
 
-<pre class="pretty">
+```
 &lt;div data-require=&quot;module&quot; data-url=&quot;path/to/endpoint&quot; data-template=&quot;path/to/template&quot;&gt;
 …
 &lt;/div&gt;
-</pre>
+```
 
 ### Separation of concerns
 
@@ -59,7 +59,7 @@ We use classes to provide these hooks. The problem with using classes is the ris
 
 Here's an example of a simple disclose module:
 
-<pre class="pretty">
+```
 &lt;div data-require=&quot;disclose&quot;&gt;
     &lt;p class=&quot;js-hide-on-disclose&quot;&gt;
         Some preview that gets hidden.
@@ -71,9 +71,9 @@ Here's an example of a simple disclose module:
         Details to be revealed.
     &lt;/div&gt;
 &lt;/div&gt;
-</pre>
+```
 
-<pre class="pretty">
+```
 define(function() {
 
     var Disclose = function(app, $el) {
@@ -103,7 +103,7 @@ define(function() {
 
     return Disclose;
 });
-</pre>
+```
 
 ### App interface
 
