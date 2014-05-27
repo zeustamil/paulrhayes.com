@@ -18,9 +18,7 @@ With CSS3’s 3D transforms I've illustrated how to build a [cube](/2009-07/anim
 [3D CSS Sphere](/experiments/sphere/)
 Works in the latest Safari and iOS (just about runs on an iPhone 4).
 
-<div class="edit">
-<time datetime="2012-02-12">12 Feb 2012</time> Experiment updated to support -moz now that Firefox 10 supports 3D transforms.
-</div>
+<time datetime="2012-02-12">__12 Feb 2012__</time>: Experiment updated to support `-moz` now that Firefox 10 supports 3D transforms.
 
 <div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/19806423" width="612" height="408" frameborder="0"></iframe></div>
 

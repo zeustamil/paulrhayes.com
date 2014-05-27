@@ -19,17 +19,11 @@ To demonstrate the power of this effect a second experiment with multiple cubes 
 [A 3D cube created with CSS](/experiments/cube/)
 Supported browsers: Safari 3.2+, Google Chrome, Firefox 3.5+
 
-<div class="edit">
-<time datetime="2009-06-7">7 Jun 2009</time> Altered CSS slightly to use skew(x,y) rather than skewY, the latter of which is not supported in Safari 3 / Chrome.
-</div>
+<time datetime="2009-06-7">7 Jun 2009</time>: Altered CSS slightly to use skew(x,y) rather than skewY, the latter of which is not supported in Safari 3 / Chrome.
 
-<div class="edit">
-<time datetime="2009-07-21">21 Jul 2009</time> Using newly released (currently only in Webkit Nightly releases) 3D transforms, a [3D rotating cube](/2009-07/animated-css3-cube-interface-using-3d-transforms/) with fixed perspective is possible. The cube can also be rotated.
-</div>
+<time datetime="2009-07-21">21 Jul 2009</time>: Using newly released (currently only in Webkit Nightly releases) 3D transforms, a [3D rotating cube](/2009-07/animated-css3-cube-interface-using-3d-transforms/) with fixed perspective is possible. The cube can also be rotated.
 
-<div class="edit">
-<time datetime="2012-02-12">12 Feb 2012</time> Exper­i­ment updated. Transforms are now widely sup­ported. Support includes Opera, Fire­fox and IE9\. Transitions are coming in IE10.
-</div>
+<time datetime="2012-02-12">12 Feb 2012</time>: Exper­i­ment updated. Transforms are now widely sup­ported. Support includes Opera, Fire­fox and IE9\. Transitions are coming in IE10.
 
 [Experiment with multiple cubes and CSS transitions, still no JavaScript](/experiments/cube/multiCubes.html)
 Supported browsers: Safari 4+, Google Chrome

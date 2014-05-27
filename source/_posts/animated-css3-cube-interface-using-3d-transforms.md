@@ -24,13 +24,9 @@ A 3D cube can be created solely in CSS, with all six faces. Using JavaScript to 
 [A 3D cube that rotates using the Up, Down, Left and Right arrow keys.](/experiments/cube-3d/)
 Supported browsers: WebKit Nightly r46042+
 
-<div class="edit">
-<time datetime="2010-09-28">28 Sept 2010</time> [Cube updated](http://www.paulrhayes.com/2010-09/3d-css-cube-ii-touch-gestures-click-and-drag/) to work with touch gestures and click and drag</a>
-</div>
+<time datetime="2010-09-28">28 Sept 2010</time>: [Cube updated](http://www.paulrhayes.com/2010-09/3d-css-cube-ii-touch-gestures-click-and-drag/) to work with touch gestures and click and drag</a>
 
-<div class="edit">
-<time datetime="2012-02-12">12 Feb 2012</time> Experiment updated. 3D transforms are now supported in Safari, Chrome and Firefox 10\. Although the perspective appears off, probably due to a [perspective-origin bug](https://bugzilla.mozilla.org/show_bug.cgi?id=726397).
-</div>
+<time datetime="2012-02-12">12 Feb 2012</time>: Experiment updated. 3D transforms are now supported in Safari, Chrome and Firefox 10\. Although the perspective appears off, probably due to a [perspective-origin bug](https://bugzilla.mozilla.org/show_bug.cgi?id=726397).
 
 ![3D cube interface using new WebKit transforms](http://host.trivialbeing.org/up/fofr-online-20090717-3d-cube.jpg)
 

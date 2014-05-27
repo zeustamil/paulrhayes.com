@@ -604,27 +604,6 @@ a.site-title:active {
   color: #555;
 }
 
-.edit {
-  margin: 0 0 2em;
-  font-size: 0.66666666666667em; /* 16/24px */
-  font-weight: normal;
-  background: rgba(100,100,100,0.1);
-  padding: 8px;
-  display: inline-block;
-}
-
-.edit time {
-  font-weight: bold;
-}
-
-.edit time:before {
-  content: 'Edit: ';
-}
-
-.edit time:after {
-  content: ' â€” ';
-}
-
 .article-meta {
   text-align: center;
   margin-bottom: 2em; /* 48/24px */

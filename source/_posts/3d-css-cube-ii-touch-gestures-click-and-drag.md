@@ -18,9 +18,8 @@ An update to the [original 3D cube](/2009-07/animated-css3-cube-interface-using-
 
 [Experiment: 3D cube with touch gestures and click and drag](/experiments/cube-3d/touch.html)
 One year on and the cube still only works in Safari. Chrome, which says it supports `webkit-perspective` and `webkit-transform`, still renders differently. Firefox doesn't support 3D transforms _[yet](https://developer.mozilla.org/En/CSS/Using_CSS_transforms)_.
-<div class="edit">
-<time datetime="2012-02-12">12 Feb 2012</time> Experiment updated for Firefox 10 which supports 3D transforms. Although the perspective appears off, probably due to a [perspective-origin bug](https://bugzilla.mozilla.org/show_bug.cgi?id=726397).
-</div>
+
+<time datetime="2012-02-12">12 Feb 2012</time>: Experiment updated for Firefox 10 which supports 3D transforms. Although the perspective appears off, probably due to a [perspective-origin bug](https://bugzilla.mozilla.org/show_bug.cgi?id=726397).
 
 <div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/19501428" width="612" height="408" frameborder="0"></iframe></div>
 

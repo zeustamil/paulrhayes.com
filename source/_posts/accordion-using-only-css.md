@@ -16,9 +16,7 @@ An accordion effect can be achieved using CSS3's `:target` pseudo-class, without
 [CSS3 Accordion](/experiments/accordion/#one)
 Works in browsers that support the `:target` pseudo-class, see the [Quirks Mode compatibility tables](http://www.quirksmode.org/css/contents.html#t34). Animation works in recent WebKit based browsers.
 
-<div class="edit">
-<time datetime="2012-02-12">12 Feb 2012</time> Experiment updated. Transitions are now widely supported, including Opera, Firefox and IE10.
-</div>
+<time datetime="2012-02-12">12 Feb 2012</time>: Experiment updated. Transitions are now widely supported, including Opera, Firefox and IE10.
 
 ### How To
 

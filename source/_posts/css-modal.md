@@ -15,9 +15,7 @@ Using CSS3 techniques a modal box can be created without JavaScript or images. W
 
 [CSS Modal Experiment](/experiments/modal/)
 
-<div class="edit">
-<time datetime="2012-02-12">12 Feb 2012</time> Modal experiment updated for Firefox 10 which has better transform, transition and animation performance. Also supports 3D transforms.
-</div>
+<time datetime="2012-02-12">12 Feb 2012</time>: Modal experiment updated for Firefox 10 which has better transform, transition and animation performance. Also supports 3D transforms.
 
 <div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/21170189" width="612" height="408" frameborder="0"></iframe></div>
 
@@ -153,6 +151,4 @@ The close button would probably look better with an image and the markup uses an
 
 Animations can be great, in small quantities, but something that animates too much and gets in the way of functionality is a major drawback for users. It would be quite easy to go overboard with this.
 
-<div class="edit">
-<time datetime="2011-04-26">26 Apr 2011</time> I've added a follow up post that addresses some of the caveats and makes this a little more cross browser compatible: [CSS Modal Follow Up](/2011-04/css-modal-follow-up/).
-</div>
+<time datetime="2011-04-26">26 Apr 2011</time>: I've added a follow up post that addresses some of the caveats and makes this a little more cross browser compatible: [CSS Modal Follow Up](/2011-04/css-modal-follow-up/).
