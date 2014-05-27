@@ -40,7 +40,7 @@ Also included in the experiment are versions showing a single round and another 
 
 Animating the border radius on all 192 panels (if your machine can cope), gives a neat kaleidoscope effect, also included in the experiment.
 
-### Code
+## Code
 
 The generated HTML is simply a couple of `<div>`s containing lists:
 

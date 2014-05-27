@@ -12,14 +12,14 @@ date: 2009-03-24 17:16:44
 
 Having read the blurb around [Safari's CSS transitions](http://webkit.org/blog/138/css-animation/) I opted to familiarize myself with a quick project - the aim of which was to create a functional, CSS only, analogue clock.
 
-### Result
+## Result
 
 [Experiment: CSS Analogue Clock](/experiments/clock/#clock)
 Experiment works in Safari 4 Beta and Google Chrome. A working clock that optionally resorts to JavaScript to grab the current time (can be achieved by other means).
 
 <time datetime="2012-02-12">12 Feb 2012</time>: Exper­i­ment updated. Transforms are now widely sup­ported. Support includes Opera, Fire­fox and IE9\. Transitions are coming in IE10.
 
-### How To
+## How To
 
 Before getting into the nitty gritty I created four images, a clock face and three transparent PNG hands (seconds, minutes and hours), ensuring that each of these were the same size so that when overlayed their centres would align. The HTML and CSS to get us going is as follows:
 
@@ -87,7 +87,7 @@ The above transition lasts only one rotation but by altering the duration length
 }
 ```
 
-### Grab the current time
+## Grab the current time
 
 Although the animation works beautifully, CSS alone is not capable of obtaining the current time. To start the clock at the correct time a dynamic transformation needs to be applied to the clock hand containers, this is  easiest done with inline styles and can be set in any number of ways by the backend when the page loads, thereby eradicating any need for JavaScript.
 

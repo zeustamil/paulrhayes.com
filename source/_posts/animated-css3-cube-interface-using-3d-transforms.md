@@ -19,7 +19,7 @@ Since working on the [3D cube using 2D transforms](/2009-04/3d-cube-using-css-tr
 
 A 3D cube can be created solely in CSS, with all six faces. Using JavaScript to detect key presses and update inline styles this cube can be intuitively navigated.
 
-### Result
+## Result
 
 [A 3D cube that rotates using the Up, Down, Left and Right arrow keys.](/experiments/cube-3d/)
 Supported browsers: WebKit Nightly r46042+
@@ -30,7 +30,7 @@ Supported browsers: WebKit Nightly r46042+
 
 ![3D cube interface using new WebKit transforms](http://host.trivialbeing.org/up/fofr-online-20090717-3d-cube.jpg)
 
-### How To
+## How To
 
 I'll start with the markup, because it's simple. Each of the six cube faces is given a face class and another relating to it's number. These six faces sit within a cube container, which sits in another wrapper, each is necessary.
 

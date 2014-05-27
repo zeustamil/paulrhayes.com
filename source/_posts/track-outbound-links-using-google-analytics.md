@@ -54,7 +54,7 @@ Event.observe(outboundLink, 'click', function() {
 }
 ```
 
-### The complete code
+## The complete code
 
 Using Prototype version 1.6 the final code might look like this:
 

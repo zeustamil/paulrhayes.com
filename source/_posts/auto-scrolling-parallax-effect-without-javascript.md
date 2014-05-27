@@ -12,7 +12,7 @@ date: 2009-04-01 23:40:16
 
 Here's another quick CSS3/WebKit transitions project in the controversial realm of CSS animation. This time I have opted to recreate the popular parallax effect using multiple background images on a single element and the `-webkit-transition` property ([documentation](http://webkit.org/specs/CSSVisualEffects/CSSTransitions.html)). I have based this on Chris Coyier's [parallax tutorial](http://css-tricks.com/3d-parralax-background-effect/), reusing the star images with permission, the technique itself was coined by [Paul Annett](http://clearleft.com/is/paulannett/) (explanation on [Think Vitamin](http://thinkvitamin.com/features/how-to-recreate-silverbacks-parallax-effect/)). If you're not quite sure what parallax is, then Chris and Paul both go into some depth to explain it and [Wikipedia](http://en.wikipedia.org/wiki/Parallax) is always helpful.
 
-### Result
+## Result
 
 [Experiment: Auto-scrolling CSS3 Parallax Effect](/experiments/parallax/#experiment)
 Experiment works in Safari 4 Beta and Google Chrome. No JavaScript necessary.
@@ -21,7 +21,7 @@ Experiment works in Safari 4 Beta and Google Chrome. No JavaScript necessary.
 
 ![Correctly rendered background images for parallax effect](http://host.trivialbeing.org/up/fofrOnlineAutoScrollingParallax.jpg)
 
-### How To
+## How To
 
 The HTML markup is fairly simple, one DIV for the background and another for the content, the example uses CSS3's multiple backgrounds, so no need for extra markup to accommodate all those other images:
 

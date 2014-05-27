@@ -14,7 +14,7 @@ The impression of a three dimensional cube can be created using modern CSS techn
 
 To demonstrate the power of this effect a second experiment with multiple cubes and proprietary WebKit transitions is also available.
 
-### Results
+## Results
 
 [A 3D cube created with CSS](/experiments/cube/)
 Supported browsers: Safari 3.2+, Google Chrome, Firefox 3.5+
@@ -30,7 +30,7 @@ Supported browsers: Safari 4+, Google Chrome
 
 [![Multiple cubes created using CSS](http://host.trivialbeing.org/up/small/multiple-cubes-css.png)](http://host.trivialbeing.org/up/multiple-cubes-css.png)
 
-### How To
+## How To
 
 Similar to my previous experiments, the HTML markup is very simple. Each of the faces has its own DIV, class and content. The top face requires some extra markup to aid the transformation, more on that shortly.
 

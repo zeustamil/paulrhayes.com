@@ -25,7 +25,7 @@ However media query list listeners (that's a mouthful) are only supported in Fir
 
 All is not lost, there is another way of using CSS to generate events and that's through CSS transitions. When a CSS transition ends it fires a transitionEnd event (webkitTransitionEnd, oTransitionEnd, transitionend) on the appropriate element. Now consider **a transition that occurs only when a media query is applied**. Hey presto, we have a **JavaScript event triggered by media query rules**, however complicated or convoluted that rule may be. **This rocks** and can form the basis of a MediaQueryList polyfill.
 
-### Simple transition CSS and event listener
+## Simple transition CSS and event listener
 
 ```css
 .mq {
@@ -50,7 +50,7 @@ mq.addEventListener('webkitTransitionEnd', function() {
 }, false);
 ```
 
-### Proof of concept
+## Proof of concept
 
 I've taken the excellent [matchMedia polyfill](https://github.com/paulirish/matchMedia.js) and _quickly_ hacked together a version that includes transition events and a callback.
 
@@ -115,7 +115,7 @@ mql = (function(doc, undefined){
 })(document);
 ```
 
-### Demo code
+## Demo code
 
 ```js
 $(function() {
@@ -131,7 +131,7 @@ $(function() {
 });
 ```
 
-### Support
+## Support
 
 Obviously for this to work we need both CSS transitions and media query support in the browser. Looking at [caniuse.com](http://caniuse.com) and [QuirksMode](http://www.quirksmode.org/webkit.html#t03) this technique should be supported by: Chrome, Android (2.1+), Opera (10.6+), Opera Mobile (10.0+), Firefox (4+), Safari (3.2+) and iOS (3.2+). Samsung's Dolfin and Blackberry 6 support CSS animations, I presume that means transitions too, but I can't easily test.
 

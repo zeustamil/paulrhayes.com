@@ -23,7 +23,7 @@ In this experiment, clicking an ‘open’ link pops up a dialogue with a smooth
 
 Of course, using images and JS will only make the modal better, and something like hitting ESC to close will never be reproduced in CSS. Pure CSS is rarely the best production-ready solution.
 
-### How to
+## How to
 
 The `:target` pseudo-selector changes the style of a targeted element. Combining a link pointing to an element with `:target` and altering visibility/display/opacity gives a hide/show mechanism. To facilitate the animations, which were jerky when using display:none, I’ve used a combination of :target, opacity and [pointer events](https://developer.mozilla.org/en/css/pointer-events):
 
@@ -139,7 +139,7 @@ The close button is a hidden close link with a styled ::after pseudo-element tha
 }
 ```
 
-### Caveats
+## Caveats
 
 It won't work in IE8 and below, there's no pointer-event support and opacity is poorly implemented. IE9 supports :target but no pointer-events. Some IE specific styles could easily switch the opacity toggle to a display or visibility one.
 

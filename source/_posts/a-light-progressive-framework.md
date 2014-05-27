@@ -50,7 +50,7 @@ Configuration is commonly provided via further data attributes. Examples might b
 </div>
 ```
 
-### Separation of concerns
+## Separation of concerns
 
 JavaScript modules define behaviour, behaviour that should be abstracted and distinct from presentation and semantics, eg. a disclosure, a toggle, or a drop down menu. Whether it's an image, arbitrary text or a heading that toggles something, it shouldn't matter — the module is given a set of interaction hooks and applies its behavioural rules.
 
@@ -104,10 +104,10 @@ define(function() {
 });
 ```
 
-### App interface
+## App interface
 
 The app acts as a tool belt for many of the common abstractions. All AJAX requests go through either `app.get()` or `app.post()`. There's also a common event mediator, accessed through `app.publish()`, `app.subscribe()` and `app.unsubscribe()`.
 
-### Keeping it simple
+## Keeping it simple
 
 We've purposefully kept the code small. We do this by only building the features we need. For instance, until very recently we didn't need a general purpose unsubscribe method, so we didn't build one.

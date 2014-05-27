@@ -46,7 +46,7 @@ It's never simple though. The face detection only works some of the time. With b
 
 Below I have dissected the key parts of the experiments. And as always the experiment code is available on [GitHub](https://github.com/fofr/paulrhayes.com-experiments/webcam/).
 
-### getUserMedia
+## getUserMedia
 
 Presently (Nov 2012) Chrome 21+ and Opera 12+ are the only browsers that [support getUserMedia](http://caniuse.com/stream). Some early versions accepted a comma separated string of media types, e.g. "video, audio", later versions use an object instead, `{video: true}`. In Chrome getUserMedia is name-spaced, as is window.URL, which we need for interpreting the webcam stream.
 
@@ -68,7 +68,7 @@ var options = {video: true, toString: function(){ return "video"; }};
 navigator.getUserMedia(options, successCallback, errorCallback);
 ```
 
-### Converting a stream to a video element
+## Converting a stream to a video element
 
 To show a webcam stream in a video element we need only set the video source to the stream returned by getUserMedia in the success callback. This is done either directly or using a [URL object](https://developer.mozilla.org/en-US/docs/DOM/window.URL.createObjectURL) of that stream:
 
@@ -79,7 +79,7 @@ function successCallback(stream) {
 }
 ```
 
-### Transplanting to canvas
+## Transplanting to canvas
 
 For the video to render within canvas we need to take the current video frame and apply it to the canvas with drawImage. We need to do this as often as possible. A timer that calls the same function again after 50ms works well enough.
 
@@ -93,7 +93,7 @@ function drawFrame() {
 }
 ```
 
-### Face detection
+## Face detection
 
 First we include the wonderful [CCV library](https://github.com/liuliu/ccv/tree/stable/js) (ccv.js) and another file which defines a face object (face.js). To detect the faces in our canvas we simply call the detect_objects method and pass in our canvas:
 
@@ -126,6 +126,6 @@ context.fillRect(face.x, face.y, face.width, face.height);
 context.drawImage(mask, face.x, face.y, face.width, face.height);
 ```
 
-### Face size
+## Face size
 
 When starting the webcam an initial face size is stored and used as a reference point for all future scaling. Comparing the current face's height and the original face's height we get a simple scale factor that we can apply directly as a transform on an element. This can be transitioned, if your computer can take that, at the same time as doing the video processing and face detection.
