@@ -12,7 +12,7 @@ A quick round-up of some CSS tricks I use on my sites.
 
 ## Reset input type search
 
-Safari renders search inputs with curved corners and a spy glass. If this doesn't fit into your design, but you want to retain correct semantics, this reset is helpful. The first line removes the curved corners, but leaves a white space where the spy glass was, this is removed using the second line.
+Safari renders search inputs with curved corners and a spy glass. If this doesn’t fit into your design, but you want to retain correct semantics, this reset is helpful. The first line removes the curved corners, but leaves a white space where the spy glass was, this is removed using the second line.
 
 ```css
 input[type=search] {
@@ -38,7 +38,7 @@ border-radius: 10px 0 0 10px;
 
 ## Tweaked clearfix
 
-I still see a lot of sites using the old clearfix, including IE for Mac hacks. I've cleaned this up a bit and moved the IE specific parts into conditional IE stylesheets. For lists, I found I often need to clear each `li`, to save littering the HTML with class names, I added `clearfixItems li`, now I only need one class on the `ul` or `ol`.
+I still see a lot of sites using the old clearfix, including IE for Mac hacks. I’ve cleaned this up a bit and moved the IE specific parts into conditional IE stylesheets. For lists, I found I often need to clear each `li`, to save littering the HTML with class names, I added `clearfixItems li`, now I only need one class on the `ul` or `ol`.
 
 ```css
 .clearfix:after,
@@ -60,7 +60,7 @@ Then in IE6 and IE7:
 
 ## Equal height columns
 
-For when you want your containers to have the same height. If you are unfamiliar with this technique, I recommend reading [Ed Eliot's article](http://www.ejeliot.com/blog/61).
+For when you want your containers to have the same height. If you are unfamiliar with this technique, I recommend reading [Ed Eliot’s article](http://www.ejeliot.com/blog/61).
 
 ```css
 .col {
@@ -77,14 +77,14 @@ Where fonts support it, text rendering can be improved by enabling kerning pairs
 text-rendering: optimizeLegibility;
 ```
 
-Firefox's default state (text-rendering: auto) partially enables this, optimizing legibility on font sizes above 20px (surely legibility is most important on the smallest text?). Using the above code will optimize all font sizes, more details are available at [MDC](https://developer.mozilla.org/en/CSS/text-rendering), as pointed out in the comments by _rdela_.
+Firefox’s default state (`text-rendering: auto`) partially enables this, optimising legibility on font sizes above 20px (surely legibility is most important on the smallest text?). Using the above code will optimize all font sizes, more details are available at [MDC](https://developer.mozilla.org/en/CSS/text-rendering), as pointed out in the comments by _rdela_.
 
 ## Gradients
 
-An invaluable tool for avoiding images and extra HTTP requests. For the most part I avoid providing fallback images, instead seeing gradients as a progressive enhancement. This usually means Opera and FF3.5 or less will see a solid colour, I'm fine with that.
+An invaluable tool for avoiding images and extra HTTP requests. For the most part I avoid providing fallback images, instead seeing gradients as a progressive enhancement. This usually means Opera and FF3.5 or less will see a solid colour, I’m fine with that.
 
 <div class="edit">
-<time datetime="2012-02-12">12 Feb 2012</time> Webkit's gradient syntax has been updated to match the emerging standard.
+<time datetime="2012-02-12">12 Feb 2012</time> Webkit’s gradient syntax has been updated to match the emerging standard.
 </div>
 
 ```css

@@ -13,7 +13,7 @@ categories:
 date: 2011-02-10 23:33:33
 ---
 
-With CSS3’s 3D transforms I've illustrated how to build a [cube](/2009-07/animated-css3-cube-interface-using-3d-transforms/) and a [tetrahedron](/2010-10/css-tetrahedron/). It is also possible to create a sphere-like object, albeit with many elements.
+With CSS3’s 3D transforms I’ve illustrated how to build a [cube](/2009-07/animated-css3-cube-interface-using-3d-transforms/) and a [tetrahedron](/2010-10/css-tetrahedron/). It is also possible to create a sphere-like object, albeit with many elements.
 
 [3D CSS Sphere](/experiments/sphere/)
 Works in the latest Safari and iOS (just about runs on an iPhone 4).
@@ -22,19 +22,19 @@ Works in the latest Safari and iOS (just about runs on an iPhone 4).
 
 <div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/19806423" width="612" height="408" frameborder="0"></iframe></div>
 
-Recently I've been looking at creating applicable 3D carousels. These rely on positioning panels in a circle around a central point (ie. rotation about the Y-axis), I put these panels in an unordered list. A natural extension is to duplicate each `<ul>` and rotate about the X-axis. With 'A' rounds (or lists), and 'B' panels per round (`<li>`s), I built a script that would distribute these in a circular manner, panels about Y-axis, lists about the X-axis, creating a sphere.
+Recently I’ve been looking at creating applicable 3D carousels. These rely on positioning panels in a circle around a central point (ie. rotation about the Y-axis), I put these panels in an unordered list. A natural extension is to duplicate each `<ul>` and rotate about the X-axis. With ‘A’ rounds (or lists), and ‘B’ panels per round (`<li>`s), I built a script that would distribute these in a circular manner, panels about Y-axis, lists about the X-axis, creating a sphere.
 
-The more elements per round and the more rounds, the smoother the sphere. But this soon stacks up and kills Safari. The optimum numbers have been about 9 rounds and 30 panels per round for a decent looking sphere, but that's 279 3D elements and Safari starts to choke. Allowing the panels to overlap eases this somewhat and leads to a tighter sphere but it still appears blocky.
+The more elements per round and the more rounds, the smoother the sphere. But this soon stacks up and kills Safari. The optimum numbers have been about 9 rounds and 30 panels per round for a decent looking sphere, but that’s 279 3D elements and Safari starts to choke. Allowing the panels to overlap eases this somewhat and leads to a tighter sphere but it still appears blocky.
 
-The biggest gains come with border radius. Using a huge radius that made each panel circular the sphere suddenly gained a lovely curvature, and the number of rounds and panels could be reduced. In the experiment I use 8 rounds and 24 panels (200 elements). This doesn't start choking until I start aggressively animating.
+The biggest gains come with border radius. Using a huge radius that made each panel circular the sphere suddenly gained a lovely curvature, and the number of rounds and panels could be reduced. In the experiment I use 8 rounds and 24 panels (200 elements). This doesn’t start choking until I start aggressively animating.
 
 [![3D sphere using CSS transform](http://www.paulrhayes.com/wp-content/uploads/2011/02/sphere-normal.png)](/experiments/sphere/)
 
-Playing with this I've built a few different styles of sphere. In the experiment I've included the blocky "square" version, along with the smoothed out border radius one (default). Marking panels white, and a few black can create a nice eye-ball effect.
+Playing with this I’ve built a few different styles of sphere. In the experiment I’ve included the blocky ‘square’ version, along with the smoothed out border radius one (default). Marking panels white, and a few black can create a nice eye-ball effect.
 
 [![Sphere without border radius](http://www.paulrhayes.com/wp-content/uploads/2011/02/sphere-square-150x150.png)](/experiments/sphere/) [![Eye](http://www.paulrhayes.com/wp-content/uploads/2011/02/sphere-eye-150x150.png)](/experiments/sphere/)
 
-Also included in the experiment are versions showing a single round and another style named "contact". This takes two lists and animates them like the space transportation device in the Jodie Foster movie of the same name.
+Also included in the experiment are versions showing a single round and another style named ‘contact’. This takes two lists and animates them like the space transportation device in the Jodie Foster movie of the same name.
 
 [![Rotating rounds](http://www.paulrhayes.com/wp-content/uploads/2011/02/sphere-contact-150x150.png)](/experiments/sphere/) [![Half a sphere](http://www.paulrhayes.com/wp-content/uploads/2011/02/sphere-half-150x150.png)](/experiments/sphere/) [![Kaleidoscope effect](http://www.paulrhayes.com/wp-content/uploads/2011/02/sphere-kaleid-150x150.png)](/experiments/sphere/)
 
@@ -57,7 +57,7 @@ The generated HTML is simply a couple of `<div>`s containing lists:
 </div>
 ```
 
-To transform each set of panels into a circle the total number is divided by 360 to get the angle of rotation. Merely rotating will put all panels on top of each other, translating in the Z axis will move them out from the centre point. The correct translation distance so the panels slightly overlap (i.e. the circle radius) is worked out with some [simple trigonometry](http://en.wikipedia.org/wiki/Trigonometry#Mnemonics). Lists are rotated in the X axis, simply the number of lists divided by 360.
+To transform each set of panels into a circle the total number is divided by 360 to get the angle of rotation. Merely rotating will put all panels on top of each other, translating in the Z axis will move them out from the centre point. The correct translation distance so the panels slightly overlap (ie the circle radius) is worked out with some [simple trigonometry](http://en.wikipedia.org/wiki/Trigonometry#Mnemonics). Lists are rotated in the X axis, simply the number of lists divided by 360.
 
 Looping through each panel for each list, the angles of rotation are gradually increased by the calculated increments and applied to the elements:
 

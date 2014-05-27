@@ -23,7 +23,7 @@ Supported browsers: Safari 3.2+, Google Chrome, Firefox 3.5+
 
 <time datetime="2009-07-21">21 Jul 2009</time>: Using newly released (currently only in Webkit Nightly releases) 3D transforms, a [3D rotating cube](/2009-07/animated-css3-cube-interface-using-3d-transforms/) with fixed perspective is possible. The cube can also be rotated.
 
-<time datetime="2012-02-12">12 Feb 2012</time>: Exper­i­ment updated. Transforms are now widely sup­ported. Support includes Opera, Fire­fox and IE9\. Transitions are coming in IE10.
+<time datetime="2012-02-12">12 Feb 2012</time>: Exper­i­ment updated. Transforms are now widely sup­ported. Support includes Opera, Fire­fox and IE9. Transitions are coming in IE10.
 
 [Experiment with multiple cubes and CSS transitions, still no JavaScript](/experiments/cube/multiCubes.html)
 Supported browsers: Safari 4+, Google Chrome
@@ -50,7 +50,7 @@ Similar to my previous experiments, the HTML markup is very simple. Each of the 
 </div>
 ```
 
-A short disclaimer, the geometry in this example is 'fudged', in that the values have been adjusted to appear roughly correct. I know that the dimensions are slightly out of whack, this is merely to save my head from mathematics and to get the concept out there quickly for people to see. With that said, let's crack on with the CSS.
+A short disclaimer, the geometry in this example is ‘fudged’, in that the values have been adjusted to appear roughly correct. I know that the dimensions are slightly out of whack, this is merely to save my head from mathematics and to get the concept out there quickly for people to see. With that said, let’s crack on with the CSS.
 
 Each of the three rectangles is given a slightly different shade of gray to give the impression of depth, in this example the left face is in shadow. The faces are each positioned absolutely, relative to the cube container. Each face is 200 x 200 pixels, including 10 pixels of padding.
 
@@ -94,7 +94,7 @@ Now for the fun bit. The left and right rectangles are skewed by ±30˚ along th
 
 The top face proves more problematic; it needs to be skewed, scaled, rotated and positioned. The skew is the same, -30˚ along the vertical axis, this skewed rectangle must then be rotated clockwise by 60˚. Rotating the rectangle itself leads to a change in orientation of its content, a container must be added and then rotated.
 
-A simple way of creating a top face without resorting to maths is to duplicate the left and right rectangles, skew them in the opposite directions (by inverting the sign, e.g. left face is now skewed by -30˚) and position them against the existing faces to create a diamond shape between the two sets. Now use positioning and scaling to fill this diamond and form the top face, deleting the duplicates when finished. My results led to a scaling factor of 1.16 in the Y direction which I have accounted for by reducing the font-size by the same factor.
+A simple way of creating a top face without resorting to maths is to duplicate the left and right rectangles, skew them in the opposite directions (by inverting the sign, eg left face is now skewed by -30˚) and position them against the existing faces to create a diamond shape between the two sets. Now use positioning and scaling to fill this diamond and form the top face, deleting the duplicates when finished. My results led to a scaling factor of 1.16 in the Y direction which I have accounted for by reducing the font-size by the same factor.
 
 ```css
 .topFace div {

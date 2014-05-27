@@ -10,7 +10,7 @@ categories:
 date: 2009-04-01 23:40:16
 ---
 
-Here's another quick CSS3/WebKit transitions project in the controversial realm of CSS animation. This time I have opted to recreate the popular parallax effect using multiple background images on a single element and the `-webkit-transition` property ([documentation](http://webkit.org/specs/CSSVisualEffects/CSSTransitions.html)). I have based this on Chris Coyier's [parallax tutorial](http://css-tricks.com/3d-parralax-background-effect/), reusing the star images with permission, the technique itself was coined by [Paul Annett](http://clearleft.com/is/paulannett/) (explanation on [Think Vitamin](http://thinkvitamin.com/features/how-to-recreate-silverbacks-parallax-effect/)). If you're not quite sure what parallax is, then Chris and Paul both go into some depth to explain it and [Wikipedia](http://en.wikipedia.org/wiki/Parallax) is always helpful.
+Here’s another quick CSS3/WebKit transitions project in the controversial realm of CSS animation. This time I have opted to recreate the popular parallax effect using multiple background images on a single element and the `-webkit-transition` property ([documentation](http://webkit.org/specs/CSSVisualEffects/CSSTransitions.html)). I have based this on Chris Coyier’s [parallax tutorial](http://css-tricks.com/3d-parralax-background-effect/), reusing the star images with permission, the technique itself was coined by [Paul Annett](http://clearleft.com/is/paulannett/) (explanation on [Think Vitamin](http://thinkvitamin.com/features/how-to-recreate-silverbacks-parallax-effect/)). If you’re not quite sure what parallax is, then Chris and Paul both go into some depth to explain it and [Wikipedia](http://en.wikipedia.org/wiki/Parallax) is always helpful.
 
 ## Result
 
@@ -23,7 +23,7 @@ Experiment works in Safari 4 Beta and Google Chrome. No JavaScript necessary.
 
 ## How To
 
-The HTML markup is fairly simple, one DIV for the background and another for the content, the example uses CSS3's multiple backgrounds, so no need for extra markup to accommodate all those other images:
+The HTML markup is fairly simple, one DIV for the background and another for the content, the example uses CSS3’s multiple backgrounds, so no need for extra markup to accommodate all those other images:
 
 ```html
 <div id="background"></div>
@@ -32,7 +32,7 @@ The HTML markup is fairly simple, one DIV for the background and another for the
 </div>
 ```
 
-For the CSS the background container is set to a fixed position (for convenience more than anything) and spread across the bottom of the page using the top, left, bottom and right properties. The background images are defined using the background shorthand property with multiple declarations being comma delimited, the first being the top-most. Each of the images has a different position defined in percentage, so as the size of the container changes (e.g. on window resize) the images move disproportionately to each other; creating the impressive parallax effect.
+For the CSS the background container is set to a fixed position (for convenience more than anything) and spread across the bottom of the page using the top, left, bottom and right properties. The background images are defined using the background shorthand property with multiple declarations being comma delimited, the first being the top-most. Each of the images has a different position defined in percentage, so as the size of the container changes (eg on window resize) the images move disproportionately to each other; creating the impressive parallax effect.
 
 ```css
 #background {
@@ -42,7 +42,7 @@ For the CSS the background container is set to a fixed position (for convenience
 }
 ```
 
-Ordinarily this effect is only seen when the page is re-sized or JavaScript is used for animation. My first approach to animation via CSS was to apply the transition to the background-positions, with background-position being an _animatable_ property as defined in the proposed specification. However this doesn't yet work in the latest WebKit nightly build (r42142), it is a [known](https://bugs.webkit.org/show_bug.cgi?id=23219) [bug](http://farukat.es/bugs/webkit-background-pos-trans.html).
+Ordinarily this effect is only seen when the page is re-sized or JavaScript is used for animation. My first approach to animation via CSS was to apply the transition to the background-positions, with background-position being an _animatable_ property as defined in the proposed specification. However this doesn’t yet work in the latest WebKit nightly build (r42142), it is a [known](https://bugs.webkit.org/show_bug.cgi?id=23219) [bug](http://farukat.es/bugs/webkit-background-pos-trans.html).
 
 As an alternate route, albeit a temporary one, I have opted to use transitions to animate the left-most edge of the background container (for instance from 0px to -100px). This gradually alters the overall width of the container causing the backgrounds to shift disproportionately as per their percentages, creating the parallax effect. With a large enough duration and left position the effect appears to be continuous.
 
@@ -57,7 +57,7 @@ As an alternate route, albeit a temporary one, I have opted to use transitions t
 }
 ```
 
-To make things a bit more fun I've increased the 'flying speed' when the mouse hovers over the background area. The final CSS looks like this:
+To make things a bit more fun I’ve increased the ‘flying speed’ when the mouse hovers over the background area. The final CSS looks like this:
 
 ```css
 #background {

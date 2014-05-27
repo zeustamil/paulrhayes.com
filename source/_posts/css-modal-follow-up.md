@@ -23,7 +23,7 @@ The flow is:
 
 *   Add an intermediate class to trigger the modal elements above everything, with opacity 0.
 *   Add an active class to trigger animation and transition to full opacity.
-*   On close, remove active class, add minimise class to trigger  minimise animation and transition to opacity 0.
+*   On close, remove active class, add minimise class to trigger minimise animation and transition to opacity 0.
 *   Remove intermediate class.
 
 Onclick handlers are added to the “post comment” links to add classes and to the close link to remove them. When opened a handler is added to the body to listen for the ESC key, which closes the modal. The first input in the modal is focused on open.
@@ -39,7 +39,7 @@ supportPlaceholder: function() {
 
 See [Dive into HTML5](http://diveintohtml5.org/detect.html#input-placeholder) for more.
 
-The close link text which has an :after pseudo-element (i.e. the X) is no longer hidden, instead it becomes the cancel link and is essential for browsers that can’t comprehend generated content.
+The close link text which has an :after pseudo-element (ie the X) is no longer hidden, instead it becomes the cancel link and is essential for browsers that can’t comprehend generated content.
 
 In webkit you’ll see the modal bounce in and minimise out (smoothly in Safari and iOS). In Firefox you’ll get an opacity transition and in IE the modal will just appear or disappear. In IE8 and below the page is not greyed out due to lack of rgba support. I’m fine with this. This is still a bit of a trial to see how people actually use the modal and what problems it might throw up.
 

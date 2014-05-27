@@ -14,7 +14,7 @@ date: 2010-10-06 19:59:59
 A triangle can be created in CSS by manipulating the borders of an element. Combining four triangles in a 3D space using `-webkit-transform`, these can be positioned to form a tetrahedron (or pyramid if you prefer).
 
 [CSS pyramid - proof of concept](/experiments/pyramid/)
-For now this only works in Safari 5.0.2+ and iOS, although 3D transforms will surface in Firefox 4 and the next build of Chrome. The demo doesn't use JavaScript.
+For now this only works in Safari 5.0.2+ and iOS, although 3D transforms will surface in Firefox 4 and the next build of Chrome. The demo doesn’t use JavaScript.
 
 <div class="edit">
 <time datetime="2012-02-12">12 Feb 2012</time> Experiment updated for Firefox 10 which supports 3D transforms.
@@ -30,7 +30,7 @@ Combining squares and triangles, [cubes](http://www.paulrhayes.com/2010-09/3d-cs
 
 [![CSS pyramid](http://host.trivialbeing.org/up/small/css-pyramid.png)](/experiments/pyramid/)
 
-The rotation is performed using a `-webkit-animation`, I've given the animation the name "spin", which rotates the pyramid around Y from 0 to 360 degrees:
+The rotation is performed using a `-webkit-animation`, I’ve given the animation the name `spin`, which rotates the pyramid around Y from 0 to 360 degrees:
 
 ```css
 #pyramid {
@@ -57,7 +57,7 @@ The rotation is performed using a `-webkit-animation`, I've given the animation 
 }
 ```
 
-If you haven't seen it before, the code to create an approximate equilateral triangle is as follows:
+If you haven’t seen it before, the code to create an approximate equilateral triangle is as follows:
 
 ```css
 #pyramid > div {
@@ -71,7 +71,7 @@ If you haven't seen it before, the code to create an approximate equilateral tri
 
 Tantek Çelik coined this technique in his [study of regular polygons](http://tantek.com/CSS/Examples/polygons.html) which includes pentagons, hexagons and octagons. The methods are explained over at the [Filament Group](http://www.filamentgroup.com/lab/image_free_css_tooltip_pointers_a_use_for_polygonal_css/).
 
-The 3D techniques I've used in this experiment are explained in my [3D cube post](http://www.paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/) (July 2009). This is a proof of concept and I haven't delved into the mathematics or geometry too much, instead opting for the slightly faster but significantly less clever and less reproducible trial-and-error approach.
+The 3D techniques I’ve used in this experiment are explained in my [3D cube post](http://www.paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/) (July 2009). This is a proof of concept and I haven’t delved into the mathematics or geometry too much, instead opting for the slightly faster but significantly less clever and less reproducible trial-and-error approach.
 
 ```css
 #pyramid > div:first-child  {

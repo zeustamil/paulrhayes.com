@@ -19,7 +19,7 @@ Using CSS3 techniques a modal box can be created without JavaScript or images. W
 
 <div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/21170189" width="612" height="408" frameborder="0"></iframe></div>
 
-In this experiment, clicking an ‘open’ link pops up a dialogue with a smooth hardware accelerated bounce (where supported). When open all other elements on the page are non-clickable. Closing the modal is also animated, with a minimise effect. I've marked up the modal using `<aside>`, but depending on the purpose of yours, `<nav>` or probably `<details>` might be more appropriate.
+In this experiment, clicking an ‘open’ link pops up a dialogue with a smooth hardware accelerated bounce (where supported). When open all other elements on the page are non-clickable. Closing the modal is also animated, with a minimise effect. I’ve marked up the modal using `<aside>`, but depending on the purpose of yours, `<nav>` or probably `<details>` might be more appropriate.
 
 Of course, using images and JS will only make the modal better, and something like hitting ESC to close will never be reproduced in CSS. Pure CSS is rarely the best production-ready solution.
 
@@ -141,14 +141,14 @@ The close button is a hidden close link with a styled ::after pseudo-element tha
 
 ## Caveats
 
-It won't work in IE8 and below, there's no pointer-event support and opacity is poorly implemented. IE9 supports :target but no pointer-events. Some IE specific styles could easily switch the opacity toggle to a display or visibility one.
+It won’t work in IE8 and below, there’s no pointer-event support and opacity is poorly implemented. IE9 supports :target but no pointer-events. Some IE specific styles could easily switch the opacity toggle to a display or visibility one.
 
 Users will still be able to tab through the links in the background and activate them. This only becomes an issue if you ignore the focus state…
 
-As I alluded to at the start, some JS hooks for keyboard interaction wouldn't go amiss, ESC to close and something to pull focus to the current modal and then back again on close.
+As I alluded to at the start, some JS hooks for keyboard interaction wouldn’t go amiss, ESC to close and something to pull focus to the current modal and then back again on close.
 
 The close button would probably look better with an image and the markup uses an extra containing element, which is always undesirable.
 
 Animations can be great, in small quantities, but something that animates too much and gets in the way of functionality is a major drawback for users. It would be quite easy to go overboard with this.
 
-<time datetime="2011-04-26">26 Apr 2011</time>: I've added a follow up post that addresses some of the caveats and makes this a little more cross browser compatible: [CSS Modal Follow Up](/2011-04/css-modal-follow-up/).
+<time datetime="2011-04-26">26 Apr 2011</time>: I’ve added a follow up post that addresses some of the caveats and makes this a little more cross browser compatible: [CSS Modal Follow Up](/2011-04/css-modal-follow-up/).
