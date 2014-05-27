@@ -9,7 +9,6 @@ date: 2009-03-11 16:20:30
 ---
 
 For the default FofR Online theme, the first of many, I have chosen a simple appearance that focuses on the beauty of fonts and typography. The header uses a sans-serif font, on OS X this will be Helvetica Neue, on Windows the CSS font stack allows the design to fall back to the more common Arial, plain old Helvetica isn't used because some Windows machines have a terrible low quality version installed. The content area is distinguished with a serif font, for the time being (no pun intended - where would I be if I started making typeface puns?), this is Times New Roman. I may experiment further with less common serif fonts that are installed on a good majority of machines (e.g. with MS Office or Adobe CS4), falling back to Times New Roman if necessary.
-<!--more-->
 
 **Update**: I have slightly altered the content's stack to begin with Apple's Times font rather than Times New Roman, mainly for the superior glyphs that it offers, take for instance 'fi' in this post's title. I'm attempting to research the differences between Times and Times New Roman beyond a simple comparison though internet sleuthing has not proved fruitful.
 

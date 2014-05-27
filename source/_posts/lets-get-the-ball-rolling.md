@@ -9,7 +9,6 @@ date: 2009-03-05 17:01:00
 ---
 
 Good evening, day, or morning, depending on the time you read this. Welcome to my online portfolio, my sandbox for design, my playground for web development, my platform for industry opinions and my business, "FofR Online". What does FofR stand for? It's Czech for "move it", it's a common typo of for and it sits in that ballpark of quirky online branding - reminiscent of Flickr or Twitter, especially if pronounced 'foffer'.
-<!--more-->
 
 This blog has been devised as a spring board for my ideas whilst serving as a professional outlet for my skills, thoughts and collaborations. If I were to include some buzz words in this opening blurb to describe the content I'll endeavour to put here I might include; CSS3, HTML5, Information Architecture, User Experience, Unobtrusive JavaScript, Prototype &amp; jQuery libraries, SEO, web analytics, OOCSS, progressive enhancement, accessibility, rapid design prototyping and internet marketing.
 

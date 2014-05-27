@@ -15,7 +15,7 @@ We need a way of testing media query rules in JavaScript, and a way of generatin
 
 matchMedia has support in Chrome, Firefox 6+ and Safari 5.1+ and there's even a [polyfill](https://github.com/paulirish/matchMedia.js/blob/master/matchMedia.js) (by Scott Jehl, Paul Irish, Nicholas Zakas) for other browsers. So we can happily perform our one off tests in JavaScript (probably on page load):
 
-```
+```js
 if (matchMedia('only screen and (max-width: 480px)').matches) {
   // iphone specific JS
 }
@@ -27,26 +27,26 @@ All is not lost, there is another way of using CSS to generate events and that's
 
 ### Simple transition CSS and event listener
 
-```
+```css
 .mq {
--webkit-transition: width 0.001ms;
--moz-transition: width 0.001ms;
--o-transition: width 0.001ms;
-transition: width 0.001ms;
-width: 0;
+  -webkit-transition: width 0.001ms;
+  -moz-transition: width 0.001ms;
+  -o-transition: width 0.001ms;
+  transition: width 0.001ms;
+  width: 0;
 }
 
 @media all and (max-width: 480px) {
-.mq {
-width: 1px;
-}
+  .mq {
+    width: 1px;
+  }
 }
 ```
 
-```
-var mq = document.querySelectorAll('.mq')[0],
+```js
+var mq = document.querySelectorAll('.mq')[0];
 mq.addEventListener('webkitTransitionEnd', function() {
-	/* Transition ends, media query matched */
+  /* Transition ends, media query matched */
 }, false);
 ```
 
@@ -57,7 +57,7 @@ I've taken the excellent [matchMedia polyfill](https://github.com/paulirish/matc
 [Proof of concept demo](/experiments/media-query-transitions/)
 (and on [Github](https://github.com/fofr/matchMedia.js))
 
-```
+```css
 mql('all and (max-width: 700px)', callback);
 ```
 
@@ -69,17 +69,17 @@ Element transitions are bidirectional, so the event fires when the rule matches 
 
 The CSS transition event tells us which element triggered the transition but no details about the media query rules that governed it. So we use unique elements for each rule to connect the dots.
 
-```
+```css
 .mq {
--webkit-transition: width 0.001ms;
--moz-transition: width 0.001ms;
--o-transition: width 0.001ms;
-transition: width 0.001ms;
-width: 0;
+  -webkit-transition: width 0.001ms;
+  -moz-transition: width 0.001ms;
+  -o-transition: width 0.001ms;
+  transition: width 0.001ms;
+  width: 0;
 }
 ```
 
-```
+```js
 mql = (function(doc, undefined){
 
   var bool,
@@ -87,26 +87,29 @@ mql = (function(doc, undefined){
       refNode  = docElem.firstElementChild || docElem.firstChild,
       idCounter = 0;
 
-  return function(q, cb){
+  return function(q, cb) {
 
-	var id = 'mql-' + idCounter++,
-	    callback = function() {
-		cb({ matches: (div.offsetWidth == 42), media: q });
-	    },
-	    div = doc.createElement('div');
+    var id = 'mql-' + idCounter++,
+      callback = function() {
+        cb({ matches: (div.offsetWidth == 42), media: q });
+      },
+      div = doc.createElement('div');
 
-	div.className = 'mq';
-	div.style.cssText = "position:absolute;top:-100em";
-	div.id = id;
-        div.innerHTML = '&amp;shy;&lt;style media=&quot;&#39;+q+&#39;&quot;&gt; #&#39;+id+&#39; { width: 42px; }&lt;/style&gt;';
+    div.className = 'mq';
+    div.style.cssText = "position:absolute;top:-100em";
+    div.id = id;
+    div.innerHTML = '<style media="'+q+'"> #'+id+' { width: 42px; }</style>';
 
-	div.addEventListener('webkitTransitionEnd', callback, false);
-	div.addEventListener('transitionend', callback, false); //Firefox
-	div.addEventListener('oTransitionEnd', callback, false); //Opera
+    div.addEventListener('webkitTransitionEnd', callback, false);
+    div.addEventListener('transitionend', callback, false); //Firefox
+    div.addEventListener('oTransitionEnd', callback, false); //Opera
 
-        docElem.insertBefore(div, refNode);
-        //don't delete the div, we need to listen to events
-        return { matches: div.offsetWidth == 42, media: q };
+    docElem.insertBefore(div, refNode);
+    //don't delete the div, we need to listen to events
+    return {
+      matches: div.offsetWidth == 42,
+      media: q
+    };
   };
 
 })(document);
@@ -114,18 +117,17 @@ mql = (function(doc, undefined){
 
 ### Demo code
 
-```
+```js
 $(function() {
+  var $dynamic = $('.dynamic');
+  mql('all and (max-width: 700px)', change);
+  mql('all and (max-width: 500px)', change);
+  mql('all and (min-width: 1200px)', change);
 
-    var $dynamic = $('.dynamic');
-    mql('all and (max-width: 700px)', change);
-    mql('all and (max-width: 500px)', change);
-    mql('all and (min-width: 1200px)', change);
-
-    function change(mql) {
-        console.log(mql);
-        $dynamic.prepend(&#39;&lt;p&gt;&#39; + mql.media + &#39; &amp;mdash; &#39; + mql.matches + &#39;&lt;/p&gt;&#39;);
-    }
+  function change(mql) {
+    console.log(mql);
+    $dynamic.prepend('<p>' + mql.media + ' &mdash; ' + mql.matches + '</p>');
+  }
 });
 ```
 

@@ -37,7 +37,8 @@ A 200ms transition duration suits the browser, but on touch devices it felt slug
 ### Better CSS
 
 The cube is created exactly as before, but I've simplified the markup a little - dropping the _face_ and _number_ class names in favour of CSS3 selectors:
-```
+
+```css
 #cube > div:first-child  {
 -webkit-transform: rotateX(90deg) translateZ(200px);
 -moz-transform: rotateX(90deg) translateZ(200px);

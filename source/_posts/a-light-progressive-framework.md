@@ -18,25 +18,21 @@ We use [RequireJS](http://requirejs.org/) for dependency management, [Jasmine](h
 On creation each module is passed an instance of the app, from which the module can communicate upwards and outwards, as well as an element, the bounding box of the module, as defined by the position of the data attribute.
 
 This markup:
-```
-&lt;div data-require=&quot;path/to/module&quot;&gt;
-…
-&lt;/div&gt;
+```html
+<div data-require="path/to/module">
+  …
+</div>
 ```
 
 Instantiates:
-```
+```js
 define(['some-dependency'], function(someDependency) {
-
-    var MODULE = function(app, $el) {
-
-	this.start = function() {
+  var MODULE = function(app, $el) {
+  this.start = function() {
             …
         }
-
         …
     };
-
     return MODULE;
 });
 ```
@@ -45,10 +41,13 @@ Looking at our legacy code this deals with three of the serious problems we'd fa
 
 Configuration is commonly provided via further data attributes. Examples might be an ajax end point with data-url, or perhaps a Mustache template with data-template, etc.
 
-```
-&lt;div data-require=&quot;module&quot; data-url=&quot;path/to/endpoint&quot; data-template=&quot;path/to/template&quot;&gt;
-…
-&lt;/div&gt;
+```html
+<div
+  data-require="module"
+  data-url="path/to/endpoint"
+  data-template="path/to/template">
+  …
+</div>
 ```
 
 ### Separation of concerns
@@ -59,55 +58,55 @@ We use classes to provide these hooks. The problem with using classes is the ris
 
 Here's an example of a simple disclose module:
 
-```
-&lt;div data-require=&quot;disclose&quot;&gt;
-    &lt;p class=&quot;js-hide-on-disclose&quot;&gt;
-        Some preview that gets hidden.
-    &lt;/p&gt;
-    &lt;a href=&quot;/details&quot; class=&quot;js-disclose&quot;&gt;
-        Show details
-    &lt;/a&gt;
-    &lt;div class=&quot;hide js-disclosed&quot;&gt;
-        Details to be revealed.
-    &lt;/div&gt;
-&lt;/div&gt;
+```html
+<div data-require="disclose">
+  <p class="js-hide-on-disclose">
+    Some preview that gets hidden.
+  </p>
+  <a href="/details" class="js-disclose">
+    Show details
+  </a>
+  <div class="hide js-disclosed">
+    Details to be revealed.
+  </div>
+</div>
 ```
 
-```
+```js
 define(function() {
 
-    var Disclose = function(app, $el) {
+  var Disclose = function(app, $el) {
 
-        var that = this;
+    var that = this;
 
-        that.start = function() {
-            $el.on('click', '.js-disclose', disclose);
-        };
+    that.start = function() {
+      $el.on('click', '.js-disclose', disclose);
+    };
 
-        that.stop = function() {
-            $el.off('click');
-        };
+    that.stop = function() {
+      $el.off('click');
+    };
 
-        function disclose(event) {
-            event.preventDefault();
+    function disclose(event) {
+      event.preventDefault();
 
-            $el.find('.js-disclosed').removeClass('hide');
-            $el.find('.js-disclose, .js-hide-on-disclose').hide();
+      $el.find('.js-disclosed').removeClass('hide');
+      $el.find('.js-disclose, .js-hide-on-disclose').hide();
 
-            // Analytics tracking
-            app.track('DisclosureOpened');
+      // Analytics tracking
+      app.track('DisclosureOpened');
 
-            that.stop();
-        };
-    }
+      that.stop();
+    };
+  }
 
-    return Disclose;
+  return Disclose;
 });
 ```
 
 ### App interface
 
-The app acts as a tool belt for many of the common abstractions. All AJAX requests go through either app.get() or app.post(). There's also a common event mediator, accessed through app.publish(), app.subscribe() and app.unsubscribe().
+The app acts as a tool belt for many of the common abstractions. All AJAX requests go through either `app.get()` or `app.post()`. There's also a common event mediator, accessed through `app.publish()`, `app.subscribe()` and `app.unsubscribe()`.
 
 ### Keeping it simple
 

@@ -32,10 +32,10 @@ Onclick handlers are added to the “post comment” links to add classes and to
 
 I took the opportunity to play with some HTML5 features. The comment form now uses placeholder attributes, and if supported, labels are hidden. The feature detection is delightfully simple:
 
-```
+```js
 supportPlaceholder: function() {
-	  var i = document.createElement('input');
-	  return 'placeholder' in i;
+  var i = document.createElement('input');
+  return 'placeholder' in i;
 }()
 ```
 
@@ -52,5 +52,3 @@ In webkit you’ll see the modal bounce in and minimise out (smoothly in Safari 
 In conclusion, with JavaScript much of the mechanical new CSS can be dropped and with a slightly more complicated class toggle system we achieve cross browser support, without sacrificing that lovely hardware accelerated CSS animation.
 
 Still want that animation cross browser? I recommend looking into [Faruk Ateş’s Runloop jQuery plugin](http://farukat.es/journal/2011/02/514-new-creation-jquery-runloop-plugin) which gives you keyframed animations in any browser.
-
-In other news, I've tidied up the comments layout a little and added a short [books category](/category/bookshelf/) with a selection of books I highly recommend.
