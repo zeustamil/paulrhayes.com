@@ -71,13 +71,13 @@ input, select {
   clear: both;
 }
 
-.push-left {
+.pull-left {
   float: left;
   margin-right: 1em;
   margin-bottom: 1em;
 }
 
-.push-right {
+.pull-right {
   float: right;
   margin-left: 1em;
   margin-bottom: 1em;
