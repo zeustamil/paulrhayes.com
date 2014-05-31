@@ -21,4 +21,39 @@ $.cachedScript = function(url, options) {
       prettyPrint();
     }
   });
+
+  var $listingLinks = $('.listing-link'),
+      waitThreshold = 5;
+
+  if ($listingLinks.length > 0) {
+    padListLinksWhenFontsLoad($listingLinks, waitThreshold);
+  }
 })();
+
+function padListLinks($listingLinks) {
+  $listingLinks.each(function(i) {
+    var backgroundWidth = 9,
+        gapBetweenDots = 5,
+        width = $(this).width(),
+        mod = width % backgroundWidth;
+
+    if (mod < gapBetweenDots) {
+      $(this).css('padding-right', gapBetweenDots);
+    }
+  });
+}
+
+function fontsHaveLoaded() {
+  return $('html').is('.wf-active') || $('html').is('.wf-inactive');
+}
+
+function padListLinksWhenFontsLoad($listingLinks, waitThreshold) {
+  if (fontsHaveLoaded() || waitThreshold > 5) {
+    padListLinks($listingLinks);
+  } else {
+    waitThreshold++;
+    setTimeout(function() {
+      padListLinksWhenFontsLoad($listingLinks, waitThreshold);
+    }, 100);
+  }
+}

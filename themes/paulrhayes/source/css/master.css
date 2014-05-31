@@ -521,7 +521,6 @@ a.site-title:active {
   background: #f1ebe2;
   position: relative;
   z-index: 1;
-  padding-right: 5px;
 }
 
 .listing-dots {
@@ -531,7 +530,7 @@ a.site-title:active {
   bottom: 10px;
   left: 0;
   right: 0;
-  background-position: 0 100%;
+  background-position: -1px 100%;
   background-repeat: repeat-x;
   background-size: 9px;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAMCAIAAADgcHrrAAAAYklEQVQoz2P4+PoRGYiBCtpeXzm2e/XS9auXHj93nVhtN7fXGyOBkmXHiNF2rMQYDcSdfUpQ29ODSRjajhOh7VgGOdqAfluN4reAKduIDcmnV3Zv3bgaGJi7D52hfbzRXBsAte4RXN0X8kMAAAAASUVORK5CYII=);
