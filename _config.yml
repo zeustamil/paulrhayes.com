@@ -74,8 +74,8 @@ time_format: H:mm:ss
 per_page: 0
 pagination_dir: page
 
-# Disqus
-disqus_shortname:
+highlight:
+  enable: false
 
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
