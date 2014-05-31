@@ -1,7 +1,7 @@
-<% page.posts.each(function(post){ %>
-  <section class="listing">
-    <dl class="row">
-      <%- partial('archive-post', {post: post, index: true}) %>
-    </dl>
-  </section>
-<% }) %>
+<section class="listing clearfix">
+  <ol>
+    <% page.posts.each(function(post, i){ %>
+      <%- partial('archive-post', {post: post}) %>
+    <% }) %>
+  </ol>
+</section>
