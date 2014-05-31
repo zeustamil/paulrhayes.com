@@ -8,8 +8,8 @@ tags:
   - webkit
 id: 124
 categories:
-  - Code
-  - Experiments
+  - code
+  - experiments
 date: 2011-02-10 23:33:33
 ---
 

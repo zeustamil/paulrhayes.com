@@ -5,7 +5,7 @@ tags:
   - standards
 id: 41
 categories:
-  - Discussion
+  - discussion
 date: 2009-03-27 17:25:51
 ---
 

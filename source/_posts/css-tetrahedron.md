@@ -7,7 +7,7 @@ tags:
   - transformations
 id: 112
 categories:
-  - Experiments
+  - experiments
 date: 2010-10-06 19:59:59
 ---
 

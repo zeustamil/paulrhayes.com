@@ -4,7 +4,7 @@ tags:
   - typography
 id: 5
 categories:
-  - Design
+  - design
 date: 2009-03-11 16:20:30
 ---
 

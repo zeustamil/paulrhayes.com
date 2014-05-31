@@ -5,9 +5,9 @@ tags:
   - responsive-enhancement
 id: 116
 categories:
-  - Code
-  - Design
-  - Discussion
+  - code
+  - design
+  - discussion
 date: 2010-10-29 16:36:49
 ---
 

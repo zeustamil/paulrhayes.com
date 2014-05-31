@@ -6,7 +6,7 @@ tags:
   - team
 id: 161
 categories:
-  - Process
+  - process
 date: 2013-06-16 17:49:40
 ---
 

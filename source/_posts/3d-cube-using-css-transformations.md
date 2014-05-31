@@ -6,7 +6,7 @@ tags:
   - transitions
 id: 67
 categories:
-  - Experiments
+  - experiments
 date: 2009-04-30 15:54:28
 ---
 

@@ -1,4 +1,5 @@
 <h2 class="main-content-title">
-  <%= page.category %>
+  <% title = page.category; %>
+  <%= title.charAt(0).toUpperCase() + title.slice(1) %>
 </h2>
 <%- partial('_partial/archive', {pagination: config.category}) %>

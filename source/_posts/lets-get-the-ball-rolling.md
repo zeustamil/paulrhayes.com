@@ -4,7 +4,7 @@ tags:
   - Wordpress
 id: 62
 categories:
-  - Design
+  - design
 date: 2009-03-05 17:01:00
 ---
 

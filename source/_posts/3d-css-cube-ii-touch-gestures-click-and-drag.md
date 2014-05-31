@@ -9,8 +9,8 @@ tags:
   - webkit
 id: 108
 categories:
-  - Code
-  - Experiments
+  - code
+  - experiments
 date: 2010-09-28 22:20:49
 ---
 

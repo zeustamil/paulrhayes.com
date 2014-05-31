@@ -4,7 +4,7 @@ tags:
   - javascript
 id: 78
 categories:
-  - Code
+  - code
 date: 2009-06-10 15:03:31
 ---
 

@@ -6,7 +6,7 @@ tags:
   - webcam
 id: 154
 categories:
-  - Experiments
+  - experiments
 date: 2012-11-18 23:43:27
 ---
 
