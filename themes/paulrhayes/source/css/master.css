@@ -617,10 +617,18 @@ a.site-title:active {
 }
 
 .article-footer {
-  padding: 1.333333333em 0;
-  margin: 2.58333333333333em 0 0; /* 62/24px */
-  border-top: 2px solid #666;
+  padding: 1.333333333em 1.333333333em 1em;
+  margin: 0;
+  border: 1px solid #ccc;
   line-height: 1.333333333em;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.5);
+}
+
+.article-discussion {
+  margin: 0 0 1.5em;
+  padding: 0 0 1em;
+  border-bottom: 1px solid #ccc;
 }
 
 .article-footer-nav {
