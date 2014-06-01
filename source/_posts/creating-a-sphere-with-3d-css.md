@@ -28,15 +28,15 @@ The more elements per round and the more rounds, the smoother the sphere. But th
 
 The biggest gains come with border radius. Using a huge radius that made each panel circular the sphere suddenly gained a lovely curvature, and the number of rounds and panels could be reduced. In the experiment I use 8 rounds and 24 panels (200 elements). This doesn’t start choking until I start aggressively animating.
 
-[![3D sphere using CSS transform](/images/creating-a-sphere-with-3d-css/sphere-normal.png)](/experiments/sphere/)
+[![3D sphere using CSS transform](http://www.paulrhayes.com/images/creating-a-sphere-with-3d-css/sphere-normal.png)](/experiments/sphere/)
 
 Playing with this I’ve built a few different styles of sphere. In the experiment I’ve included the blocky ‘square’ version, along with the smoothed out border radius one (default). Marking panels white, and a few black can create a nice eye-ball effect.
 
-[![Sphere without border radius](/images/creating-a-sphere-with-3d-css/sphere-square-150x150.png)](/experiments/sphere/) [![Eye](/images/creating-a-sphere-with-3d-css/sphere-eye-150x150.png)](/experiments/sphere/)
+[![Sphere without border radius](http://www.paulrhayes.com/images/creating-a-sphere-with-3d-css/sphere-square-150x150.png)](/experiments/sphere/) [![Eye](http://www.paulrhayes.com/images/creating-a-sphere-with-3d-css/sphere-eye-150x150.png)](/experiments/sphere/)
 
 Also included in the experiment are versions showing a single round and another style named ‘contact’. This takes two lists and animates them like the space transportation device in the Jodie Foster movie of the same name.
 
-[![Rotating rounds](/images/creating-a-sphere-with-3d-css/sphere-contact-150x150.png)](/experiments/sphere/) [![Half a sphere](/images/creating-a-sphere-with-3d-css/sphere-half-150x150.png)](/experiments/sphere/) [![Kaleidoscope effect](/images/creating-a-sphere-with-3d-css/sphere-kaleid-150x150.png)](/experiments/sphere/)
+[![Rotating rounds](http://www.paulrhayes.com/images/creating-a-sphere-with-3d-css/sphere-contact-150x150.png)](/experiments/sphere/) [![Half a sphere](http://www.paulrhayes.com/images/creating-a-sphere-with-3d-css/sphere-half-150x150.png)](/experiments/sphere/) [![Kaleidoscope effect](http://www.paulrhayes.com/images/creating-a-sphere-with-3d-css/sphere-kaleid-150x150.png)](/experiments/sphere/)
 
 Animating the border radius on all 192 panels (if your machine can cope), gives a neat kaleidoscope effect, also included in the experiment.
 
