@@ -83,6 +83,9 @@ highlight:
 theme: paulrhayes
 exclude_generator:
 
+sitemap:
+  path: sitemap.xml
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
