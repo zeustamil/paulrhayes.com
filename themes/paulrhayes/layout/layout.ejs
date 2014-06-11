@@ -6,8 +6,8 @@
     <%- partial('_partial/experiment-header', {experiment: page}) %>
   <% } %>
 </head>
-<body <% if (is_home()) { %>class="home"<% } %>>
-  <div class="wrapper hfeed">
+<body>
+  <div class="wrapper hfeed <% if (page.experiment) { %>experiment<% } %><% if (is_home()) { %>home<% } %>">
     <%- partial('_partial/header') %>
     <%- body %>
     <% if (page.experiment) { %>
