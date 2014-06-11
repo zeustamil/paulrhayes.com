@@ -1,0 +1,46 @@
+<p class="learn">
+  This is a demo,
+  <% if (experiment.article) { %>
+    <a href="<%= experiment.article %>">learn how it works</a>
+  <% } %>
+  <% if (experiment.css || experiment.js) { %>
+    <% if (experiment.article) { %>or <% } %>
+    take a peek at the
+    <% if (experiment.css) { %>
+      <a href="<%= experiment.css %>" title="View source">CSS</a>
+    <% } %>
+    <% if (experiment.js && experiment.css) { %> or<% } %>
+    <% if (experiment.js) { %> <a href="<%= experiment.js %>" title="View source">JS</a><% } %> behind it<% } %>.
+    <% if (experiment.git) { %> <a href="<%= experiment.git %>">Fork on Github</a>.<% } %>
+</p>
+
+<% if (experiment.test) { %>
+  <div class="test test-<%= experiment.test %>">
+<% } %>
+
+<!-- ************************** -->
+<!-- START OF EXPERIMENT -->
+<!-- ************************** -->
+
+<%- experiment.content %>
+
+<!-- ************************** -->
+<!-- END OF EXPERIMENT -->
+<!-- ************************** -->
+
+<% if(experiment.test) { %>
+  </div>
+<% } %>
+<% if (experiment.testDescription) { %>
+<div class="test-<%= experiment.test %>-fallback fallback">
+  <p>
+    Uh-oh, your browser has <strong>no support for <%= experiment.testDescription %></strong>.<% if (experiment.video) { %> This video will show you what you&#8217;re missing. <a href="#experiment" class="show-experiment">Show me the experiment anyway</a>.<% } %>
+  </p>
+  <% if (experiment.video) { %>
+    <iframe src="<%= experiment.video %>" width="600" height="400" frameborder="0"></iframe>
+  <% } %>
+  <p>
+    <a href="http://www.twitter.com/fofr">Follow me on Twitter (@fofr)</a>
+  </p>
+</div>
+<% } %>

@@ -1,0 +1,18 @@
+<% if (experiment.testDescription) { %>
+  <script>
+    $(function(){
+        $('.show-experiment').on('click', function(evt) {
+            evt.preventDefault();
+            $('.fallback').fadeOut('slow', function() {
+                $('.test').fadeIn('slow');
+            });
+        });
+    });
+  </script>
+<% } %>
+<% if (experiment.test) { %>
+  <script src="../tests/<%= experiment.test %>.js"></script>
+<% } %>
+<% if (experiment.js) { %>
+  <script src="<%= experiment.js %>"></script>
+<% } %>
