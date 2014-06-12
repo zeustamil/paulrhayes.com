@@ -1,0 +1,21 @@
+title: "Face detection, canvas and webcams"
+description: "A demonstration of face detection performed live on webcam data, without plugins."
+css: "css/experiment.css"
+canonical: "http://www.paulrhayes.com/experiments/webcam/"
+article: "http://www.paulrhayes.com/2012-11/fun-with-face-detection-canvas-and-webcam-video"
+date: 2012-11-18
+js: "js/experiment.js"
+test: "getusermedia"
+testDescription: "getUserMedia"
+video: "http://player.vimeo.com/video/53803605"
+git: "https://github.com/fofr/paulrhayes.com-experiments/tree/master/webcam/"
+experiment: true
+---
+
+<canvas width="200" height="160" class="scale"></canvas>
+
+<p class="transforming-content">This element ought to shrink or grow as you move towards or away from it.</p>
+
+<!-- Include the CCV image processing and face detection libraries -->
+<script src="js/ccv.js"></script>
+<script src="js/face.js"></script>

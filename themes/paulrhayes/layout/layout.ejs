@@ -1,6 +1,13 @@
-<%- partial('_partial/head') %>
-<body <% if (is_home()) { %>class="home"<% } %>>
-  <div class="wrapper hfeed">
+<!DOCTYPE html>
+<html lang="en" id="paulrhayes-com" class="no-js">
+<head>
+  <%- partial('_partial/head') %>
+  <% if (page.experiment) { %>
+    <%- partial('_partial/experiment-header', {experiment: page}) %>
+  <% } %>
+</head>
+<body>
+  <div class="wrapper hfeed <% if (is_home()) { %>home<% } %>">
     <%- partial('_partial/header') %>
     <%- body %>
     <%- partial('_partial/footer') %>
@@ -8,6 +15,9 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <script>!window.jQuery && document.write('<script src="js/jquery-1.9.0.min.js"><\/script>')</script>
   <script src="/js/master.js?7"></script>
+  <% if (page.experiment) { %>
+    <%- partial('_partial/experiment-footer', {experiment: page}) %>
+  <% } %>
   <script>var _gaq=[['_setAccount','UA-59763-15'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))</script>
 </body>
 </html>

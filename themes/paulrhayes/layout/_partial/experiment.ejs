@@ -1,0 +1,61 @@
+<section>
+  <header class="experiment-header">
+    <h1 class="experiment-title main-content-title">
+      <a href="<%= experiment.article %>">
+        <%= experiment.title %>
+      </a>
+    </h1>
+    <p class="learn">
+      This is a demo,
+      <% if (experiment.article) { %>
+        <a href="<%= experiment.article %>">learn how it works</a>
+      <% } %>
+      <% if (experiment.css || experiment.js) { %>
+        <% if (experiment.article) { %>or <% } %>
+        take a peek at the
+        <% if (experiment.css) { %>
+          <a href="<% if (experiment.git) { %><%= experiment.git %><% } %><%= experiment.css %>" title="View source">CSS</a>
+        <% } %>
+        <% if (experiment.js && experiment.css) { %> or<% } %>
+        <% if (experiment.js) { %> <a href="<% if (experiment.git) { %><%= experiment.git %><% } %><%= experiment.js %>" title="View source">JS</a><% } %> behind it<% } %>.
+        <% if (experiment.git) { %> <a href="<%= experiment.git %>">Fork on Github</a>.<% } %>
+    </p>
+  </header>
+  <div class="experiment-body clearfix">
+    <% if (experiment.test) { %>
+      <div class="test test-<%= experiment.test %>">
+    <% } %>
+
+<!--
+**************************
+
+Start of experiment
+
+**************************
+-->
+
+  <%- experiment.content %>
+
+<!--
+**************************
+
+End of experiment
+
+**************************
+-->
+
+    <% if(experiment.test) { %>
+      </div>
+    <% } %>
+    <% if (experiment.testDescription) { %>
+    <div class="test-<%= experiment.test %>-fallback fallback">
+      <p>
+        Uh-oh, your browser has <strong>no support for <%= experiment.testDescription %></strong>.<% if (experiment.video) { %> This video will show you what you&#8217;re missing. <a href="#experiment" class="show-experiment">Show me the experiment anyway</a>.<% } %>
+      </p>
+      <% if (experiment.video) { %>
+        <iframe src="<%= experiment.video %>" width="600" height="400" frameborder="0"></iframe>
+      <% } %>
+    </div>
+    <% } %>
+  </div>
+</section>

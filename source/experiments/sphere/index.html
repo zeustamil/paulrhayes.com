@@ -1,0 +1,53 @@
+title: "A sphere built with CSS 3D transforms"
+description: "Sphere created using 3D css transforms."
+css: "css/experiment.css"
+canonical: "http://www.paulrhayes.com/experiments/sphere/"
+article: "http://www.paulrhayes.com/2011-02/creating-a-sphere-with-3d-css/"
+date: 2011-02-10
+js: "js/experiment.js"
+test: "3dtransforms"
+testDescription: "3D CSS transforms"
+video: "http://player.vimeo.com/video/19806423"
+git: "https://github.com/fofr/paulrhayes.com-experiments/tree/master/sphere/"
+experiment: true
+---
+
+<div id="sphere" class="normal">
+    <div class="rotator">
+        <div class="container"></div>
+    </div>
+</div>
+<p>Click and drag, use touch gestures or arrow keys.</p>
+<form id="controls" action="#">
+    <fieldset>
+        <legend class="strong">Sphere styles</legend>
+        <div>
+            <input id="normal" name="sphereType" type="radio" value="normal" checked />
+            <label for="normal">Normal</label>
+        </div>
+        <div>
+            <input id="square" name="sphereType" type="radio" value="square" />
+            <label for="square">Square</label>
+        </div>
+        <div>
+            <input id="eye" name="sphereType" type="radio" value="eye" />
+            <label for="eye">Eye</label>
+        </div>
+        <div>
+            <input id="half" name="sphereType" type="radio" value="half" />
+            <label for="half">Half</label>
+        </div>
+        <div>
+            <input id="single" name="sphereType" type="radio" value="single" />
+            <label for="single">Single</label>
+        </div>
+        <div>
+            <input id="contact" name="sphereType" type="radio" value="contact" />
+            <label for="contact">Contact</label>
+        </div>
+        <div>
+            <input id="kaleidoscope" name="sphereType" type="radio" value="kaleidoscope" />
+            <label for="kaleidoscope">Kaleidoscope</label>
+        </div>
+    </fieldset>
+</form>
