@@ -786,7 +786,7 @@ pre .tag, code .tag { color: #006; font-weight: bold; }
   font-weight: 200;
   font-size: 18px;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 100px;
+  padding: 48px 0;
   position: relative;
 }
 
@@ -794,7 +794,6 @@ pre .tag, code .tag { color: #006; font-weight: bold; }
   background: #fff;
   padding: 1px 0;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 48px;
 }
 
 .experiment-title {
