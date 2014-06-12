@@ -14,7 +14,7 @@ h2 {
 
 .cube {
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     height: 400px;
     width: 400px;
     -webkit-transition: -webkit-transform 50ms linear;

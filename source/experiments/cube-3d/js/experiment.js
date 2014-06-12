@@ -18,6 +18,7 @@ $('body').keydown(function(evt) {
 
         case 38: // up
             xAngle += 90;
+            evt.preventDefault();
             break;
 
         case 39: // right
@@ -26,6 +27,7 @@ $('body').keydown(function(evt) {
 
         case 40: // down
             xAngle -= 90;
+            evt.preventDefault();
             break;
     };
     document.getElementById('cube').style[prop] = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";

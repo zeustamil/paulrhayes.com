@@ -7,7 +7,7 @@
 
 #cube {
   position: relative;
-  margin: 100px auto 0;
+  margin: 100px auto;
   height: 400px;
   width: 400px;
   -webkit-transition: -webkit-transform 2s linear;
