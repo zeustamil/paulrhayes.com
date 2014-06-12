@@ -781,77 +781,48 @@ pre .tag, code .tag { color: #006; font-weight: bold; }
  Experiments
  ========================================================================== */
 
-.experiment,
-.experiment h1 {
+.experiment-body {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-weight: 200;
-}
-
-.experiment {
   font-size: 18px;
-}
-
-.experiment .masthead {
-  margin: 0;
-  text-shadow: none;
-  min-height: 36px;
-  font-size: 24px;
-  line-height: 36px;
-}
-
-.experiment .masthead a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.experiment .masthead h1 a {
-  color: #ccc;
-}
-
-.experiment .masthead a:hover {
-  text-decoration: underline;
-}
-
-.experiment .masthead div {
-  margin-right: 210px;
-}
-
-.experiment h1,
-.experiment .masthead span {
-  font-size: 18px;
-  white-space: nowrap;
-}
-
-.experiment h1 {
-  display: inline;
-}
-
-.experiment h1 a {
-  color: #ccc;
-}
-
-.js .experiment .tweet-this a {
-  display: none;
-}
-
-.experiment .fb {
-  position: absolute;
-  right: 110px;
-  top: 5px;
-}
-
-.experiment .tweet-this {
-  position: absolute;
-  right: 0;
-  top: 4px;
-}
-
-.experiment .learn {
-  text-align: center;
-  background: #fff;
-  margin-bottom: 24px;
-  padding: 12px 0;
   border-bottom: 1px solid #ccc;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.experiment-header {
+  background: #fff;
+  padding: 1px 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 48px;
+}
+
+.experiment-title {
+  width: 780px;
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.learn {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 0;
+  padding: 24px 0 18px;
+  border-top: 1px solid #ccc;
+}
+
+@media all and (max-width: 840px) {
+  .experiment-title {
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .learn {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 /* Experiment Tests
