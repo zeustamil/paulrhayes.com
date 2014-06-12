@@ -14,10 +14,10 @@
         <% if (experiment.article) { %>or <% } %>
         take a peek at the
         <% if (experiment.css) { %>
-          <a href="<%= experiment.css %>" title="View source">CSS</a>
+          <a href="<% if (experiment.git) { %><%= experiment.git %><% } %><%= experiment.css %>" title="View source">CSS</a>
         <% } %>
         <% if (experiment.js && experiment.css) { %> or<% } %>
-        <% if (experiment.js) { %> <a href="<%= experiment.js %>" title="View source">JS</a><% } %> behind it<% } %>.
+        <% if (experiment.js) { %> <a href="<% if (experiment.git) { %><%= experiment.git %><% } %><%= experiment.js %>" title="View source">JS</a><% } %> behind it<% } %>.
         <% if (experiment.git) { %> <a href="<%= experiment.git %>">Fork on Github</a>.<% } %>
     </p>
   </header>
