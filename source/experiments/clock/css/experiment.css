@@ -12,7 +12,7 @@ body {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
-    margin: 5em;
+    margin: 0 0 2em;
 }
 
 #clock {
@@ -20,8 +20,7 @@ body {
     width: 378px;
     height: 378px;
     background-image: url('../images/clockFace.png');
-    left: 50%;
-    margin: 5em 0 0 -189px;
+    margin: 3em auto;
 }
 
 #clock div {
