@@ -81,7 +81,10 @@ highlight:
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
 theme: paulrhayes
-exclude_generator:
+
+# For exporting experiments:
+# theme: paulrhayes-experiments
+# exclude_generator: archive category home post tag
 
 sitemap:
   path: sitemap.xml
