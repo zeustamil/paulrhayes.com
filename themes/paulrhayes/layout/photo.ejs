@@ -1,0 +1,17 @@
+<%
+  photo = page
+  photo.image_path = '/photo/' + date(photo.date, 'YYYY-MM') + '-' + photo.slug + '.' + (photo.type ? photo.type : 'jpg')
+%>
+<article class="photo" role="main">
+  <div class="photo-wrapper">
+    <img src="<%= photo.image_path %>" class="photo-image" />
+  </div>
+  <header class="photo-header">
+    <h1 class="main-content-title photo-title entry-title">
+      <%= photo.title %>
+    </h1>
+  </header>
+  <div class="article">
+    <%- photo.content %>
+  </div>
+</article>

@@ -1,7 +1,9 @@
 <section class="listing clearfix">
   <ol>
     <% page.posts.each(function(post, i){ %>
-      <%- partial('archive-post', {post: post}) %>
+      <% if (post.layout === 'post') { %>
+        <%- partial('archive-post', {post: post}) %>
+      <% } %>
     <% }) %>
   </ol>
 </section>
