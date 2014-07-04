@@ -594,7 +594,11 @@ iframe.vimeo {
 
 .photo-title {
   color: #fff;
-  margin: 42px 0;
+  margin: 42px 0 0;
+}
+
+.photo-header {
+  margin-bottom: 42px;
 }
 
 .photo-image {
@@ -604,7 +608,14 @@ iframe.vimeo {
 }
 
 .photo-content {
-  padding-bottom: 24px;
+  border-bottom: 5px solid #333;
+}
+
+.photo-footer {
+  text-align: center;
+  color: #999;
+  padding: 42px 0;
+  margin-bottom: 42px;
   border-bottom: 5px solid #333;
 }
 

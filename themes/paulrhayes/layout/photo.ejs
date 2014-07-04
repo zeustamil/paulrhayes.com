@@ -1,6 +1,8 @@
 <%
   photo = page;
-  photo.image_path = '/photo/' + date(photo.date, 'YYYY-MM') + '-' + photo.slug + '.' + (photo.type ? photo.type : 'jpg');
+  file = '/photo/' + date(photo.date, 'YYYY-MM') + '-' + photo.slug;
+  photo.image_path = file + '-lowest.' + (photo.type ? photo.type : 'jpg');
+  photo.link_path = file + '-original.' + (photo.type ? photo.type : 'jpg');
 %>
 <article class="single-photo" role="main">
   <div class="text-center">
@@ -10,8 +12,22 @@
     <h1 class="main-content-title photo-title">
       <%= photo.title %>
     </h1>
+    <div class="text-center">
+      <%- partial('_partial/post/published', {post: photo}) %>
+      <div>
+        <a href="<%= photo.link_path %>">Original</a>
+        <% if (photo.flickr) { %>, <a href="<%= photo.flickr %>" rel="alternate">Flickr</a><% } %><% if (photo.flickr && photo.instagram) { %>,<% } %>
+        <% if (photo.instagram) { %><a href="<%= photo.instagram %>" rel="alternate">Instagram</a><% } %>
+      </div>
+    </div>
   </header>
   <div class="container photo-content">
     <%- photo.content %>
   </div>
+  <% if (photo.exif) { %>
+    <footer class="container photo-footer">
+      <code><%= photo.aperture %> &middot; <%= photo.shutter %> &middot; <%= photo.iso %></code><br />
+      <code><%= photo.camera %> &mdash; <%= photo.lens %></code>
+    </footer>
+  <% } %>
 </article>
