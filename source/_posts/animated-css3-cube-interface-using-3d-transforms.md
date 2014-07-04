@@ -63,7 +63,7 @@ The outer wrapper serves as a camera, on which you apply some perspective — ap
 
 ```css
 #experiment {
-  -webkit-perspective: 800;
+  -webkit-perspective: 800px;
   -webkit-perspective-origin: 50% 200px;
 }
 ```

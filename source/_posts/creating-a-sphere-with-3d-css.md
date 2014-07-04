@@ -95,8 +95,8 @@ To achieve the 3D effect we give `#sphere` some perspective, which forms the con
   width: 100px;
   height: 100px;
   margin: 200px auto;
-  -webkit-perspective: 800;
-  -moz-persective: 800;
+  -webkit-perspective: 800px;
+  -moz-persective: 800px;
 }
 
 .container {
