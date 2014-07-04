@@ -1,6 +1,15 @@
 layout: photo
 title: Polecat
-date: 2014-07-01 21:46:39
+date: 2014-06-25 17:42:13
+flickr: https://www.flickr.com/photos/prhayes/14334597177/
+instagram: http://instagram.com/p/pwYjakNFCv
+
+exif: true
+camera: "Canon EOS 500D"
+lens: "Canon EF 70-200mm f/4L IS"
+aperture: "ƒ/5.6"
+shutter: "1/1000"
+iso: 800
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+From a wildlife photography lesson at the British Wildlife Centre in Sussex. This polecat was dancing about, very rarely stopping for anything. For a split second he raised his head in just the right position, the warm midsummer light catching his face amongst the flowers.
