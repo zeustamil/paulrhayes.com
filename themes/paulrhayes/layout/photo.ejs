@@ -1,7 +1,7 @@
 <%
   photo = page;
   file = '/photo/' + date(photo.date, 'YYYY-MM') + '-' + photo.slug;
-  photo.image_path = file + '-lowest.' + (photo.type ? photo.type : 'jpg');
+  photo.image_path = file + '-small.' + (photo.type ? photo.type : 'jpg');
   photo.link_path = file + '-original.' + (photo.type ? photo.type : 'jpg');
 %>
 <article class="single-photo" role="main">
