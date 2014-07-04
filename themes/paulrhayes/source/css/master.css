@@ -73,21 +73,22 @@ input, select {
 
 .pull-left {
   float: left;
-  margin-right: 1em;
 }
 
 .pull-right {
   float: right;
-  margin-left: 1em;
 }
 
-.align-center {
+.relative {
+  position: relative;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
   text-align: center;
-}
-
-.ir, .sprite {
-  text-indent: -9999px;
-  overflow: hidden; /* Stop focus outline issues */
 }
 
 /* Hide visually, but keep available for screenreaders: by Jon Neal.
@@ -104,11 +105,13 @@ www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden  &  h5bp
   z-index: -1;
 }
 
-del, .strike {
+del,
+.strike {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
   border-bottom: 1px dotted #000;
   cursor: help;
 }
@@ -131,20 +134,12 @@ i, em, .italic, blockquote, cite, q {
   font-style: italic;
 }
 
-.norm, strong span, label span, h1 span, h2 span, h3 span {
+.norm {
   font-weight: normal;
 }
 
 blockquote em, blockquote cite, blockquote i {
   font-variant: normal;
-}
-
-small, .small {
-  font-size: smaller;
-}
-
-.submit, button, a, label {
-  cursor: pointer;
 }
 
 .ie img {
@@ -168,18 +163,6 @@ legend {
   overflow: hidden;
 }
 
-.media--overflow-visible {
-  overflow: visible;
-}
-
-.media--overflow-visible:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
 .media-pull-left {
   float: left;
   margin-right: 20px;
@@ -194,15 +177,9 @@ legend {
   overflow: hidden;
 }
 
-.media-body--overflow-visible {
-  overflow: visible;
-}
-
 /* ==========================================================================
  Typography
-
  16px / 32px / 64px line heights
-
  ========================================================================== */
 
 body {
@@ -211,7 +188,6 @@ body {
   color: #666;
   background: #f1ebe2;
   font-family: "adobe-caslon-pro-1", "adobe-caslon-pro-2", Georgia, Times, "Times New Roman", serif;
-  font-style: normal;
   text-rendering: optimizeLegibility;
 }
 
@@ -234,71 +210,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "swingdancer-1","swingdancer-2", Baskerville, Georgia, cursive;
 }
 
-p, ul, ol, dl, table, address, .r {
+p, ul, ol, dl, table {
   margin-bottom: 1.33333333em;
   line-height: 1.33333333em;
 }
 
 ul ul, ol ol, ol ul, ul ol, dl dl, dl ul, dl ol, ul dl, ol dl {
   margin-bottom: 0;
-}
-
-sup {
-  vertical-align: 60%;
-  font-size: 75%;
-  line-height: 100%;
-}
-
-sub {
-  vertical-align: -10%;
-  font-size: 75%;
-  line-height: 100%;
-}
-
-.amp {
-  font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", "Warnock Pro", serif;
-  font-weight: normal;
-  font-style: italic;
-  font-size: 1.1em;
-  line-height: 1em;
-}
-
-.caps {
-  font-size: 90%;
-}
-
-.dquo {
-  margin-left:-.40em;
-}
-
-.quo {
-  margin-left:-.2em;
-}
-
-.relative {
-  position: relative;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-center {
-  text-align: center;
-}
-
-// Hide visually, but keep available for screenreaders, by Jon Neal
-// www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden  &  h5bp.com/v
-.rm {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  z-index: -1;
 }
 
 /* ==========================================================================
@@ -325,7 +243,9 @@ a:active {
   text-decoration: underline;
 }
 
-h1 a, h2 a, h3 a {
+h1 a,
+h2 a,
+h3 a {
   text-decoration: none;
 }
 
@@ -335,47 +255,6 @@ h2.swing {
   margin: 0 10px;
   padding: 17px 0 17px;
   color: #333;
-}
-
-/* Forms
- ========================================================================== */
-
-.form-row label {
-  display: block;
-  font-weight: normal;
-  margin: 8px 0;
-}
-
-.form-row textarea.text,
-.form-row input.text {
-  margin-bottom: 1.33333333em;
-  font-size: 1em;
-  font-weight: normal;
-  padding: 8px 10px;
-  border-radius: 3px;
-  border: none;
-}
-
-.submit {
-  font-size: 1em;
-  background: #eee;
-  background: -webkit-linear-gradient(#eee,#ccc);
-  background: -moz-linear-gradient(#eee,#ccc);
-  background: -ms-linear-gradient(#eee,#ccc);
-  background: -o-linear-gradient(#eee,#ccc);
-  background: linear-gradient(#eee,#ccc);
-  border-radius: 3px;
-  padding: 16px 20px;
-  border: none;
-}
-
-.submit:active {
-  background: #ddd;
-  background: -webkit-linear-gradient(#aaa,#ccc);
-  background: -moz-linear-gradient(#aaa,#ccc);
-  background: -ms-linear-gradient(#aaa,#ccc);
-  background: -o-linear-gradient(#aaa,#ccc);
-  background: linear-gradient(#aaa,#ccc);
 }
 
 /* ==========================================================================
