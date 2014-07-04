@@ -217,7 +217,7 @@ body {
 
 @media all and (max-width: 620px) {
   body {
-      font-size: 1.25em;
+    font-size: 1.25em;
   }
 }
 
@@ -242,6 +242,7 @@ p, ul, ol, dl, table, address, .r {
 ul ul, ol ol, ol ul, ul ol, dl dl, dl ul, dl ol, ul dl, ol dl {
   margin-bottom: 0;
 }
+
 sup {
   vertical-align: 60%;
   font-size: 75%;
