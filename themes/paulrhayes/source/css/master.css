@@ -572,27 +572,24 @@ iframe.vimeo {
  Photos
  ========================================================================== */
 
+/* Darken the whole page  */
 .layout-photo {
   background: #222;
 }
 
-.photo,
+/* Use light text on a dark page */
+.single-photo,
 .layout-photo .site-footer {
   color: #ccc;
 }
 
-.photo a,
+.single-photo a,
 .layout-photo .site-footer a {
   color: #ccc;
 }
 
-.photo {
-  background: #222;
+.single-photo {
   margin-bottom: 24px;
-}
-
-.photo-header {
-  padding: 18px 0;
 }
 
 .photo-title {
@@ -600,18 +597,15 @@ iframe.vimeo {
   margin: 42px 0;
 }
 
-.photo-wrapper {
-  text-align: center;
-}
-
 .photo-image {
   max-width: 100%;
-  max-height: 100%;
-  margin: 0 auto;
+  border-top: 8px solid #333;
+  border-bottom: 10px solid #333;
 }
 
-.photo .article {
-  color: #999;
+.photo-content {
+  padding-bottom: 24px;
+  border-bottom: 5px solid #333;
 }
 
 /* ==========================================================================
