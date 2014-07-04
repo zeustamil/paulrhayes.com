@@ -19,8 +19,11 @@ if (is_archive()){
   title = 'Category: ' + page.category;
 } else if (is_tag()){
   title = 'Tag: ' + page.tag;
-} else if (page.experiment)
+} else if (page.experiment) {
   title = 'Experiment: ' + title
+} else if (page.layout == 'photo') {
+  title = 'Photo: ' + title
+}
 %>
 <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
 <meta name="description" content="A design and code blog from Paul Hayes, specializing in CSS3, HTML5 and JavaScript." />

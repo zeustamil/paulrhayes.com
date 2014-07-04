@@ -1,3 +1,12 @@
+<%
+  while (post.prev && post.prev.layout != post.layout) {
+    post.prev = post.prev.prev || null;
+  }
+
+  while (post.next && post.next.layout != post.layout) {
+    post.next = post.next.next || null;
+  }
+%>
 <% if (post.prev || post.next) { %>
   <nav>
     <% if (post.next) { %>

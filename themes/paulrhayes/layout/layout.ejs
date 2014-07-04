@@ -7,7 +7,7 @@
   <% } %>
 </head>
 <body>
-  <div class="wrapper hfeed <% if (is_home()) { %>home<% } %>">
+  <div class="wrapper hfeed <% if (is_home()) { %>home<% } %> layout-<%= page.layout %>">
     <%- partial('_partial/header') %>
     <%- body %>
     <%- partial('_partial/footer') %>
