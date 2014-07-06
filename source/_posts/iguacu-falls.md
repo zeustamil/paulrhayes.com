@@ -2,6 +2,7 @@ layout: photo
 title: "Iguaçu Falls"
 date: 2011-11-20 14:29:46
 flickr: https://www.flickr.com/photos/prhayes/6612553669/
+500px: http://500px.com/photo/75799119/igua%C3%A7u-falls-by-paul-hayes
 
 exif: true
 camera: "Canon EOS 500D"

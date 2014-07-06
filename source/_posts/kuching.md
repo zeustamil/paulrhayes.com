@@ -3,6 +3,7 @@ title: "Kuching waterfront"
 date: 2014-03-23 10:52:39
 flickr: https://www.flickr.com/photos/prhayes/14273035913/
 instagram: http://instagram.com/p/l3TKsNNFFt/
+500px: http://500px.com/photo/75799129/kuching-waterfront-by-paul-hayes
 
 exif: true
 camera: "Canon EOS 500D"
