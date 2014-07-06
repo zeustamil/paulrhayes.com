@@ -10,4 +10,7 @@ aperture: "ƒ/22"
 shutter: "1/200"
 iso: 800
 focal: "18.0mm"
+
+categories:
+  - photography
 ---

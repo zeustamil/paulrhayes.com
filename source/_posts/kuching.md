@@ -11,6 +11,9 @@ aperture: "ƒ/9.0"
 shutter: "20"
 iso: 100
 focal: "23.0mm"
+
+categories:
+  - photography
 ---
 
 From our [trip to Kuching, Borneo](http://www.sam-and-paul.com/2014/05/kuching-borneo/).

@@ -9,6 +9,9 @@ lens: "Canon EF-S 10-22mm f/3.5-4.5 USM"
 aperture: "ƒ/18.0"
 shutter: "15"
 iso: 100
+
+categories:
+  - photography
 ---
 
 Trying out my new wide angle lens, I’d tried this shot before at 18mm, but couldn’t fit the entire pavilion in — a wall limits how far back you can go. I setup my tripod and waited for the summer light to fade, hoping no Brighton revellers would sit in the middle of the scene.

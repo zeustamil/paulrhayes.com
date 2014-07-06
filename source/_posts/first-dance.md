@@ -10,6 +10,9 @@ aperture: "ƒ/1.6"
 shutter: "1/50"
 iso: 500
 focal: "50.0mm"
+
+categories:
+  - photography
 ---
 
 The end of Frankie and Tim’s carefully choreographed first dance. I’m not a wedding photographer, the stress would be too much, but I always take my camera along to a wedding.

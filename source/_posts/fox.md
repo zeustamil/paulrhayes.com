@@ -10,6 +10,9 @@ aperture: "ƒ/5.6"
 shutter: "1/500"
 iso: 400
 focal: "70.0mm"
+
+categories:
+  - photography
 ---
 
 Taken whilst on a wildlife photography course in Sussex. The evening light was perfect — we couldn’t have asked for anything better. Lying down in the grass, I angled the camera upwards to capture the warm orange fur of a fox with a glowing outline.
