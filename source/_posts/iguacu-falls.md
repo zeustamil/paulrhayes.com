@@ -1,0 +1,13 @@
+layout: photo
+title: "Iguaçu Falls"
+date: 2011-11-20 14:29:46
+flickr: https://www.flickr.com/photos/prhayes/6612553669/
+
+exif: true
+camera: "Canon EOS 500D"
+lens: "Canon EF-S 18-55mm f/3.5-5.6 IS"
+aperture: "ƒ/22"
+shutter: "1/200"
+iso: 800
+focal: "18.0mm"
+---
