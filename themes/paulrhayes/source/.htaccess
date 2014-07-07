@@ -4,3 +4,5 @@ RewriteRule ^(\d{4})/(\d{2})/?$ /archive/$1/$2/ [R=301,NC,L]
 RewriteRule ^page/ /archive/ [R=301,NC,L]
 RewriteRule ^feed/ /atom.xml [R=301,NC,L]
 RewriteRule ^experiments/$ /category/experiments/ [R=301,NC,L]
+
+AddCharset UTF-8 .html
