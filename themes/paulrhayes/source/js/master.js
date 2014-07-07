@@ -22,6 +22,8 @@ $.cachedScript = function(url, options) {
     }
   });
 
+  $('a[data-key]').each(bindKeyToLink);
+
   var $listingLinks = $('.listing-link'),
       waitThreshold = 5;
 
@@ -29,6 +31,14 @@ $.cachedScript = function(url, options) {
     padListLinksWhenFontsLoad($listingLinks, waitThreshold);
   }
 })();
+
+function bindKeyToLink() {
+  var element = $(this);
+  Mousetrap.bind(element.data('key'), function() {
+    element.focus();
+    window.location.href = element.attr('href');
+  });
+}
 
 function padListLinks($listingLinks) {
   $listingLinks.each(function(i) {
