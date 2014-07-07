@@ -7,6 +7,7 @@ title: Paul Hayes
 author: Paul Hayes
 email:
 language: en
+site_build: local
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -34,9 +35,8 @@ filename_case: 0
 render_drafts: false
 post_asset_folder: false
 highlight:
-  enable: true
-  line_number: true
-  tab_replace:
+  enable: false
+
 
 # Category & Tag
 default_category: uncategorized
@@ -71,9 +71,6 @@ time_format: H:mm:ss
 ## Set per_page to 0 to disable pagination
 per_page: 0
 pagination_dir: page
-
-highlight:
-  enable: false
 
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
