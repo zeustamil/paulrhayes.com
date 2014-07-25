@@ -1,4 +1,4 @@
-title: 'A light, progressive framework'
+title: 'A small JavaScript framework'
 tags:
   - framework
   - js
