@@ -503,6 +503,11 @@ a.site-title:active {
   .listing-item-image {
     width: 33.3333%;
   }
+
+  /* There's only 4 when listing latest images */
+  .latest-photos .listing-item-image {
+    width: 50%;
+  }
 }
 
 @media all and (max-width: 720px) {
@@ -684,8 +689,11 @@ iframe.vimeo {
   margin-bottom: 24px;
 }
 
-.photo-title {
+.layout-photo .main-content-title {
   color: #fff;
+}
+
+.photo-title {
   margin: 42px 0 0;
 }
 

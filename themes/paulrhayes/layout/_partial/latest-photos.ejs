@@ -1,0 +1,17 @@
+<h1 class="main-content-title">
+  Latest photos
+</h1>
+<section class="listing listing-images clearfix latest-photos">
+  <ol>
+    <%
+      count = 0;
+      limit = 4;
+    %>
+    <% site.posts.sort('date', -1).each(function(latestPost, i){ %>
+      <% if (latestPost.layout === 'photo') { %>
+        <% if (count >= limit) { return; } else { count++; } %>
+        <%- partial('_partial/archive-post-photo', {post: latestPost, hasType: true}) %>
+      <% } %>
+    <% }) %>
+  </ol>
+</section>
