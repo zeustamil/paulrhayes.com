@@ -594,16 +594,6 @@ a.site-title:active {
   border-radius: 50px;
 }
 
-/* Site footer on an article page should be black */
-.single .site-footer {
-  background: #000;
-  color: #ddd;
-}
-
-.single .site-footer a {
-  color: #fff;
-}
-
 .video-wrapper {
   height: 0;
   padding-bottom: 66.666666666667%; /* 408/612 */
