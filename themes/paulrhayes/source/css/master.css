@@ -656,18 +656,26 @@ iframe.vimeo {
  Photos
  ========================================================================== */
 
+ .category-photography .main-content-title {
+   color: #fff;
+   margin-top: 1.1875em; /* 76/64 */
+ }
+
 /* Darken the whole page  */
-.layout-photo {
+.layout-photo,
+.category-photography {
   background: #222;
 }
 
 /* Use light text on a dark page */
 .single-photo,
-.layout-photo .site-footer {
+.layout-photo .site-footer,
+.category-photography .site-footer {
   color: #ccc;
 }
 
 .single-photo a,
+.category-photography .site-footer a,
 .layout-photo .site-footer a {
   color: #ccc;
 }
