@@ -185,7 +185,7 @@ legend {
 body {
   font-size: 1.5em; /* 24px */
   line-height: 1.3333333em;  /* 24px/32px default */
-  color: #666;
+  color: #555;
   background: #f1ebe2;
   font-family: "adobe-caslon-pro-1", "adobe-caslon-pro-2", Georgia, Times, "Times New Roman", serif;
   text-rendering: optimizeLegibility;
@@ -525,6 +525,10 @@ a.site-title:active {
 .site-footer {
   padding: 1.3333333em 30px; /* 32/24px */
   clear: both;
+}
+
+.site-footer p {
+  margin-bottom: 5px;
 }
 
 .site-footer-content-wrapper {
