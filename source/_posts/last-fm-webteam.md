@@ -57,5 +57,3 @@ Let’s not forget the fun stuff too, Last.fm has always known how to play. Big 
 ## Respect.
 
 This team, this group of people I work with everyday, I think they’re fantastic. We’re not perfect, far from it, but we are always striving to make things better. To make more wonderful things, more effectively, more maintainably and with beauty throughout.
-
-**[We’re hiring, come work with us](http://www.last.fm/about/jobs)!**
