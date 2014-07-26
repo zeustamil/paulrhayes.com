@@ -1,0 +1,17 @@
+<section class="listing clearfix">
+  <h1 class="main-content-title">
+    Latest posts
+  </h1>
+  <ol>
+    <%
+      count = 0;
+      limit = 5;
+    %>
+    <% site.posts.sort('date', -1).each(function(latestPost, i){ %>
+      <% if (latestPost.layout === 'post') { %>
+        <% if (count >= limit) { return; } else { count++; } %>
+        <%- partial('archive-post', {post: latestPost, hasType: true}) %>
+      <% } %>
+    <% }) %>
+  </ol>
+</section>
