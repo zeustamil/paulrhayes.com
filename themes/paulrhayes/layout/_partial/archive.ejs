@@ -1,8 +1,15 @@
-<section class="listing clearfix">
+<section class="listing <% if (type == 'photo' || page.category == 'photography') { %>listing-images<% } %> clearfix">
   <ol>
     <% page.posts.each(function(post, i){ %>
-      <% if (!type || (type && post.layout === type)) { %>
-        <%- partial('archive-post', {post: post, hasType: !!type}) %>
+      <%
+        // filter the page posts by type, if specified
+        if (!type || (type && post.layout === type)) {
+      %>
+        <% if (type == 'photo' || page.category == 'photography') { %>
+          <%- partial('archive-post-photo', {post: post}) %>
+        <% } else { %>
+          <%- partial('archive-post', {post: post, hasType: !!type}) %>
+        <% } %>
       <% } %>
     <% }) %>
   </ol>

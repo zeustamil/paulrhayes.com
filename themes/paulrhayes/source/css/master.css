@@ -438,6 +438,86 @@ a.site-title:active {
   }
 }
 
+/* Listing with images
+   ========================================================================== */
+
+.listing-images {
+  background: #222;
+  padding: 20px;
+  border-radius: 2px;
+}
+
+.listing-item-image {
+  float: left;
+  height: 260px;
+  width: 260px;
+  position: relative;
+  background-size: cover;
+}
+
+.listing-image {
+  width: 100%;
+  height: 100%;
+}
+
+.listing-image-link:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 200ms;
+  transition-delay: 100ms;
+  background: linear-gradient(transparent, transparent, rgba(0,0,0,0.6));
+}
+
+.listing-image-link:hover:after {
+  opacity: 1;
+}
+
+.listing-image-title {
+  opacity: 0;
+  transition: opacity 200ms;
+  transition-delay: 100ms;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  font-weight: bold;
+  color: #fff;
+  z-index: 1;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.7);
+}
+
+.listing-image-link:hover .listing-image-title {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+@media all and (max-width: 840px) {
+  .listing-images {
+    padding: 0;
+    margin: 0;
+  }
+
+  .listing-item-image {
+    width: 33.3333%;
+    height: auto;
+  }
+
+  .listing-image {
+    visibility: hidden;
+    height: auto;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .listing-item-image {
+    width: 50%;
+  }
+}
+
 /* ==========================================================================
  Footer
  ========================================================================== */
