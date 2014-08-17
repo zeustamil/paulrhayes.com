@@ -1,4 +1,6 @@
 Options -Indexes
+ErrorDocument 404 /404.html
+
 RewriteEngine On
 RewriteRule ^(\d{4})/?$ /archive/$1/ [R=301,NC,L]
 RewriteRule ^(\d{4})-\d{2}/?$ /archive/$1/ [R=301,NC,L]

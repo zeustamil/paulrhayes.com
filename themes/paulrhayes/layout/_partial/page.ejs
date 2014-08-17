@@ -7,5 +7,7 @@
   <div class="article-content entry-content e-content">
     <%- page.content %>
   </div>
-  <%- partial('page/page-footer') %>
+  <% if (page.footer !== false) { %>
+    <%- partial('page/page-footer') %>
+  <% } %>
 </article>
