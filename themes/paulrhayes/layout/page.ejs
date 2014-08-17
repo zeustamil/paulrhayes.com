@@ -1,5 +1,7 @@
 <% if (page.experiment) { %>
   <%- partial('_partial/experiment', {experiment: page}) %>
+<% } else if (page.layout == 'page') { %>
+  <%- partial('_partial/page', {post: page}) %>
 <% } else { %>
-  <%- partial('_partial/article', {post: page, index: false}) %>
+  <%- partial('_partial/article', {post: page}) %>
 <% } %>
