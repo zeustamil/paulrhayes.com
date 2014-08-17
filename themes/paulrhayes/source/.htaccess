@@ -5,8 +5,9 @@ RewriteRule ^(\d{4})-\d{2}/?$ /archive/$1/ [R=301,NC,L]
 RewriteRule ^(\d{4})/(\d{2})/?$ /archive/$1/$2/ [R=301,NC,L]
 RewriteRule ^page/ /archive/ [R=301,NC,L]
 RewriteRule ^feed/ /atom.xml [R=301,NC,L]
-RewriteRule ^experiments/$ /category/experiments/ [R=301,NC,L]
-RewriteRule ^photography/$ /category/photography/ [R=301,NC,L]
+RewriteRule ^email/?$ /contact/ [R=301,NC,L]
+RewriteRule ^experiments/?$ /category/experiments/ [R=301,NC,L]
+RewriteRule ^photography/?$ /category/photography/ [R=301,NC,L]
 
 # Avoid www. in URL
 RewriteBase /
