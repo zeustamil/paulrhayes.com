@@ -14,5 +14,13 @@
   <script src="../tests/<%= experiment.test %>.js"></script>
 <% } %>
 <% if (experiment.js) { %>
-  <script src="<%= experiment.js %>?<%= config.site_build %>"></script>
+  <% if (experiment.js instanceof Array) {
+    for(var i = 0, l = experiment.js.length; i < l; i++) {
+      %>
+      <script src="<%= experiment.js[i] %>?<%= config.site_build %>"></script>
+      <%
+    }
+  } else { %>
+    <script src="<%= experiment.js %>?<%= config.site_build %>"></script>
+  <% } %>
 <% } %>
