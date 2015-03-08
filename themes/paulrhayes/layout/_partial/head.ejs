@@ -21,8 +21,6 @@ if (is_archive()){
   title = 'Tag: ' + page.tag;
 } else if (page.experiment) {
   title = 'Experiment: ' + title
-} else if (page.layout == 'photo') {
-  title = title + ' (Photo)'
 }
 %>
 <title><% if (title){ %><%= title %> — <% } %><%= config.title %></title>

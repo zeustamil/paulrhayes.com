@@ -4,7 +4,6 @@ layout: 'page'
 
 * All experiments on paulrhayes.com are [released under an MIT license](https://github.com/fofr/paulrhayes.com-experiments/blob/master/LICENSE.txt).
 * I’m not interested in building a 3D cube for your website.
-* Licenses to use photos, including commercially, may be requested and purchased through [500px](http://500px.com/FofR/store). If you’d like an exclusive license, feel free to email me at the address below.
 
 ## Work with me
 
@@ -14,6 +13,7 @@ Email me at {% contact %}
 
 ## Elsewhere
 
+* [Photography](http://paulhayes.photography)
 * [Twitter](http://twitter.com/fofr)
 * [Github](http://github.com/fofr)
 * [Flickr](http://flickr.com/prhayes)
