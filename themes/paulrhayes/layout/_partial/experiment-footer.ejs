@@ -11,7 +11,7 @@
   </script>
 <% } %>
 <% if (experiment.test) { %>
-  <script src="../tests/<%= experiment.test %>.js"></script>
+  <script src="/js/tests/<%= experiment.test %>.js"></script>
 <% } %>
 <% if (experiment.js) { %>
   <script src="<%= experiment.js %>?<%= config.site_build %>"></script>
