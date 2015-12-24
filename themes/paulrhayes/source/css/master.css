@@ -488,7 +488,11 @@ a.site-title:active {
   width: 780px;
   margin: 0 auto;
   position: relative;
-  color: #555;
+  color: #333;
+}
+
+.article a {
+  color: #333;
 }
 
 .article-meta {
@@ -606,12 +610,19 @@ iframe.vimeo {
  ========================================================================== */
 
 code {
-  line-height: 18px;
+  font-size: 0.9em;
 }
 
 pre, code {
   font-family: Consolas,'Courier New',Courier,monospace;
   overflow: auto;
+  font-weight: bold;
+}
+
+pre code {
+  padding: 0;
+  background: none;
+  font-size: 1em;
 }
 
 pre {
@@ -619,9 +630,7 @@ pre {
   padding: 1.14285714285714em 20px; /* 16px/14px */
   position: relative;
   background: #fff;
-  background: rgba(255,255,255,0.7);
-  font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.14285714285714em; /* 16px/14px */
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -646,8 +655,8 @@ pre.thin {
 
 .str { color: #197434; }
 .kwd { color: #895c4a; }
-.com { color: #8f530f; }
-.typ { color: #f7b37b; }
+.com { color: #999; }
+.typ { color: #ff7300; }
 .lit { color: #8f2c32; }
 .pun { color: #333; }
 .pln { color: #c56436; }
