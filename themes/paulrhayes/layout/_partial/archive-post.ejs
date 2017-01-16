@@ -1,9 +1,9 @@
 <li class="listing-item clearfix">
   <span class="listing-dots"></span>
-  <span class="listing-title">
-    <a href="<%- config.root %><%- post.path %>" class="listing-link"><%= post.title %></a>
-  </span>
   <time datetime="<%= date_xml(post.date) %>" class="pull-right listing-date" pubdate>
     <%= date(post.date, 'MMM YYYY') %>
   </time>
+  <span class="listing-title">
+    <a href="<%- config.root %><%- post.path %>" class="listing-link"><%= post.title %></a>
+  </span>
 </li>
