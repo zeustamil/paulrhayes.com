@@ -3,7 +3,6 @@ tags:
   - framework
   - js
   - lastfm
-id: 164
 categories:
   - code
 date: 2013-09-10 14:02:22

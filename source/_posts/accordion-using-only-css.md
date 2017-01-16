@@ -3,7 +3,6 @@ tags:
   - css3
   - transitions
   - webkit
-id: 89
 categories:
   - experiments
 date: 2009-06-25 14:46:36

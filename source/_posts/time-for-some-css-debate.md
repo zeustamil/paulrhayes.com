@@ -3,7 +3,6 @@ tags:
   - css3
   - debate
   - standards
-id: 41
 categories:
   - discussion
 date: 2009-03-27 17:25:51

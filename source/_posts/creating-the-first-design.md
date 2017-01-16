@@ -2,7 +2,6 @@ title: 'Creating the first design'
 tags:
   - theme
   - typography
-id: 5
 categories:
   - design
 date: 2009-03-11 16:20:30

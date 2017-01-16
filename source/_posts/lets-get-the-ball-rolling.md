@@ -1,8 +1,7 @@
 title: 'Let’s get the ball rolling'
 tags:
   - sandbox
-  - Wordpress
-id: 62
+  - wordpress
 categories:
   - design
 date: 2009-03-05 17:01:00

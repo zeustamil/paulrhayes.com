@@ -2,7 +2,6 @@ title: 'Moving markup towards HTML5'
 tags:
   - html5
   - javascript
-id: 78
 categories:
   - code
 date: 2009-06-10 15:03:31

@@ -5,7 +5,6 @@ tags:
   - css3
   - modal
   - transitions
-id: 139
 categories:
   - experiments
 date: 2011-03-17 20:52:29

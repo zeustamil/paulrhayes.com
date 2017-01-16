@@ -6,7 +6,6 @@ tags:
   - transformations
   - transitions
   - webkit
-id: 124
 categories:
   - code
   - experiments

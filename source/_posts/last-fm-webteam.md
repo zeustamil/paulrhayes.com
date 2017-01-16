@@ -4,7 +4,6 @@ tags:
   - lastfm
   - process
   - team
-id: 161
 categories:
   - process
 date: 2013-06-16 17:49:40

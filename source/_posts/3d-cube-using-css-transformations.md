@@ -4,7 +4,6 @@ tags:
   - cube
   - transformations
   - transitions
-id: 67
 categories:
   - experiments
 date: 2009-04-30 15:54:28

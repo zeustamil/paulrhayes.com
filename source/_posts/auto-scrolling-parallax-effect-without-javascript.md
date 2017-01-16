@@ -4,7 +4,6 @@ tags:
   - parallax
   - transitions
   - webkit
-id: 48
 categories:
   - experiments
 date: 2009-04-01 23:40:16

@@ -3,7 +3,6 @@ tags:
   - css3
   - media-queries
   - transitions
-id: 145
 categories:
   - code
 date: 2011-11-05 14:06:51

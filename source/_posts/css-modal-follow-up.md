@@ -5,7 +5,6 @@ tags:
   - html5
   - modal
   - transformations
-id: 141
 categories:
   - code
 date: 2011-04-26 21:43:51

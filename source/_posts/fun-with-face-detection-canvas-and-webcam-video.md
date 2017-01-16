@@ -4,7 +4,6 @@ tags:
   - 'face detection'
   - getUserMedia
   - webcam
-id: 154
 categories:
   - experiments
 date: 2012-11-18 23:43:27

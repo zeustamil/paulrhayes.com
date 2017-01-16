@@ -1,5 +1,4 @@
 title: 'A new look, and a new domain'
-id: 103
 categories:
   - design
 date: 2010-08-12 07:58:53

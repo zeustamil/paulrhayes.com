@@ -2,7 +2,6 @@ title: 'Useful CSS snippets'
 tags:
   - css
   - css3
-id: 104
 categories:
   - code
 date: 2010-08-12 08:56:14

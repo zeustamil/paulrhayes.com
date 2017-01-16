@@ -4,7 +4,6 @@ tags:
   - transformations
   - transitions
   - webkit
-id: 23
 categories:
   - experiments
 date: 2009-03-24 17:16:44

@@ -3,7 +3,6 @@ tags:
   - css3
   - media-queries
   - responsive-enhancement
-id: 116
 categories:
   - code
   - design
