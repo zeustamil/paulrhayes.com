@@ -10,7 +10,7 @@ date: 2011-11-05 14:06:51
 
 A common problem in responsive design is the linking of CSS3’s media queries and JavaScript. For instance on a larger screen we can restyle, but it might be useful to use JavaScript and pull in different content at the same time, eg higher quality images. With CSS transitions, specifically their transitionEnd events, we can marry up our media queries and JavaScript perfectly, without resorting to window resize events.
 
-We need a way of testing media query rules in JavaScript, and a way of generating events when a new rule matches. There’s a specification for exactly this: there’s [matchMedia](http://www.w3.org/TR/cssom-view/#extensions-to-the-window-interface) to see if a query matches, and [MediaQueryList](http://www.w3.org/TR/cssom-view/#the-mediaquerylist-interface) with MediaQueryListeners to detect and respond to changes.
+We need a way of testing media query rules in JavaScript, and a way of generating events when a new rule matches. There’s a specification for exactly this: there’s [matchMedia](https://www.w3.org/TR/cssom-view/#extensions-to-the-window-interface) to see if a query matches, and [MediaQueryList](https://www.w3.org/TR/cssom-view/#the-mediaquerylist-interface) with MediaQueryListeners to detect and respond to changes.
 
 matchMedia has support in Chrome, Firefox 6+ and Safari 5.1+ and there’s even a [polyfill](https://github.com/paulirish/matchMedia.js/blob/master/matchMedia.js) (by Scott Jehl, Paul Irish, Nicholas Zakas) for other browsers. So we can happily perform our one off tests in JavaScript (probably on page load):
 

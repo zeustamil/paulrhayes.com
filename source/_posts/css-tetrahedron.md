@@ -23,7 +23,7 @@ For now this only works in Safari 5.0.2+ and iOS, although 3D transforms will su
 <time datetime="2012-11-24">24 Nov 2012</time> Code updated with a [pull request](https://github.com/fofr/paulrhayes.com-experiments/pull/2) from [jbecousse](https://github.com/jbecousse) to improve the angle of rotation and the shades of the different faces.
 </div>
 
-<div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/19500636" width="612" height="408" frameborder="0"></iframe></div>
+<div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/19500636" width="612" height="408" frameborder="0"></iframe></div>
 
 Combining squares and triangles, [cubes](http://www.paulrhayes.com/2010-09/3d-css-cube-ii-touch-gestures-click-and-drag/) and pyramids, all sorts of 3D structures are now possible, if you are so inclined. Not necessarily useful, but possible.
 

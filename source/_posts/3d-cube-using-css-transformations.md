@@ -9,7 +9,7 @@ categories:
 date: 2009-04-30 15:54:28
 ---
 
-The impression of a three dimensional cube can be created using modern CSS techniques, without the need for JavaScript, imagery, canvas or SVG. Using the proprietary transform property to skew and rotate shaded rectangles, individual cube faces can combine to form a 3D object. Currently only supported in recent WebKit and Gecko based browsers, most importantly Firefox 3.5+ `-moz-transform` ([documentation](https://developer.mozilla.org/En/CSS/CSS_transform_functions)) and Safari 3.2+ `-webkit-transform` ([documentation](http://webkit.org/specs/CSSVisualEffects/CSSTransforms.html)).
+The impression of a three dimensional cube can be created using modern CSS techniques, without the need for JavaScript, imagery, canvas or SVG. Using the proprietary transform property to skew and rotate shaded rectangles, individual cube faces can combine to form a 3D object. Currently only supported in recent WebKit and Gecko based browsers, most importantly Firefox 3.5+ `-moz-transform` ([documentation](https://developer.mozilla.org/En/CSS/CSS_transform_functions)) and Safari 3.2+ `-webkit-transform` ([documentation](https://webkit.org/specs/CSSVisualEffects/CSSTransforms.html)).
 
 To demonstrate the power of this effect a second experiment with multiple cubes and proprietary WebKit transitions is also available.
 

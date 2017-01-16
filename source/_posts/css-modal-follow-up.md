@@ -14,7 +14,7 @@ In [my original post](/2011-03/css-modal/) I explained how to create a CSS only 
 
 <time datetime="2013-02-10">10 Feb 2013</time>: The site’s design has been updated and the comment form reverted to a simpler, non-modal one. The original can still be seen in the video below.
 
-<div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/22774103" width="612" height="408" frameborder="0"></iframe></div>
+<div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/22774103" width="612" height="408" frameborder="0"></iframe></div>
 
 All references to the :target pseudo-selector have been removed, instead an “active” class is toggled using JavaScript. The CSS modal still uses an opacity transition but pointer events are gone. The default is now display:none with an intermediate state that renders the modal as display:block (remember it still begins at opacity: 0).
 
@@ -36,7 +36,7 @@ supportPlaceholder: function() {
 }()
 ```
 
-See [Dive into HTML5](http://diveintohtml5.org/detect.html#input-placeholder) for more.
+See [Dive into HTML5](http://diveintohtml5.info/detect.html#input-placeholder) for more.
 
 The close link text which has an :after pseudo-element (ie the X) is no longer hidden, instead it becomes the cancel link and is essential for browsers that can’t comprehend generated content.
 

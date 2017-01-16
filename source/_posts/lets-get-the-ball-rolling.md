@@ -13,4 +13,4 @@ This blog has been devised as a spring board for my ideas whilst serving as a pr
 
 As an exciting starting point, rather than build my own Wordpress theme from scratch I have opted to use the excellent Sandbox theme — _beautiful on the inside_. With its hugely powerful class-generating functions Sandbox creates clean and accessible markup with a huge array of context sensitive CSS selectors, creating an _exceptionally extensible foundation_.
 
-For more information on the Sandbox Wordpress theme I recommend checking out the official [Sandbox website](http://www.plaintxt.org/themes/sandbox/) hosted at plaintxt or the project home on [Google Code](http://code.google.com/p/sandbox-theme/).
+For more information on the Sandbox Wordpress theme I recommend checking out the official [Sandbox website](http://www.plaintxt.org/themes/sandbox/) hosted at plaintxt or the project home on [Google Code](https://code.google.com/p/sandbox-theme/).

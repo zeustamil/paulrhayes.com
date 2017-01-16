@@ -9,7 +9,7 @@ categories:
 date: 2009-03-24 17:16:44
 ---
 
-Having read the blurb around [Safari’s CSS transitions](http://webkit.org/blog/138/css-animation/) I opted to familiarize myself with a quick project — the aim of which was to create a functional, CSS only, analogue clock.
+Having read the blurb around [Safari’s CSS transitions](https://webkit.org/blog/138/css-animation/) I opted to familiarize myself with a quick project — the aim of which was to create a functional, CSS only, analogue clock.
 
 ## Result
 
@@ -45,7 +45,7 @@ Before getting into the nitty gritty I created four images, a clock face and thr
 }
 ```
 
-The magic that rotates the clock’s hands comes via two WebKit specific CSS properties, `-webkit-transition` ([documentation](http://webkit.org/specs/CSSVisualEffects/CSSTransitions.html)) and `-webkit-transform` ([documentation](http://webkit.org/specs/CSSVisualEffects/CSSTransforms.html)). The transform property can alter the appearance of an element via a two dimensional transformation, for instance: scaling, rotating and skewing a DIV element. In this case it is used to rotate the clock hands to the correct angles; the CSS below puts the hour hand at 3 o’clock:
+The magic that rotates the clock’s hands comes via two WebKit specific CSS properties, `-webkit-transition` ([documentation](https://webkit.org/specs/CSSVisualEffects/CSSTransitions.html)) and `-webkit-transform` ([documentation](https://webkit.org/specs/CSSVisualEffects/CSSTransforms.html)). The transform property can alter the appearance of an element via a two dimensional transformation, for instance: scaling, rotating and skewing a DIV element. In this case it is used to rotate the clock hands to the correct angles; the CSS below puts the hour hand at 3 o’clock:
 
 ```css
 #clock img[src*='hour'] {

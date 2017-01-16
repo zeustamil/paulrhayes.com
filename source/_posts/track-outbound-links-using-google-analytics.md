@@ -11,7 +11,7 @@ date: 2009-03-18 16:06:20
 
 Track everything, lest vital visitor trends fall through the cracks — that’s my newly endorsed web analytics doctrine. As a precursor to the quantitative _what_ and the qualitative _why_ we need that cold hard data before analysis can begin; Google Analytics is the popular harvester of choice and out of the box it grabs a lot. Visits, Pageviews, Screen resolution, et al — <abbr title="Google Analytics">GA</abbr> seemingly has all your conventional data needs covered. But one significant trend is lacking — how visitors leave your site, specifically through outbound links on a page, data that inevitably leads to a what and an avenue for investigating the why. For instance, “Which partner sites are attracting the highest click throughs?” or more generally “Why do visitors leave my site?”.
 
-GA gives the ability to [create your own events](http://code.google.com/apis/analytics/docs/eventTrackerGuide.html) with a category, action, label and numerical value using the syntax:
+GA gives the ability to [create your own events](https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide) with a category, action, label and numerical value using the syntax:
 
 ```js
 _trackEvent(category, action, optional_label, optional_value);
@@ -19,7 +19,7 @@ _trackEvent(category, action, optional_label, optional_value);
 
 Hence, on an outbound link click, by calling this JavaScript method you can trigger a tracked event in GA. An obtrusive `onclick` attribute on every outbound link is both cumbersome to implement and difficult to manage, it also goes against the best practices of progressive enhancement and unobtrusiveness.
 
-The solution is to attach a click event listener to each of the outbound links on the page, and the question becomes how to do that. CSS3 comes with a couple of handy [new selectors](http://www.w3.org/TR/css3-selectors/) that we can use in combination with Prototype or jQuery to root out the correct links. The appropriate selectors:
+The solution is to attach a click event listener to each of the outbound links on the page, and the question becomes how to do that. CSS3 comes with a couple of handy [new selectors](https://www.w3.org/TR/css3-selectors/) that we can use in combination with Prototype or jQuery to root out the correct links. The appropriate selectors:
 
 > E[foo^="bar"] an E element whose "foo" attribute value begins exactly with the string "bar">
 > E[foo*="bar"] an E element whose "foo" attribute value contains the substring "bar">

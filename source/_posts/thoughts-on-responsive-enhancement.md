@@ -10,11 +10,11 @@ date: 2010-10-29 16:36:49
 
 (Responsive enhancement is now known as responsive web design)
 
-At [AsyncJS](http://asyncjs.com/responsive-enhancement/) in Brighton last night, [Jeremy Keith](http://adactio.com/journal/1700/) gave an overview of “Responsive enhancement” — adapting a layout in response to browser or device capabilities. After considering why fixed width designs are so prevalent, via a brief history lesson, we delved into the tools and methods by which a truly responsive design can be implemented, focussing primarily on size constraints but also touching on troubles surrounding speed.
+At [AsyncJS](https://asyncjs.com/) in Brighton last night, [Jeremy Keith](https://adactio.com/journal/1700/) gave an overview of “Responsive enhancement” — adapting a layout in response to browser or device capabilities. After considering why fixed width designs are so prevalent, via a brief history lesson, we delved into the tools and methods by which a truly responsive design can be implemented, focussing primarily on size constraints but also touching on troubles surrounding speed.
 
 This article is a brain dump from last night’s event.
 
-CSS3 media queries let us adapt CSS rules to different viewport properties; width, height, pixel ratio, even colour and monochrome screens ([full list](http://www.w3.org/TR/css3-mediaqueries/#contents)). Aside: the Amazon Kindle (which uses webkit) reports itself as colour, with 8 levels, rather than monochrome.
+CSS3 media queries let us adapt CSS rules to different viewport properties; width, height, pixel ratio, even colour and monochrome screens ([full list](https://www.w3.org/TR/css3-mediaqueries/#contents)). Aside: the Amazon Kindle (which uses webkit) reports itself as colour, with 8 levels, rather than monochrome.
 
 The common process is to design for the desktop and use media queries to adapt downwards. On thinner devices content is linearised, navigation moves to the top or bottom, less important elements are sometimes hidden; everything is simplified down to the page’s core use case.
 
@@ -28,7 +28,7 @@ Luke Wroblewski has suggested designing for [mobile first](http://www.lukew.com/
 
 All mobile devices and older browsers would get the simplified, linear design. This works on the assumption that desktop browsers support media queries, IE 8 and below do not, ergo they’ll be seeing the linear site design. This may be acceptable, but in the majority of cases IE will need some sort of hack to get the full featured version.
 
-Using conditional IE comments an IE layout can be hacked in. The IE specific styles are likely to repeat existing code, undesirable, but unavoidable? This is still a one size fits all approach as IE will not adapt to screen or text size. For this we need a JS poly-fill, one that enables media queries in older browsers. There’s a library on Google Code that does just this, [CSS3 Media Queries JS](http://code.google.com/p/css3-mediaqueries-js/).
+Using conditional IE comments an IE layout can be hacked in. The IE specific styles are likely to repeat existing code, undesirable, but unavoidable? This is still a one size fits all approach as IE will not adapt to screen or text size. For this we need a JS poly-fill, one that enables media queries in older browsers. There’s a library on Google Code that does just this, [CSS3 Media Queries JS](https://code.google.com/p/css3-mediaqueries-js/).
 
 Building a page that can be linearised means putting the most important information first in the source code. This assumes that the context of “what is important” is similar on different devices. If the context is different, that makes a case for serving different content, usually via a standalone mobile site (which should always come with a link to the full version).
 
@@ -37,6 +37,6 @@ And on the topic of serving different content, there is also the speed problem. 
 To round this brain dump off, I’ll recommend some other articles on the subject, which go into some of the technical aspects in a little more depth.
 
 Ethan Marcotte’s [Responsive Web Design](http://www.alistapart.com/articles/responsive-web-design/)
-Jeremy Keith’s [Responsive Enhancement](http://adactio.com/journal/1700/)
+Jeremy Keith’s [Responsive Enhancement](https://adactio.com/journal/1700/)
 Yiibu’s [Rethinking the mobile web](http://yiibu.com/articles/rethinking-the-mobile-web/)
 PPK’s [State of Mobile Web Development](http://www.quirksmode.org/blog/archives/2010/09/state_of_mobile.html)

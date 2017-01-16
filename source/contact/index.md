@@ -14,7 +14,7 @@ Email me at {% contact %}
 ## Elsewhere
 
 * [Photography](http://paulhayes.photography)
-* [Twitter](http://twitter.com/fofr)
-* [Github](http://github.com/fofr)
-* [Flickr](http://flickr.com/prhayes)
-* [500px](http://500px.com/FofR)
+* [Twitter](https://twitter.com/fofr)
+* [Github](https://github.com/fofr)
+* [Flickr](https://flickr.com/prhayes)
+* [500px](https://500px.com/FofR)
