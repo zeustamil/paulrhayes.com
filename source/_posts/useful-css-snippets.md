@@ -3,7 +3,7 @@ tags:
   - css
   - css3
 categories:
-  - code
+  - experiments
 date: 2010-08-12 08:56:14
 ---
 

@@ -3,11 +3,11 @@ tags:
   - html5
   - javascript
 categories:
-  - code
+  - writing
 date: 2009-06-10 15:03:31
 ---
 
-Having read John Resig’s "[HTML5 Shiv](http://ejohn.org/blog/html5-shiv/)" article and Remy Sharp’s "[HTML5 enabling script](http://remysharp.com/2009/01/07/html5-enabling-script/)", it felt like the right time to begin the full fledged migration from XHTML to a cross browser compatible HTML5 blog. All in all the process of updating the templates was painless, taking about an hour or so to modify the Wordpress Sandbox theme.
+Having read John Resig’s [HTML5 Shiv](http://ejohn.org/blog/html5-shiv/) article and Remy Sharp’s [HTML5 enabling script](http://remysharp.com/2009/01/07/html5-enabling-script/), it felt like the right time to begin the full fledged migration from XHTML to a cross browser compatible HTML5 blog. All in all the process of updating the templates was painless, taking about an hour or so to modify the Wordpress Sandbox theme.
 
 To enable IE6 and IE7 support for new HTML5 tags, which are not naturally styled, some JavaScript is necessary. As per the shiv article, Remy Sharp has a small script that creates DOM elements, one for each type of new HTML5 tag, the simple act of doing so leads Internet Explorer to apply styles to said tags. I slightly modified the existing script to add the recently proposed `hgroup`.
 

@@ -4,7 +4,7 @@ tags:
   - media-queries
   - transitions
 categories:
-  - code
+  - experiments
 date: 2011-11-05 14:06:51
 ---
 

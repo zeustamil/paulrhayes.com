@@ -1,7 +1,6 @@
 title: 'Face detection using webcams and canvas'
 tags:
   - canvas
-  - 'face detection'
   - getUserMedia
   - webcam
 categories:

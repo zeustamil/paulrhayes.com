@@ -5,7 +5,7 @@ tags:
   - javascript
   - prototype
 categories:
-  - code
+  - experiments
 date: 2009-03-18 16:06:20
 ---
 

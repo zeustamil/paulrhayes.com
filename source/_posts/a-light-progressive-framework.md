@@ -1,10 +1,10 @@
-title: 'A small JavaScript framework'
+title: 'A module instantiation pattern for Last.fm'
 tags:
   - framework
   - js
   - lastfm
 categories:
-  - code
+  - projects
 date: 2013-09-10 14:02:22
 ---
 

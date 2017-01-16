@@ -4,7 +4,7 @@ tags:
   - debate
   - standards
 categories:
-  - discussion
+  - experiments
 date: 2009-03-27 17:25:51
 ---
 

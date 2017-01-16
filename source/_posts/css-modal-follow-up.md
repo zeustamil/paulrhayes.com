@@ -6,7 +6,7 @@ tags:
   - modal
   - transformations
 categories:
-  - code
+  - experiments
 date: 2011-04-26 21:43:51
 ---
 

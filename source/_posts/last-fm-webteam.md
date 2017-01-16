@@ -1,11 +1,11 @@
-title: 'Last.fm Webteam'
+title: 'The Last.fm Webteam'
 tags:
   - agile
   - lastfm
   - process
   - team
 categories:
-  - process
+  - projects
 date: 2013-06-16 17:49:40
 ---
 

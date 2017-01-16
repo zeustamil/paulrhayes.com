@@ -4,11 +4,11 @@ tags:
   - media-queries
   - responsive-enhancement
 categories:
-  - code
-  - design
-  - discussion
+  - writing
 date: 2010-10-29 16:36:49
 ---
+
+(Responsive enhancement is now known as responsive web design)
 
 At [AsyncJS](http://asyncjs.com/responsive-enhancement/) in Brighton last night, [Jeremy Keith](http://adactio.com/journal/1700/) gave an overview of “Responsive enhancement” — adapting a layout in response to browser or device capabilities. After considering why fixed width designs are so prevalent, via a brief history lesson, we delved into the tools and methods by which a truly responsive design can be implemented, focussing primarily on size constraints but also touching on troubles surrounding speed.
 
@@ -36,7 +36,7 @@ And on the topic of serving different content, there is also the speed problem. 
 
 To round this brain dump off, I’ll recommend some other articles on the subject, which go into some of the technical aspects in a little more depth.
 
-Ethan Marcotte’s "[Responsive Web Design](http://www.alistapart.com/articles/responsive-web-design/)"
-Jeremy Keith’s "[Responsive Enhancement](http://adactio.com/journal/1700/)"
-Yiibu’s "[Rethinking the mobile web](http://yiibu.com/articles/rethinking-the-mobile-web/)"
-PPK’s "[State of Mobile Web Development](http://www.quirksmode.org/blog/archives/2010/09/state_of_mobile.html)"
+Ethan Marcotte’s [Responsive Web Design](http://www.alistapart.com/articles/responsive-web-design/)
+Jeremy Keith’s [Responsive Enhancement](http://adactio.com/journal/1700/)
+Yiibu’s [Rethinking the mobile web](http://yiibu.com/articles/rethinking-the-mobile-web/)
+PPK’s [State of Mobile Web Development](http://www.quirksmode.org/blog/archives/2010/09/state_of_mobile.html)

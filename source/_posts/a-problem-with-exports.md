@@ -1,9 +1,10 @@
-title: 'A problem with exports'
+title: 'Favourite bug in 2015: When ‘exports’ isn’t falsy'
 tags:
   - bug
   - js
+  - gds
 categories:
-  - code
+  - projects
 date: 2015-12-24
 ---
 

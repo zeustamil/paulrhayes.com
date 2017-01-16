@@ -7,7 +7,6 @@ tags:
   - transitions
   - webkit
 categories:
-  - code
   - experiments
 date: 2011-02-10 23:33:33
 ---
