@@ -7,7 +7,6 @@ tags:
   - transformations
   - transitions
   - webkit
-id: 108
 categories:
   - code
   - experiments
@@ -21,9 +20,9 @@ One year on and the cube still only works in Safari. Chrome, which says it suppo
 
 <time datetime="2012-02-12">12 Feb 2012</time>: Experiment updated for Firefox 10 which supports 3D transforms. Although the perspective appears off, probably due to a [perspective-origin bug](https://bugzilla.mozilla.org/show_bug.cgi?id=726397).
 
-<div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/19501428" width="612" height="408" frameborder="0"></iframe></div>
+<div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/19501428" width="612" height="408" frameborder="0"></iframe></div>
 
-It works relatively simply: on click the start co-ordinates are saved and on drag the difference between current drag position and starting co-ordinates are applied to the cube as a transform, which is completed after the specified transition duration. Many thanks to [Remy Sharp](http://remysharp.com) and his rubik’s experiment, which got me started with a lot of the basics.
+It works relatively simply: on click the start co-ordinates are saved and on drag the difference between current drag position and starting co-ordinates are applied to the cube as a transform, which is completed after the specified transition duration. Many thanks to [Remy Sharp](https://remysharp.com) and his rubik’s experiment, which got me started with a lot of the basics.
 
 ## Touch tweaks
 

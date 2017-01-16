@@ -3,9 +3,8 @@ tags:
   - css3
   - debate
   - standards
-id: 41
 categories:
-  - discussion
+  - experiments
 date: 2009-03-27 17:25:51
 ---
 
@@ -21,7 +20,7 @@ This yielded some opposition but the majority supported the notion, [Travis Alma
 
 > CSS should be a style guide, not a programming language.
 
-Before highlighting that the road to behaviour in CSS has already begun with the much used :hover, accompanied by :active, and :focus — [user action pseudo-classes](http://www.w3.org/TR/css3-selectors/#useraction-pseudos), <cite>agents sometimes change the rendering in response to user actions</cite>; response being the keyword.
+Before highlighting that the road to behaviour in CSS has already begun with the much used :hover, accompanied by :active, and :focus — [user action pseudo-classes](https://www.w3.org/TR/css3-selectors/#useraction-pseudos), <cite>agents sometimes change the rendering in response to user actions</cite>; response being the keyword.
 
 [Will Peavy](http://willpeavy.net/) comments that these behaviours reek of IE’s abandoned CSS expressions, and [edthered](http://doggydoo.net/) asks:
 

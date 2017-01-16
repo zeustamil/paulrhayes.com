@@ -1,8 +1,8 @@
-title: 'Design prototyping with Git and Github'
+title: 'Prototyping GOV.UK tools with Git and Github'
+tags:
+  - gds
 categories:
-  - code
-  - design
-  - prototyping
+  - projects
 date: 2014-07-25 22:20:49
 ---
 

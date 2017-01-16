@@ -1,10 +1,8 @@
 title: 'Face detection using webcams and canvas'
 tags:
   - canvas
-  - 'face detection'
   - getUserMedia
   - webcam
-id: 154
 categories:
   - experiments
 date: 2012-11-18 23:43:27
@@ -18,13 +16,13 @@ To this end, here are two experiments which do just that, one which places a mas
 
 [View experiment](/experiments/webcam/mask.html) | [GitHub](https://github.com/fofr/paulrhayes.com-experiments/tree/master/webcam)
 
-<div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/53803605" width="612" height="408" frameborder="0"></iframe></div>
+<div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/53803605" width="612" height="408" frameborder="0"></iframe></div>
 
 ## Scaling content experiment
 
 [View experiment](/experiments/webcam/) | [GitHub](https://github.com/fofr/paulrhayes.com-experiments/tree/master/webcam)
 
-<div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/53803604" width="612" height="408" frameborder="0"></iframe></div>
+<div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/53803604" width="612" height="408" frameborder="0"></iframe></div>
 
 ## Background
 
@@ -32,7 +30,7 @@ Back in 2009, when 3D transforms first appeared on the scene, and when I first t
 
 In 2010, at Full Frontal, Paul Rouget reminded us of the possibilities of the webcam in the browser, but back then I didn’t make much of it. I needed a custom build of Firefox and that device API was eventually deprecated.
 
-Fast forward to today and we have the [getUserMedia (gUM) API](http://dev.w3.org/2011/webrtc/editor/getusermedia.html), for accessing a user’s microphone(s) and webcam(s). This comes as part of the real time communications spec, and it’s supported, somewhat, in Chrome 21+ and Opera 12+, albeit in slightly different guises.
+Fast forward to today and we have the [getUserMedia (gUM) API](https://dev.w3.org/2011/webrtc/editor/getusermedia.html), for accessing a user’s microphone(s) and webcam(s). This comes as part of the real time communications spec, and it’s supported, somewhat, in Chrome 21+ and Opera 12+, albeit in slightly different guises.
 
 Face detection in canvas has also improved, and we have [LiuLiu’s “not-so-slow” face detection scripts](https://github.com/liuliu/ccv) (for those interested, [the technique in JavaScript is explained on LiuLiu’s blog](http://liuliu.me/eyes/javascript-face-detection-explained/)). What’s more, the venerable Wes Bos [used this in video](http://wesbos.com/html5-video-face-detection-canvas-javascript/), last year, to great effect. Much of my experimentation has been based on this, and I’d urge you to have a read yourself.
 

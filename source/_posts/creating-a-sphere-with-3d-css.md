@@ -6,9 +6,7 @@ tags:
   - transformations
   - transitions
   - webkit
-id: 124
 categories:
-  - code
   - experiments
 date: 2011-02-10 23:33:33
 ---
@@ -20,7 +18,7 @@ Works in the latest Safari and iOS (just about runs on an iPhone 4).
 
 <time datetime="2012-02-12">__12 Feb 2012__</time>: Experiment updated to support `-moz` now that Firefox 10 supports 3D transforms.
 
-<div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/19806423" width="612" height="408" frameborder="0"></iframe></div>
+<div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/19806423" width="612" height="408" frameborder="0"></iframe></div>
 
 Recently I’ve been looking at creating applicable 3D carousels. These rely on positioning panels in a circle around a central point (ie. rotation about the Y-axis), I put these panels in an unordered list. A natural extension is to duplicate each `<ul>` and rotate about the X-axis. With ‘A’ rounds (or lists), and ‘B’ panels per round (`<li>`s), I built a script that would distribute these in a circular manner, panels about Y-axis, lists about the X-axis, creating a sphere.
 
@@ -57,7 +55,7 @@ The generated HTML is simply a couple of `<div>`s containing lists:
 </div>
 ```
 
-To transform each set of panels into a circle the total number is divided by 360 to get the angle of rotation. Merely rotating will put all panels on top of each other, translating in the Z axis will move them out from the centre point. The correct translation distance so the panels slightly overlap (ie the circle radius) is worked out with some [simple trigonometry](http://en.wikipedia.org/wiki/Trigonometry#Mnemonics). Lists are rotated in the X axis, simply the number of lists divided by 360.
+To transform each set of panels into a circle the total number is divided by 360 to get the angle of rotation. Merely rotating will put all panels on top of each other, translating in the Z axis will move them out from the centre point. The correct translation distance so the panels slightly overlap (ie the circle radius) is worked out with some [simple trigonometry](https://en.wikipedia.org/wiki/Trigonometry#Mnemonics). Lists are rotated in the X axis, simply the number of lists divided by 360.
 
 Looping through each panel for each list, the angles of rotation are gradually increased by the calculated increments and applied to the elements:
 

@@ -5,7 +5,6 @@ tags:
   - css3
   - modal
   - transitions
-id: 139
 categories:
   - experiments
 date: 2011-03-17 20:52:29
@@ -17,7 +16,7 @@ Using CSS3 techniques a modal box can be created without JavaScript or images. W
 
 <time datetime="2012-02-12">12 Feb 2012</time>: Modal experiment updated for Firefox 10 which has better transform, transition and animation performance. Also supports 3D transforms.
 
-<div class="video-wrapper"><iframe class="vimeo" src="http://player.vimeo.com/video/21170189" width="612" height="408" frameborder="0"></iframe></div>
+<div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/21170189" width="612" height="408" frameborder="0"></iframe></div>
 
 In this experiment, clicking an ‘open’ link pops up a dialogue with a smooth hardware accelerated bounce (where supported). When open all other elements on the page are non-clickable. Closing the modal is also animated, with a minimise effect. I’ve marked up the modal using `<aside>`, but depending on the purpose of yours, `<nav>` or probably `<details>` might be more appropriate.
 

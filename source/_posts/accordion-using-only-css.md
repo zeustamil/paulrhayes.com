@@ -3,7 +3,6 @@ tags:
   - css3
   - transitions
   - webkit
-id: 89
 categories:
   - experiments
 date: 2009-06-25 14:46:36
@@ -44,7 +43,7 @@ Each part of the accordion has an ID, heading and content region. The header inc
 </div>
 ```
 
-The CSS then relies on the `:target` pseudo-class to apply different styles to the chosen section — increasing the height and, in large content cases, altering the overflow behaviour to allow scrolling. To animate the opening and closing of sections the `-webkit-transition` property is needed ([documentation](http://www.w3.org/TR/css3-transitions/)), in this case acting on the height attribute for a duration of 0.3 seconds using the ease-in timing function.
+The CSS then relies on the `:target` pseudo-class to apply different styles to the chosen section — increasing the height and, in large content cases, altering the overflow behaviour to allow scrolling. To animate the opening and closing of sections the `-webkit-transition` property is needed ([documentation](https://www.w3.org/TR/css3-transitions/)), in this case acting on the height attribute for a duration of 0.3 seconds using the ease-in timing function.
 
 Stripping out the styling, the CSS boils down to:
 

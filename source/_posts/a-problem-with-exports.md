@@ -1,9 +1,10 @@
-title: 'A problem with exports'
+title: 'Favourite bug in 2015: When ‘exports’ isn’t falsy'
 tags:
   - bug
   - js
+  - gds
 categories:
-  - code
+  - projects
 date: 2015-12-24
 ---
 
@@ -24,7 +25,7 @@ Here's what you'll usually see:
 typeof exports !== 'undefined' ? exports : SomeLibrary
 ```
 
-At [GOV.UK](https://www.gov.uk) we use [Hogan](http://twitter.github.io/hogan.js/) for javascript templating. At the bottom of the Hogan library you’ll [find a similar line](https://github.com/twitter/hogan.js/blob/master/web/builds/3.0.2/hogan-3.0.2.js#L754):
+At [GOV.UK](https://www.gov.uk) we use [Hogan](https://twitter.github.io/hogan.js/) for javascript templating. At the bottom of the Hogan library you’ll [find a similar line](https://github.com/twitter/hogan.js/blob/master/web/builds/3.0.2/hogan-3.0.2.js#L754):
 
 ```js
 (typeof exports !== 'undefined' ? exports : Hogan);
@@ -52,9 +53,9 @@ heading
 Internet Explorer started it and now it's a standard:
 
 * [WHATWG](https://html.spec.whatwg.org/#named-access-on-the-window-object)
-* [W3C](http://www.w3.org/html/wg/drafts/html/master/browsers.html#named-access-on-the-window-object)
+* [W3C](https://www.w3.org/html/wg/drafts/html/master/browsers.html#named-access-on-the-window-object)
 
-There's a lot of bad things about this, [Bob Ince on Stack Overflow](http://stackoverflow.com/questions/3434278/do-dom-tree-elements-with-ids-become-global-variables) gives a good summary of the mess you could find yourself in.
+There's a lot of bad things about this, [Bob Ince on Stack Overflow](https://stackoverflow.com/questions/3434278/do-dom-tree-elements-with-ids-become-global-variables) gives a good summary of the mess you could find yourself in.
 
 ## IDs on page headings
 

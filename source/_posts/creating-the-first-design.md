@@ -2,7 +2,6 @@ title: 'Creating the first design'
 tags:
   - theme
   - typography
-id: 5
 categories:
   - design
 date: 2009-03-11 16:20:30
@@ -16,7 +15,7 @@ I’ve spent a short amount of time researching leading, kerning, the measure, e
 
 [Mark Boulton](http://markboulton.co.uk/journal/comments/five_simple_steps_to_better_typography/) states that the leading should increase proportionately with the measure. I am tempted to create a small JavaScript project for a fluid web layout that dynamically alters the CSS line-spacing of the content based on the width of the window and hence the measure; just to see how things change. I think the first problem may be deciding the scaling factor to apply to the line-spacing.
 
-One of the biggest caveats of creating a design that strongly relies on the _beauty_ of fonts is the difference in Windows and Apple font rendering. Take for instance the screen capture below which compares Windows XP (Left, IE7) with OSX (Right, Firefox 3). My preference is towards Apple’s stylish approach that attempts to match print, versus Microsoft’s pixel jamming but easier to read pragmatic rendering. By using fonts as the predominant styling force on the page it is clear that in this case the Apple approach is superior. [Joel on Software](http://www.joelonsoftware.com/items/2007/06/12.html) has a very nice article that makes a good comparison between the two.
+One of the biggest caveats of creating a design that strongly relies on the _beauty_ of fonts is the difference in Windows and Apple font rendering. Take for instance the screen capture below which compares Windows XP (Left, IE7) with OSX (Right, Firefox 3). My preference is towards Apple’s stylish approach that attempts to match print, versus Microsoft’s pixel jamming but easier to read pragmatic rendering. By using fonts as the predominant styling force on the page it is clear that in this case the Apple approach is superior. [Joel on Software](https://www.joelonsoftware.com/items/2007/06/12.html) has a very nice article that makes a good comparison between the two.
 
 [![Windows and OS X font rendering comparison](http://host.trivialbeing.org/up/small/windows-mac-comparison.png)](http://host.trivialbeing.org/up/windows-mac-comparison.png)
 

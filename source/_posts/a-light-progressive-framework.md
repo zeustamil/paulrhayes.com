@@ -1,19 +1,18 @@
-title: 'A small JavaScript framework'
+title: 'A module instantiation pattern for Last.fm'
 tags:
   - framework
   - js
   - lastfm
-id: 164
 categories:
-  - code
+  - projects
 date: 2013-09-10 14:02:22
 ---
 
 At Last.fm we’ve been gradually upgrading our front-end. In this blog post I’ll outline the fundamentals of our new JavaScript framework, although the full code isn’t open sourced _yet_.
 
-[Progressive enhancement is important](http://thatemil.com/blog/2013/07/02/progressive-enhancement-still-not-dead/), and Last.fm remains a traditional HTML website with full page reloads. Using layers of unobtrusive JavaScript we build up functionality, not because JavaScript is sometimes disabled (that’s a rarity, [even amongst screen reader users](http://webaim.org/projects/screenreadersurvey4/#javascript)), but [because broken JavaScript happens](http://jakearchibald.com/2013/progressive-enhancement-still-important/).
+[Progressive enhancement is important](https://thatemil.com/blog/2013/07/02/progressive-enhancement-still-not-dead/), and Last.fm remains a traditional HTML website with full page reloads. Using layers of unobtrusive JavaScript we build up functionality, not because JavaScript is sometimes disabled (that’s a rarity, [even amongst screen reader users](http://webaim.org/projects/screenreadersurvey4/#javascript)), but [because broken JavaScript happens](https://jakearchibald.com/2013/progressive-enhancement-still-important/).
 
-We use [RequireJS](http://requirejs.org/) for dependency management, [Jasmine](http://pivotal.github.io/jasmine/) for testing, and [jQuery](http://jquery.com/). Our framework is light, and is founded on a simple instantiation pattern: modules are marked up using data attributes, anything with a `data-require` attribute is deemed to be a module. On page load, our app finds these modules in the DOM, ‘requires’ them and their dependencies, instantiates them and starts them. (A concatenated minified build file means we don’t make an HTTP request for each file.)
+We use [RequireJS](http://requirejs.org/) for dependency management, [Jasmine](https://jasmine.github.io/) for testing, and [jQuery](https://jquery.com/). Our framework is light, and is founded on a simple instantiation pattern: modules are marked up using data attributes, anything with a `data-require` attribute is deemed to be a module. On page load, our app finds these modules in the DOM, ‘requires’ them and their dependencies, instantiates them and starts them. (A concatenated minified build file means we don’t make an HTTP request for each file.)
 
 On creation each module is passed an instance of the app, from which the module can communicate upwards and outwards, as well as an element, the bounding box of the module, as defined by the position of the data attribute.
 

@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../experiment-styles.css" />
 
     <% if (experiment.css) { %><link rel="stylesheet" href="<%= experiment.css %>" /><% } %>
-    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body class="experiment">
     <div class="wrapper">
@@ -21,7 +20,7 @@
         </p>
 <%- experiment.content %>
     </div>
-    <% if (experiment.js) { %><script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <% if (experiment.js) { %><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="<%= experiment.js %>"></script><% } %>
 </body>
 </html>
