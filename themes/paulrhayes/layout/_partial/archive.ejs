@@ -1,15 +1,14 @@
 <%
-  type = typeof type === "undefined" ? null : type;
+  if (typeof category === "string") {
+    posts = site.categories.findOne({name: category}).posts.sort('date', -1)
+  } else {
+    posts = page.posts
+  }
 %>
 <section class="listing clearfix">
   <ol>
-    <% page.posts.each(function(post, i){ %>
-      <%
-        // filter the page posts by type, if specified
-        if (!type || (type && post.layout === type)) {
-      %>
-        <%- partial('archive-post', {post: post, hasType: !!type}) %>
-      <% } %>
+    <% posts.forEach(function(post){ %>
+        <%- partial('archive-post', {post: post}) %>
     <% }) %>
   </ol>
 </section>
