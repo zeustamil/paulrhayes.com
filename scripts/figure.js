@@ -32,7 +32,7 @@ hexo.extend.tag.register('figure', function(args, content) {
       render = hexo.render,
       image = args[0],
       orientation = args[1],
-      directory = typeof args[2] === "undefined" ? "1720" : args[2],
+      directory = typeof args[2] === "undefined" ? "1560" : args[2],
       markdownCaption = render.renderSync({text: content, engine: 'markdown'}),
       renderedCaption = $(markdownCaption).unwrap().html(), //remove wrapping paragraph element
       caption = $(markdownCaption).text();

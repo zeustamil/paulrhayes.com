@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "swingdancer-1","swingdancer-2", Baskerville, Georgia, cursive;
 }
 
-p, ul, ol, dl, table {
+p, ul, ol, dl, table, .generated-figure {
   margin-bottom: 1.33333333em;
   line-height: 1.33333333em;
 }
@@ -565,6 +565,16 @@ iframe.vimeo {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: 10px solid #333;
+}
+
+.generated-figure img {
+  max-width: 100%;
+}
+
+.generated-figure figcaption {
+  font-size: 0.8em;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.2em;
 }
 
 @media all and (max-width: 840px) {
