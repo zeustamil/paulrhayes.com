@@ -25,7 +25,7 @@ For now this only works in Safari 5.0.2+ and iOS, although 3D transforms will su
 
 <div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/19500636" width="612" height="408" frameborder="0"></iframe></div>
 
-Combining squares and triangles, [cubes](http://www.paulrhayes.com/2010-09/3d-css-cube-ii-touch-gestures-click-and-drag/) and pyramids, all sorts of 3D structures are now possible, if you are so inclined. Not necessarily useful, but possible.
+Combining squares and triangles, [cubes](/2010-09/3d-css-cube-ii-touch-gestures-click-and-drag/) and pyramids, all sorts of 3D structures are now possible, if you are so inclined. Not necessarily useful, but possible.
 
 [![CSS pyramid](http://host.trivialbeing.org/up/small/css-pyramid.png)](/experiments/pyramid/)
 
@@ -70,7 +70,7 @@ If you haven’t seen it before, the code to create an approximate equilateral t
 
 Tantek Çelik coined this technique in his [study of regular polygons](http://tantek.com/CSS/Examples/polygons.html) which includes pentagons, hexagons and octagons. The methods are explained over at the [Filament Group](http://www.filamentgroup.com/lab/image_free_css_tooltip_pointers_a_use_for_polygonal_css/).
 
-The 3D techniques I’ve used in this experiment are explained in my [3D cube post](http://www.paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/) (July 2009). This is a proof of concept and I haven’t delved into the mathematics or geometry too much, instead opting for the slightly faster but significantly less clever and less reproducible trial-and-error approach.
+The 3D techniques I’ve used in this experiment are explained in my [3D cube post](/2009-07/animated-css3-cube-interface-using-3d-transforms/) (July 2009). This is a proof of concept and I haven’t delved into the mathematics or geometry too much, instead opting for the slightly faster but significantly less clever and less reproducible trial-and-error approach.
 
 ```css
 #pyramid > div:first-child  {
