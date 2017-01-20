@@ -13,7 +13,7 @@ Email me at {% contact %}
 
 ## Elsewhere
 
-* [Photography](http://paulhayes.photography)
+* [Photography](https://paulhayes.photography)
 * [Twitter](https://twitter.com/fofr)
 * [Github](https://github.com/fofr)
 * [Flickr](https://flickr.com/prhayes)
