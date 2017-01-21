@@ -510,12 +510,22 @@ a.site-title:active {
   line-height: 1.333333333em;
 }
 
-.article h2,
-.article h3 {
+.article h2 {
   margin: 1.5em 0 0.5em; /* 48/32px,  16/32px */
   font-size: 1.333333333em; /* 32/24 */
   font-weight: bold;
   line-height: 1.5em; /* 48/32 */
+}
+
+.article h3 {
+  margin: 1.5em 0 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.article h4 {
+  font-weight: bold;
 }
 
 .article blockquote {
