@@ -532,6 +532,27 @@ a.site-title:active {
   margin: 1em 60px;
 }
 
+.article table {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background: #fff;
+  border: 2px solid #aaa;
+  font-size: 0.7em;
+}
+
+.article table time {
+  white-space: nowrap;
+}
+
+.article table th {
+  background: #eee;
+}
+
+.article table td,
+.article table th {
+  border: 1px solid #aaa;
+  padding: 0.9em 1em 0.7em;
+}
+
 .article-content ul {
   list-style: disc;
   margin-left: 20px;
@@ -705,6 +726,27 @@ pre .tag, code .tag { color: #c56436; }
 pre .tag, code .tag { color: #006; font-weight: bold; }
 .atn { color: #404; }
 .atv { color: #060; }
+}
+
+/* ==========================================================================
+ Pull request table
+ ========================================================================== */
+
+a.pr-repo {
+  color: #777;
+}
+
+a.pr-link {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0.1em 0 0.2em;
+  text-decoration: none;
+}
+
+a.pr-link:focus,
+a.pr-link:hover {
+  text-decoration: underline;
 }
 
 /* ==========================================================================
