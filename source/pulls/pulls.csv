@@ -1,0 +1,668 @@
+"Date","Friendly date","Repo name","Repo URL","PR title","PR URL"
+2017-01-22T13:52:04Z,"Jan 22, 2017, 1:52 PM GMT","fofr/paulrhayes.com",https://github.com/fofr/paulrhayes.com,"Add govuk_admin_template post",/fofr/paulrhayes.com/pull/12
+2017-01-21T14:25:36Z,"Jan 21, 2017, 2:25 PM GMT","fofr/paulrhayes.com",https://github.com/fofr/paulrhayes.com,"Add transitioning websites blog post",/fofr/paulrhayes.com/pull/11
+2017-01-20T21:59:31Z,"Jan 20, 2017, 9:59 PM GMT","fofr/paulrhayes.com-experiments",https://github.com/fofr/paulrhayes.com-experiments,"Update canonical article and demo URLs",/fofr/paulrhayes.com-experiments/pull/15
+2017-01-20T21:19:54Z,"Jan 20, 2017, 9:19 PM GMT","fofr/paulrhayes.com",https://github.com/fofr/paulrhayes.com,"Upgrade jQuery to 3.1.1",/fofr/paulrhayes.com/pull/10
+2017-01-20T20:57:29Z,"Jan 20, 2017, 8:57 PM GMT","fofr/sam-and-paul.com",https://github.com/fofr/sam-and-paul.com,"Use HTTPs",/fofr/sam-and-paul.com/pull/10
+2017-01-20T20:57:11Z,"Jan 20, 2017, 8:57 PM GMT","fofr/paulhayes.photography",https://github.com/fofr/paulhayes.photography,"Use HTTPs",/fofr/paulhayes.photography/pull/9
+2017-01-19T16:26:10Z,"Jan 19, 2017, 4:26 PM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Add colour contrast test",/alphagov/govuk_frontend_toolkit/pull/374
+2017-01-17T21:29:02Z,"Jan 17, 2017, 9:29 PM GMT","fofr/paulrhayes.com",https://github.com/fofr/paulrhayes.com,"Add post about migrating formats on GOV.UK",/fofr/paulrhayes.com/pull/9
+2017-01-17T20:02:09Z,"Jan 17, 2017, 8:02 PM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Bump govuk_frontend_toolkit to 5.0.3",/alphagov/whitehall/pull/2969
+2017-01-18T20:25:15Z,"Jan 18, 2017, 8:25 PM GMT","fofr/paulrhayes.com-experiments",https://github.com/fofr/paulrhayes.com-experiments,"Deprecate support for IE8 and below",/fofr/paulrhayes.com-experiments/pull/14
+2017-01-16T22:48:53Z,"Jan 16, 2017, 10:48 PM GMT","fofr/paulrhayes.com",https://github.com/fofr/paulrhayes.com,"Prepare for blog posts with clearer categories",/fofr/paulrhayes.com/pull/8
+2017-01-13T14:05:32Z,"Jan 13, 2017, 2:05 PM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version 5.0.3",/alphagov/govuk_frontend_toolkit/pull/369
+2017-01-13T12:19:09Z,"Jan 13, 2017, 12:19 PM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Improve colour contrast of DEFRA & HMRC text",/alphagov/govuk_frontend_toolkit/pull/368
+2017-01-16T10:55:14Z,"Jan 16, 2017, 10:55 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Move meta description and page class to base layout",/alphagov/government-frontend/pull/230
+2017-01-06T13:50:47Z,"Jan 6, 2017, 1:50 PM GMT","alphagov/static",https://github.com/alphagov/static,"Add unit test for jQuery tabs plugin",/alphagov/static/pull/876
+2017-01-10T10:12:54Z,"Jan 10, 2017, 10:12 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Update README formats table",/alphagov/government-frontend/pull/227
+2017-01-05T14:46:30Z,"Jan 5, 2017, 2:46 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Make official stats announcements translation key singular",/alphagov/government-frontend/pull/226
+2017-01-10T15:57:04Z,"Jan 10, 2017, 3:57 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Strip trailing colons from contents list",/alphagov/government-frontend/pull/225
+2017-01-05T10:42:29Z,"Jan 5, 2017, 10:42 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Don't show empty contents lists on HTML publications",/alphagov/government-frontend/pull/224
+2017-01-05T10:35:58Z,"Jan 5, 2017, 10:35 AM GMT","alphagov/static",https://github.com/alphagov/static,"Remove margin on first heading in HTML govspeak",/alphagov/static/pull/870
+2017-01-05T10:35:19Z,"Jan 5, 2017, 10:35 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add space beneath HTML publication contents",/alphagov/government-frontend/pull/223
+2017-01-05T10:52:05Z,"Jan 5, 2017, 10:52 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Refactor title and context into module",/alphagov/government-frontend/pull/222
+2017-01-04T17:47:01Z,"Jan 4, 2017, 5:47 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add noopener and noreferrer to new window links",/alphagov/government-frontend/pull/221
+2017-01-05T15:11:54Z,"Jan 5, 2017, 3:11 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Allow speeches to be translated",/alphagov/government-frontend/pull/218
+2017-01-05T10:39:48Z,"Jan 5, 2017, 10:39 AM GMT","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Add right-to-left translated speech example",/alphagov/govuk-content-schemas/pull/472
+2017-01-03T13:09:00Z,"Jan 3, 2017, 1:09 PM GMT","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Add examples for oral statements to parliament and speaking notes",/alphagov/govuk-content-schemas/pull/470
+2017-01-03T12:46:12Z,"Jan 3, 2017, 12:46 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"DRY up views by moving metadata logic into module",/alphagov/government-frontend/pull/216
+2017-01-03T13:10:29Z,"Jan 3, 2017, 1:10 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Render the speeches format",/alphagov/government-frontend/pull/215
+2016-12-22T10:55:51Z,"Dec 22, 2016, 10:55 AM GMT","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Add speeches schema and examples",/alphagov/govuk-content-schemas/pull/468
+2016-12-22T15:51:37Z,"Dec 22, 2016, 3:51 PM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Run tests against jQuery 1.12.4",/alphagov/govuk_frontend_toolkit/pull/361
+2016-12-20T18:43:08Z,"Dec 20, 2016, 6:43 PM GMT","alphagov/collections",https://github.com/alphagov/collections,"Run tests against jQuery 1.12.4",/alphagov/collections/pull/209
+2016-12-20T18:42:56Z,"Dec 20, 2016, 6:42 PM GMT","alphagov/finder-frontend",https://github.com/alphagov/finder-frontend,"Run tests against jQuery 1.12.4",/alphagov/finder-frontend/pull/279
+2017-01-03T11:28:15Z,"Jan 3, 2017, 11:28 AM GMT","alphagov/manuals-frontend",https://github.com/alphagov/manuals-frontend,"Run tests against jQuery 1.12.4",/alphagov/manuals-frontend/pull/192
+2017-01-03T13:22:17Z,"Jan 3, 2017, 1:22 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Run tests against jQuery 1.12.4",/alphagov/government-frontend/pull/211
+2017-01-04T14:36:26Z,"Jan 4, 2017, 2:36 PM GMT","alphagov/static",https://github.com/alphagov/static,"Upgrade jQuery to 1.12.4",/alphagov/static/pull/869
+2016-12-20T11:12:25Z,"Dec 20, 2016, 11:12 AM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 5.0.0",/alphagov/govuk_admin_template/pull/138
+2016-12-19T13:11:35Z,"Dec 19, 2016, 1:11 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Remove template based analytics exclusion",/alphagov/govuk_admin_template/pull/137
+2016-12-20T11:15:43Z,"Dec 20, 2016, 11:15 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add jasmine-rails for javascript testing",/alphagov/government-frontend/pull/208
+2016-12-19T10:59:39Z,"Dec 19, 2016, 10:59 AM GMT","alphagov/finder-frontend",https://github.com/alphagov/finder-frontend,"Use existing version of phantomjs for JS specs",/alphagov/finder-frontend/pull/275
+2016-12-19T15:52:50Z,"Dec 19, 2016, 3:52 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add share buttons to consultations",/alphagov/government-frontend/pull/207
+2016-12-19T13:30:15Z,"Dec 19, 2016, 1:30 PM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Delete statistical data sets front-end parts",/alphagov/whitehall/pull/2930
+2016-12-20T11:46:03Z,"Dec 20, 2016, 11:46 AM GMT","alphagov/manuals-frontend",https://github.com/alphagov/manuals-frontend,"Give keyboard access to collapsible headings",/alphagov/manuals-frontend/pull/189
+2016-12-07T12:36:21Z,"Dec 7, 2016, 12:36 PM GMT","alphagov/govuk-toolkit-chrome",https://github.com/alphagov/govuk-toolkit-chrome,"Rename anonymous feedback to user feedback",/alphagov/govuk-toolkit-chrome/pull/41
+2016-12-07T09:48:16Z,"Dec 7, 2016, 9:48 AM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Use 'on' not 'at' for consultation close date",/alphagov/whitehall/pull/2910
+2016-12-05T10:18:28Z,"Dec 5, 2016, 10:18 AM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Fix unopened consultations",/alphagov/whitehall/pull/2899
+2016-12-02T12:28:04Z,"Dec 2, 2016, 12:28 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Show closing date on unopened consultations",/alphagov/government-frontend/pull/203
+2016-12-01T15:14:27Z,"Dec 1, 2016, 3:14 PM GMT","alphagov/static",https://github.com/alphagov/static,"Change phase banners from pink and orange to blue",/alphagov/static/pull/857
+2016-11-30T15:18:48Z,"Nov 30, 2016, 3:18 PM GMT","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Add consultation schema and examples",/alphagov/govuk-content-schemas/pull/445
+2016-12-01T11:49:52Z,"Dec 1, 2016, 11:49 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Render the consultation format",/alphagov/government-frontend/pull/201
+2016-11-26T20:48:18Z,"Nov 26, 2016, 8:48 PM GMT","fofr/sam-and-paul.com",https://github.com/fofr/sam-and-paul.com,"Add Tembe blog post",/fofr/sam-and-paul.com/pull/9
+2016-11-18T14:23:09Z,"Nov 18, 2016, 2:23 PM GMT","alphagov/finder-frontend",https://github.com/alphagov/finder-frontend,"Remove external link styles",/alphagov/finder-frontend/pull/260
+2016-11-21T11:00:00Z,"Nov 21, 2016, 11:00 AM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Remove external link styles",/alphagov/whitehall/pull/2839
+2016-11-15T09:52:35Z,"Nov 15, 2016, 9:52 AM GMT","alphagov/govuk-puppet",https://github.com/alphagov/govuk-puppet,"Add SSH key for paulhayes",/alphagov/govuk-puppet/pull/5074
+2016-11-08T18:35:46Z,"Nov 8, 2016, 6:35 PM GMT","fofr/sam-and-paul.com",https://github.com/fofr/sam-and-paul.com,"Add Zululand Rhino Reserve post",/fofr/sam-and-paul.com/pull/8
+2016-11-02T16:55:46Z,"Nov 2, 2016, 4:55 PM GMT","fofr/sam-and-paul.com",https://github.com/fofr/sam-and-paul.com,"Add Mkhuze blog post",/fofr/sam-and-paul.com/pull/7
+2016-09-18T14:28:56Z,"Sep 18, 2016, 3:28 PM GMT+1","fofr/sam-and-paul.com",https://github.com/fofr/sam-and-paul.com,"Add imfolozi blog post",/fofr/sam-and-paul.com/pull/6
+2016-08-29T06:51:57Z,"Aug 29, 2016, 7:51 AM GMT+1","fofr/sam-and-paul.com",https://github.com/fofr/sam-and-paul.com,"Add seychelles blog post",/fofr/sam-and-paul.com/pull/5
+2016-07-28T08:55:34Z,"Jul 28, 2016, 9:55 AM GMT+1","fofr/opencga-prototype",https://github.com/fofr/opencga-prototype,"Include advanced filters prototype",/fofr/opencga-prototype/pull/3
+2016-07-11T10:02:35Z,"Jul 11, 2016, 11:02 AM GMT+1","fofr/opencga-prototype",https://github.com/fofr/opencga-prototype,"Allow server to be customised",/fofr/opencga-prototype/pull/2
+2016-07-08T17:51:25Z,"Jul 8, 2016, 6:51 PM GMT+1","fofr/opencga-prototype",https://github.com/fofr/opencga-prototype,"Allow users to login",/fofr/opencga-prototype/pull/1
+2016-05-28T21:14:10Z,"May 28, 2016, 10:14 PM GMT+1","fofr/paulhayes.photography",https://github.com/fofr/paulhayes.photography,"Add blog posts",/fofr/paulhayes.photography/pull/8
+2016-05-28T18:07:13Z,"May 28, 2016, 7:07 PM GMT+1","fofr/paulhayes.photography",https://github.com/fofr/paulhayes.photography,"Add albums",/fofr/paulhayes.photography/pull/7
+2016-06-06T11:08:23Z,"Jun 6, 2016, 12:08 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Bump template and toolkit",/alphagov/static/pull/801
+2016-05-26T16:58:49Z,"May 26, 2016, 5:58 PM GMT+1","alphagov/govuk_template",https://github.com/alphagov/govuk_template,"Version 0.17.3",/alphagov/govuk_template/pull/218
+2016-05-26T16:13:46Z,"May 26, 2016, 5:13 PM GMT+1","alphagov/govuk_template",https://github.com/alphagov/govuk_template,"Use text-colour for headings in footer",/alphagov/govuk_template/pull/217
+2016-05-26T13:57:18Z,"May 26, 2016, 2:57 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Bump template and toolkit",/alphagov/static/pull/799
+2016-06-06T10:05:09Z,"Jun 6, 2016, 11:05 AM GMT+1","alphagov/static",https://github.com/alphagov/static,"Remove stylesheets duplicated in header-footer-only",/alphagov/static/pull/797
+2016-06-03T15:23:10Z,"Jun 3, 2016, 4:23 PM GMT+1","alphagov/contacts-frontend",https://github.com/alphagov/contacts-frontend,"Remove invalid breadcrumbs aria role",/alphagov/contacts-frontend/pull/48
+2016-06-03T09:58:08Z,"Jun 3, 2016, 10:58 AM GMT+1","alphagov/contacts-admin",https://github.com/alphagov/contacts-admin,"Remove invalid breadcrumbs aria role",/alphagov/contacts-admin/pull/237
+2016-06-01T09:23:08Z,"Jun 1, 2016, 10:23 AM GMT+1","alphagov/manuals-frontend",https://github.com/alphagov/manuals-frontend,"Remove invalid breadcrumbs aria role",/alphagov/manuals-frontend/pull/174
+2016-05-26T10:30:35Z,"May 26, 2016, 11:30 AM GMT+1","alphagov/static",https://github.com/alphagov/static,"Remove invalid breadcrumbs aria role from base template",/alphagov/static/pull/796
+2016-05-25T12:42:10Z,"May 25, 2016, 1:42 PM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add document collections format",/alphagov/government-frontend/pull/154
+2016-05-25T08:31:53Z,"May 25, 2016, 9:31 AM GMT+1","alphagov/govspeak",https://github.com/alphagov/govspeak,"Don't allow users to reverse text",/alphagov/govspeak/pull/77
+2016-05-24T13:09:55Z,"May 24, 2016, 2:09 PM GMT+1","fofr/paulhayes.photography",https://github.com/fofr/paulhayes.photography,"Move photos to `/photos`",/fofr/paulhayes.photography/pull/6
+2016-05-25T12:18:23Z,"May 25, 2016, 1:18 PM GMT+1","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Add document_collection schema",/alphagov/govuk-content-schemas/pull/312
+2016-05-25T12:57:54Z,"May 25, 2016, 1:57 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"[Do not merge] Remove global banner bar",/alphagov/static/pull/789
+2016-05-25T12:58:04Z,"May 25, 2016, 1:58 PM GMT+1","alphagov/frontend",https://github.com/alphagov/frontend,"[Do not merge] Remove banner promo slot from homepage",/alphagov/frontend/pull/953
+2016-05-13T10:47:36Z,"May 13, 2016, 11:47 AM GMT+1","alphagov/frontend",https://github.com/alphagov/frontend,"Hide EU referendum banner after 4pm 26 May (accounting for cache time)",/alphagov/frontend/pull/952
+2016-05-12T15:29:54Z,"May 12, 2016, 4:29 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Hide EU banner from 26 May",/alphagov/static/pull/787
+2016-05-09T16:50:52Z,"May 9, 2016, 5:50 PM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add national applicability to publications",/alphagov/government-frontend/pull/144
+2016-05-09T16:42:23Z,"May 9, 2016, 5:42 PM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add national applicability to publications",/alphagov/government-frontend/pull/143
+2016-05-11T12:57:50Z,"May 11, 2016, 1:57 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Add table alignment (take 2)",/alphagov/whitehall/pull/2584
+2016-05-09T14:28:15Z,"May 9, 2016, 3:28 PM GMT+1","alphagov/govspeak",https://github.com/alphagov/govspeak,"Version 3.6.2",/alphagov/govspeak/pull/76
+2016-05-09T13:45:17Z,"May 9, 2016, 2:45 PM GMT+1","alphagov/govspeak",https://github.com/alphagov/govspeak,"Fix govspeak failures when using IALs on links",/alphagov/govspeak/pull/75
+2016-05-09T15:54:14Z,"May 9, 2016, 4:54 PM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add further publication features",/alphagov/government-frontend/pull/142
+2016-05-09T13:38:51Z,"May 9, 2016, 2:38 PM GMT+1","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Add national applicability to publications, add further publication examples",/alphagov/govuk-content-schemas/pull/304
+2016-05-07T15:51:05Z,"May 7, 2016, 4:51 PM GMT+1","fofr/sam-and-paul.com",https://github.com/fofr/sam-and-paul.com,"Add Costa Rica posts",/fofr/sam-and-paul.com/pull/4
+2016-05-09T08:51:19Z,"May 9, 2016, 9:51 AM GMT+1","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Use document_type for 'publication type'",/alphagov/govuk-content-schemas/pull/303
+2016-05-10T08:14:07Z,"May 10, 2016, 9:14 AM GMT+1","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Remove organisations and parent from HTML publications `links.json`",/alphagov/govuk-content-schemas/pull/302
+2016-05-05T12:36:32Z,"May 5, 2016, 1:36 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Revert 'Merge pull request #2574 from alphagov/table-columns-help'",/alphagov/whitehall/pull/2578
+2016-05-06T14:14:16Z,"May 6, 2016, 3:14 PM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add minimum viable publication rendering",/alphagov/government-frontend/pull/139
+2016-05-06T13:53:28Z,"May 6, 2016, 2:53 PM GMT+1","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Create minimum viable publications format",/alphagov/govuk-content-schemas/pull/298
+2016-05-04T08:46:50Z,"May 4, 2016, 9:46 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Allow users to right align table cells",/alphagov/whitehall/pull/2574
+2016-05-03T13:22:12Z,"May 3, 2016, 2:22 PM GMT+1","alphagov/govspeak",https://github.com/alphagov/govspeak,"Version 3.6.1",/alphagov/govspeak/pull/74
+2016-05-03T13:04:08Z,"May 3, 2016, 2:04 PM GMT+1","alphagov/govspeak",https://github.com/alphagov/govspeak,"Allow td and th elements without a style attribute",/alphagov/govspeak/pull/73
+2016-05-03T12:04:10Z,"May 3, 2016, 1:04 PM GMT+1","alphagov/govspeak",https://github.com/alphagov/govspeak,"Release 3.6.0",/alphagov/govspeak/pull/72
+2016-05-03T09:43:42Z,"May 3, 2016, 10:43 AM GMT+1","alphagov/govspeak",https://github.com/alphagov/govspeak,"Allow table cells to have a text alignment",/alphagov/govspeak/pull/71
+2016-05-03T16:28:04Z,"May 3, 2016, 5:28 PM GMT+1","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Remove worldwide priorities from schemas",/alphagov/govuk-content-schemas/pull/295
+2016-04-29T14:13:19Z,"Apr 29, 2016, 3:13 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Create new survey test - decrease frequency that survey shows for 48 hours",/alphagov/static/pull/779
+2016-04-28T06:46:01Z,"Apr 28, 2016, 7:46 AM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add related guides, collections and mainstream content to detailed guides",/alphagov/government-frontend/pull/138
+2016-04-28T06:44:23Z,"Apr 28, 2016, 7:44 AM GMT+1","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Add document collections to detailed guides, add examples of more features",/alphagov/govuk-content-schemas/pull/293
+2016-04-28T06:40:38Z,"Apr 28, 2016, 7:40 AM GMT+1","alphagov/static",https://github.com/alphagov/static,"Make custom 'other' keys behave like defined keys",/alphagov/static/pull/778
+2016-04-26T10:14:35Z,"Apr 26, 2016, 11:14 AM GMT+1","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Remove unused tags from detailed guide details",/alphagov/govuk-content-schemas/pull/291
+2016-04-26T10:16:30Z,"Apr 26, 2016, 11:16 AM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add history notices to detailed guides",/alphagov/government-frontend/pull/137
+2016-04-26T10:16:35Z,"Apr 26, 2016, 11:16 AM GMT+1","alphagov/static",https://github.com/alphagov/static,"Add political-status and publishing-government to analytics",/alphagov/static/pull/777
+2016-04-26T09:53:22Z,"Apr 26, 2016, 10:53 AM GMT+1","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Add government and political fields to detailed guides",/alphagov/govuk-content-schemas/pull/290
+2016-04-25T14:09:14Z,"Apr 25, 2016, 3:09 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Add first published and last updated to metadata component",/alphagov/static/pull/774
+2016-04-25T08:52:45Z,"Apr 25, 2016, 9:52 AM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Remove references to worldwide priorities and other cleanups",/alphagov/government-frontend/pull/136
+2016-04-25T08:56:03Z,"Apr 25, 2016, 9:56 AM GMT+1","alphagov/govuk_template",https://github.com/alphagov/govuk_template,"Version 0.17.1",/alphagov/govuk_template/pull/209
+2016-04-25T14:13:50Z,"Apr 25, 2016, 3:13 PM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add withdrawn notice to detailed guides",/alphagov/government-frontend/pull/135
+2016-04-22T12:34:24Z,"Apr 22, 2016, 1:34 PM GMT+1","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Add withdrawn notices to detailed guides",/alphagov/govuk-content-schemas/pull/288
+2016-04-25T08:25:29Z,"Apr 25, 2016, 9:25 AM GMT+1","alphagov/govuk-puppet",https://github.com/alphagov/govuk-puppet,"Revert no-cache rule for front-end homepage",/alphagov/govuk-puppet/pull/4353
+2016-04-29T08:52:23Z,"Apr 29, 2016, 9:52 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Remove worldwide priority data",/alphagov/whitehall/pull/2563
+2016-04-28T09:30:26Z,"Apr 28, 2016, 10:30 AM GMT+1","alphagov/static",https://github.com/alphagov/static,"[DISCUSS] Create description component",/alphagov/static/pull/773
+2016-04-21T10:08:15Z,"Apr 21, 2016, 11:08 AM GMT+1","alphagov/frontend",https://github.com/alphagov/frontend,"Stop non-js tracking on the homepage",/alphagov/frontend/pull/944
+2016-04-20T11:50:16Z,"Apr 20, 2016, 12:50 PM GMT+1","alphagov/govuk_template",https://github.com/alphagov/govuk_template,"Clean up and modernise govuk_template.html",/alphagov/govuk_template/pull/208
+2016-04-20T08:55:51Z,"Apr 20, 2016, 9:55 AM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version 4.10.0",/alphagov/govuk_frontend_toolkit/pull/270
+2016-04-15T14:47:11Z,"Apr 15, 2016, 3:47 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Don't print the global bar",/alphagov/static/pull/770
+2016-04-18T13:51:56Z,"Apr 18, 2016, 2:51 PM GMT+1","alphagov/multipage-frontend",https://github.com/alphagov/multipage-frontend,"Revert 'Allow nil change-descriptions'",/alphagov/multipage-frontend/pull/35
+2016-04-11T14:28:00Z,"Apr 11, 2016, 3:28 PM GMT+1","alphagov/multipage-frontend",https://github.com/alphagov/multipage-frontend,"Temporarily allow nil change-descriptions",/alphagov/multipage-frontend/pull/34
+2016-04-07T12:36:51Z,"Apr 7, 2016, 1:36 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Explain current biography logic to users",/alphagov/whitehall/pull/2547
+2016-04-12T11:01:05Z,"Apr 12, 2016, 12:01 PM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Update managing editors copy in emails",/alphagov/signon/pull/492
+2016-04-07T08:25:40Z,"Apr 7, 2016, 9:25 AM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Generator for adding formats",/alphagov/government-frontend/pull/132
+2016-04-04T13:37:02Z,"Apr 4, 2016, 2:37 PM GMT+1","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Fix display of contact details on policy groups",/alphagov/government-frontend/pull/131
+2016-04-01T08:29:40Z,"Apr 1, 2016, 9:29 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Bump admin gem to 4.2.0",/alphagov/transition/pull/509
+2016-04-01T08:25:03Z,"Apr 1, 2016, 9:25 AM GMT+1","alphagov/support",https://github.com/alphagov/support,"Bump admin gem to 4.2.0",/alphagov/support/pull/274
+2016-04-01T08:22:20Z,"Apr 1, 2016, 9:22 AM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Bump admin gem to 4.2.0",/alphagov/publisher/pull/463
+2016-04-01T10:23:33Z,"Apr 1, 2016, 11:23 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Bump admin gem to 4.2.0",/alphagov/whitehall/pull/2535
+2016-03-30T13:27:39Z,"Mar 30, 2016, 2:27 PM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Bump admin gem to 4.2.0",/alphagov/signon/pull/485
+2016-03-29T15:32:04Z,"Mar 29, 2016, 4:32 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 4.2.0",/alphagov/govuk_admin_template/pull/122
+2016-03-29T15:05:43Z,"Mar 29, 2016, 4:05 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Redact emails in GA events",/alphagov/govuk_admin_template/pull/121
+2016-03-29T10:48:57Z,"Mar 29, 2016, 11:48 AM GMT+1","alphagov/static",https://github.com/alphagov/static,"Fix display of attachment thumbs in IE8",/alphagov/static/pull/763
+2016-04-18T12:30:22Z,"Apr 18, 2016, 1:30 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Delete policy groups frontend parts",/alphagov/whitehall/pull/2526
+2016-03-30T14:00:46Z,"Mar 30, 2016, 3:00 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Delete statistic announcements frontend parts",/alphagov/whitehall/pull/2519
+2016-03-04T12:00:35Z,"Mar 4, 2016, 12:00 PM GMT","alphagov/static",https://github.com/alphagov/static,"Create Organisation logo component",/alphagov/static/pull/754
+2016-03-04T10:54:47Z,"Mar 4, 2016, 10:54 AM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Add `websafe` departmental colours, ported from Whitehall",/alphagov/govuk_frontend_toolkit/pull/262
+2016-02-26T17:36:22Z,"Feb 26, 2016, 5:36 PM GMT","fofr/paulhayes.photography",https://github.com/fofr/paulhayes.photography,"Add a JSON content generator",/fofr/paulhayes.photography/pull/5
+2016-02-29T17:15:56Z,"Feb 29, 2016, 5:15 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Render HTML publication format",/alphagov/government-frontend/pull/111
+2016-02-25T17:49:19Z,"Feb 25, 2016, 5:49 PM GMT","alphagov/static",https://github.com/alphagov/static,"Create HTML publication flavour of the govspeak component",/alphagov/static/pull/744
+2016-02-24T12:19:13Z,"Feb 24, 2016, 12:19 PM GMT","alphagov/govuk-component-guide",https://github.com/alphagov/govuk-component-guide,"Bump slimmer to 9.1.0",/alphagov/govuk-component-guide/pull/31
+2016-02-22T12:09:29Z,"Feb 22, 2016, 12:09 PM GMT","alphagov/slimmer",https://github.com/alphagov/slimmer,"Version 9.1.0",/alphagov/slimmer/pull/141
+2016-02-22T11:57:41Z,"Feb 22, 2016, 11:57 AM GMT","alphagov/slimmer",https://github.com/alphagov/slimmer,"Accept full and partial component paths in resolver",/alphagov/slimmer/pull/140
+2016-02-25T10:48:14Z,"Feb 25, 2016, 10:48 AM GMT","alphagov/static",https://github.com/alphagov/static,"Remove invalid ARIA role",/alphagov/static/pull/737
+2016-02-19T08:52:27Z,"Feb 19, 2016, 8:52 AM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Improve spacing of stat headlines",/alphagov/whitehall/pull/2472
+2016-02-18T17:43:55Z,"Feb 18, 2016, 5:43 PM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Update defra green",/alphagov/whitehall/pull/2470
+2016-02-18T11:02:00Z,"Feb 18, 2016, 11:02 AM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version 4.8.1",/alphagov/govuk_frontend_toolkit/pull/254
+2016-02-18T10:17:27Z,"Feb 18, 2016, 10:17 AM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Fix 'View on website' link for non-editioned topical events and get involved content",/alphagov/whitehall/pull/2469
+2016-02-16T21:11:29Z,"Feb 16, 2016, 9:11 PM GMT","alphagov/static",https://github.com/alphagov/static,"Add a govspeak fixture with more complete content",/alphagov/static/pull/735
+2016-02-16T21:10:41Z,"Feb 16, 2016, 9:10 PM GMT","alphagov/static",https://github.com/alphagov/static,"Add Sass linting to components",/alphagov/static/pull/734
+2016-02-18T10:31:48Z,"Feb 18, 2016, 10:31 AM GMT","alphagov/bouncer",https://github.com/alphagov/bouncer,"Update defra green",/alphagov/bouncer/pull/134
+2016-02-18T10:49:19Z,"Feb 18, 2016, 10:49 AM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Update defra green",/alphagov/govuk_frontend_toolkit/pull/249
+2016-02-16T11:07:37Z,"Feb 16, 2016, 11:07 AM GMT","alphagov/govuk-rails-app-template",https://github.com/alphagov/govuk-rails-app-template,"Add sass linting when running linters",/alphagov/govuk-rails-app-template/pull/14
+2016-02-17T10:31:19Z,"Feb 17, 2016, 10:31 AM GMT","alphagov/multipage-frontend",https://github.com/alphagov/multipage-frontend,"Add linting",/alphagov/multipage-frontend/pull/27
+2016-02-16T10:11:37Z,"Feb 16, 2016, 10:11 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Lint Sass",/alphagov/government-frontend/pull/101
+2016-02-15T17:56:42Z,"Feb 15, 2016, 5:56 PM GMT","alphagov/govuk-lint",https://github.com/alphagov/govuk-lint,"Release 0.6.1",/alphagov/govuk-lint/pull/33
+2016-02-15T17:38:36Z,"Feb 15, 2016, 5:38 PM GMT","alphagov/govuk-lint",https://github.com/alphagov/govuk-lint,"Include sass configs with gem",/alphagov/govuk-lint/pull/32
+2016-02-19T11:45:39Z,"Feb 19, 2016, 11:45 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Configure asset host in development mode",/alphagov/government-frontend/pull/100
+2016-02-16T14:20:04Z,"Feb 16, 2016, 2:20 PM GMT","alphagov/static",https://github.com/alphagov/static,"Increase margins between text in govspeak component",/alphagov/static/pull/733
+2016-02-15T16:23:41Z,"Feb 15, 2016, 4:23 PM GMT","alphagov/govuk-lint",https://github.com/alphagov/govuk-lint,"Release 0.6.0",/alphagov/govuk-lint/pull/31
+2016-02-15T11:21:02Z,"Feb 15, 2016, 11:21 AM GMT","alphagov/govuk-lint",https://github.com/alphagov/govuk-lint,"[DISCUSS] Add Sass linting",/alphagov/govuk-lint/pull/30
+2016-02-12T11:27:09Z,"Feb 12, 2016, 11:27 AM GMT","alphagov/finder-frontend",https://github.com/alphagov/finder-frontend,"Tweak margins in header",/alphagov/finder-frontend/pull/246
+2016-02-15T13:21:39Z,"Feb 15, 2016, 1:21 PM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Delete topical event about pages frontend parts",/alphagov/whitehall/pull/2467
+2016-02-15T11:49:28Z,"Feb 15, 2016, 11:49 AM GMT","alphagov/specialist-frontend",https://github.com/alphagov/specialist-frontend,"Remove govuk-metadata override",/alphagov/specialist-frontend/pull/109
+2016-02-10T15:23:20Z,"Feb 10, 2016, 3:23 PM GMT","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Include alert_status in travel advice example",/alphagov/govuk-content-schemas/pull/233
+2016-02-09T16:47:38Z,"Feb 9, 2016, 4:47 PM GMT","alphagov/multipage-frontend",https://github.com/alphagov/multipage-frontend,"Give HTML format priority over atom in respond_to",/alphagov/multipage-frontend/pull/23
+2016-02-10T17:36:50Z,"Feb 10, 2016, 5:36 PM GMT","alphagov/multipage-frontend",https://github.com/alphagov/multipage-frontend,"Modernise markup and styles",/alphagov/multipage-frontend/pull/21
+2016-02-15T12:02:35Z,"Feb 15, 2016, 12:02 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Remove margin styles now in components",/alphagov/government-frontend/pull/93
+2016-02-11T15:38:47Z,"Feb 11, 2016, 3:38 PM GMT","alphagov/static",https://github.com/alphagov/static,"Standardise margins on components",/alphagov/static/pull/730
+2016-02-09T09:47:10Z,"Feb 9, 2016, 9:47 AM GMT","alphagov/specialist-frontend",https://github.com/alphagov/specialist-frontend,"Alter margins in preparation for component margin updates",/alphagov/specialist-frontend/pull/108
+2016-02-09T09:45:48Z,"Feb 9, 2016, 9:45 AM GMT","alphagov/finder-frontend",https://github.com/alphagov/finder-frontend,"Clean up whitespace at bottom of page",/alphagov/finder-frontend/pull/245
+2016-02-09T09:45:21Z,"Feb 9, 2016, 9:45 AM GMT","alphagov/specialist-frontend",https://github.com/alphagov/specialist-frontend,"Clean up whitespace at bottom of page",/alphagov/specialist-frontend/pull/107
+2016-02-08T14:19:05Z,"Feb 8, 2016, 2:19 PM GMT","alphagov/manuals-frontend",https://github.com/alphagov/manuals-frontend,"Update HMRC manual URL in Readme",/alphagov/manuals-frontend/pull/171
+2016-02-10T10:59:23Z,"Feb 10, 2016, 10:59 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Render 'Topical event about page' format",/alphagov/government-frontend/pull/92
+2016-02-05T17:04:25Z,"Feb 5, 2016, 5:04 PM GMT","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Allow additional properties in frontend links",/alphagov/govuk-content-schemas/pull/232
+2016-02-04T10:53:37Z,"Feb 4, 2016, 10:53 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Escape HTML before preventing widows",/alphagov/government-frontend/pull/91
+2016-02-02T14:29:49Z,"Feb 2, 2016, 2:29 PM GMT","alphagov/govuk-content-schemas",https://github.com/alphagov/govuk-content-schemas,"Bump dummy content store",/alphagov/govuk-content-schemas/pull/225
+2016-02-02T13:48:15Z,"Feb 2, 2016, 1:48 PM GMT","alphagov/govuk-dummy_content_store",https://github.com/alphagov/govuk-dummy_content_store,"Version 0.0.4",/alphagov/govuk-dummy_content_store/pull/5
+2016-02-02T12:00:36Z,"Feb 2, 2016, 12:00 PM GMT","alphagov/govuk-dummy_content_store",https://github.com/alphagov/govuk-dummy_content_store,"Only include front-end examples",/alphagov/govuk-dummy_content_store/pull/4
+2016-02-01T16:30:31Z,"Feb 1, 2016, 4:30 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Prevent widows in descriptions",/alphagov/government-frontend/pull/88
+2016-01-27T13:07:18Z,"Jan 27, 2016, 1:07 PM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Delete take part’s frontend parts",/alphagov/whitehall/pull/2441
+2016-01-21T17:31:09Z,"Jan 21, 2016, 5:31 PM GMT","alphagov/govuk-puppet",https://github.com/alphagov/govuk-puppet,"Add second SSH key for paulhayes",/alphagov/govuk-puppet/pull/3981
+2016-01-25T15:22:32Z,"Jan 25, 2016, 3:22 PM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Add wraith for visual regression testing",/alphagov/government-frontend/pull/70
+2016-01-20T10:58:26Z,"Jan 20, 2016, 10:58 AM GMT","alphagov/government-frontend",https://github.com/alphagov/government-frontend,"Render 'Take part' format",/alphagov/government-frontend/pull/69
+2016-01-15T15:13:52Z,"Jan 15, 2016, 3:13 PM GMT","alphagov/govuk-puppet",https://github.com/alphagov/govuk-puppet,"Rotate SSH key for paulhayes",/alphagov/govuk-puppet/pull/3944
+2016-01-14T14:38:39Z,"Jan 14, 2016, 2:38 PM GMT","alphagov/static",https://github.com/alphagov/static,"Bump govuk_template, fix logo active state",/alphagov/static/pull/710
+2016-01-14T14:14:10Z,"Jan 14, 2016, 2:14 PM GMT","alphagov/govuk_template",https://github.com/alphagov/govuk_template,"Release 0.16.1",/alphagov/govuk_template/pull/187
+2016-01-13T17:06:39Z,"Jan 13, 2016, 5:06 PM GMT","alphagov/govspeak",https://github.com/alphagov/govspeak,"Move to Travis's container-based infrastructure",/alphagov/govspeak/pull/68
+2016-01-14T11:40:09Z,"Jan 14, 2016, 11:40 AM GMT","alphagov/static",https://github.com/alphagov/static,"Breadcrumb component should use toolkit styles",/alphagov/static/pull/708
+2016-03-07T14:13:36Z,"Mar 7, 2016, 2:13 PM GMT","alphagov/govuk-component-guide",https://github.com/alphagov/govuk-component-guide,"Add details about running guide on VM",/alphagov/govuk-component-guide/pull/26
+2016-01-13T12:10:18Z,"Jan 13, 2016, 12:10 PM GMT","alphagov/static",https://github.com/alphagov/static,"Create a breadcrumb component",/alphagov/static/pull/700
+2016-01-04T13:18:32Z,"Jan 4, 2016, 1:18 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Tweak bootstrap-sass pin and navbar logic",/alphagov/govuk_admin_template/pull/116
+2016-01-12T10:33:54Z,"Jan 12, 2016, 10:33 AM GMT","alphagov/signon",https://github.com/alphagov/signon,"Bump admin gem to 4.0.1",/alphagov/signon/pull/458
+2016-01-12T10:44:44Z,"Jan 12, 2016, 10:44 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Bump admin gem to 4.0.1",/alphagov/publisher/pull/440
+2015-12-31T11:28:44Z,"Dec 31, 2015, 11:28 AM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 4.0.1",/alphagov/govuk_admin_template/pull/115
+2015-12-31T11:22:05Z,"Dec 31, 2015, 11:22 AM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Fix environment styles",/alphagov/govuk_admin_template/pull/114
+2015-12-31T10:12:06Z,"Dec 31, 2015, 10:12 AM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 4.0.0",/alphagov/govuk_admin_template/pull/113
+2016-01-04T16:26:53Z,"Jan 4, 2016, 4:26 PM GMT","alphagov/static",https://github.com/alphagov/static,"Add component unit test to component generator",/alphagov/static/pull/696
+2016-01-04T10:28:46Z,"Jan 4, 2016, 10:28 AM GMT","alphagov/static",https://github.com/alphagov/static,"Only track errors from gov.uk javascript in Google Analytics",/alphagov/static/pull/695
+2015-12-18T11:51:11Z,"Dec 18, 2015, 11:51 AM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Improve contextual nav styles for older browsers",/alphagov/whitehall/pull/2415
+2015-11-30T11:06:09Z,"Nov 30, 2015, 11:06 AM GMT","alphagov/static",https://github.com/alphagov/static,"Add unit tests for all existing components",/alphagov/static/pull/684
+2015-11-27T11:23:51Z,"Nov 27, 2015, 11:23 AM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Rename tests from `SomeFileSpec.js` to `some-file.spec.js` to match source",/alphagov/govuk_frontend_toolkit/pull/231
+2016-04-18T13:32:14Z,"Apr 18, 2016, 2:32 PM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Allow the toolkit font to be changed",/alphagov/govuk_frontend_toolkit/pull/230
+2015-11-17T10:48:18Z,"Nov 17, 2015, 10:48 AM GMT","alphagov/govuk_elements",https://github.com/alphagov/govuk_elements,"Don't commit dependencies, bring closer to prototype kit",/alphagov/govuk_elements/pull/119
+2015-11-16T11:14:37Z,"Nov 16, 2015, 11:14 AM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version 4.5.0",/alphagov/govuk_frontend_toolkit/pull/228
+2015-11-13T16:24:18Z,"Nov 13, 2015, 4:24 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 3.3.2",/alphagov/govuk_admin_template/pull/99
+2015-11-13T15:11:42Z,"Nov 13, 2015, 3:11 PM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Find and auto-start JavaScript modules from markup",/alphagov/govuk_frontend_toolkit/pull/227
+2015-11-13T15:24:42Z,"Nov 13, 2015, 3:24 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Correctly start modules when they are defined on a container",/alphagov/govuk_admin_template/pull/98
+2015-11-11T15:40:17Z,"Nov 11, 2015, 3:40 PM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Run tests against jQuery 1.11.3",/alphagov/govuk_frontend_toolkit/pull/226
+2015-11-10T16:44:34Z,"Nov 10, 2015, 4:44 PM GMT","alphagov/static",https://github.com/alphagov/static,"Add format and need-ids to analytics component",/alphagov/static/pull/674
+2015-10-30T10:46:04Z,"Oct 30, 2015, 10:46 AM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Enable sendBeacon for all admin analytics events",/alphagov/govuk_admin_template/pull/92
+2015-10-30T10:55:01Z,"Oct 30, 2015, 10:55 AM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Stop long email addresses from wrapping",/alphagov/whitehall/pull/2367
+2015-10-30T11:25:29Z,"Oct 30, 2015, 11:25 AM GMT","alphagov/contacts-frontend",https://github.com/alphagov/contacts-frontend,"Fix postal address print styles",/alphagov/contacts-frontend/pull/35
+2015-10-27T16:49:09Z,"Oct 27, 2015, 4:49 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Switch from custom checkbox toggle to govuk_admin_template’s one",/alphagov/publisher/pull/427
+2015-10-29T09:30:39Z,"Oct 29, 2015, 9:30 AM GMT","alphagov/signon",https://github.com/alphagov/signon,"Improve error messaging and track user errors on forms to Google Analytics",/alphagov/signon/pull/426
+2015-10-26T13:52:13Z,"Oct 26, 2015, 1:52 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 3.1.0",/alphagov/govuk_admin_template/pull/91
+2015-10-23T11:05:57Z,"Oct 23, 2015, 12:05 PM GMT+1","alphagov/manuals-publisher",https://github.com/alphagov/manuals-publisher,"Fix display of dates in specialist documents",/alphagov/manuals-publisher/pull/589
+2015-10-26T08:32:39Z,"Oct 26, 2015, 8:32 AM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Add checkbox and radio form toggles",/alphagov/govuk_admin_template/pull/90
+2015-10-15T14:21:32Z,"Oct 15, 2015, 3:21 PM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Remove `o-tron` references from readme",/alphagov/signon/pull/423
+2015-10-13T11:58:08Z,"Oct 13, 2015, 12:58 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Fix unexpected changes in HTML attachment slugs",/alphagov/whitehall/pull/2357
+2015-10-12T15:09:11Z,"Oct 12, 2015, 4:09 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Revert 'Merge pull request #660 from alphagov/fix-report-a-problem-alignment'",/alphagov/static/pull/662
+2015-10-11T10:01:29Z,"Oct 11, 2015, 11:01 AM GMT+1","fofr/paulhayes.photography",https://github.com/fofr/paulhayes.photography,"Switch to new 'Paul' logo",/fofr/paulhayes.photography/pull/4
+2015-10-12T08:06:34Z,"Oct 12, 2015, 9:06 AM GMT+1","alphagov/static",https://github.com/alphagov/static,"Add fixture for statistic headlines",/alphagov/static/pull/661
+2015-10-12T10:11:19Z,"Oct 12, 2015, 11:11 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Add {stat-headline} markdown and styles for HTML publications",/alphagov/whitehall/pull/2356
+2015-10-09T11:12:28Z,"Oct 9, 2015, 12:12 PM GMT+1","alphagov/govspeak",https://github.com/alphagov/govspeak,"Release version 3.5.0",/alphagov/govspeak/pull/61
+2015-10-09T09:56:47Z,"Oct 9, 2015, 10:56 AM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Add aria-described-by for 2-step code input",/alphagov/signon/pull/416
+2015-10-09T10:03:13Z,"Oct 9, 2015, 11:03 AM GMT+1","alphagov/govspeak",https://github.com/alphagov/govspeak,"Add statistic headline markdown",/alphagov/govspeak/pull/60
+2015-10-05T11:16:19Z,"Oct 5, 2015, 12:16 PM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Redact email addresses from analytics",/alphagov/signon/pull/411
+2015-10-05T11:04:37Z,"Oct 5, 2015, 12:04 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Fix ‘Tribunals Service’ copy and link",/alphagov/whitehall/pull/2352
+2015-10-03T09:58:28Z,"Oct 3, 2015, 10:58 AM GMT+1","fofr/paulhayes.photography",https://github.com/fofr/paulhayes.photography,"Tweak header and layout",/fofr/paulhayes.photography/pull/3
+2015-09-11T15:33:48Z,"Sep 11, 2015, 4:33 PM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Improve design and copy for setting up 2-step",/alphagov/signon/pull/397
+2015-09-10T11:01:30Z,"Sep 10, 2015, 12:01 PM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Improve styles of 2-step code entry and locked account pages",/alphagov/signon/pull/394
+2015-09-02T14:05:40Z,"Sep 2, 2015, 3:05 PM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version 4.3.0",/alphagov/govuk_frontend_toolkit/pull/219
+2015-08-31T10:01:49Z,"Aug 31, 2015, 11:01 AM GMT+1","fofr/paulrhayes.com",https://github.com/fofr/paulrhayes.com,"Update to Hexo 3",/fofr/paulrhayes.com/pull/7
+2015-08-31T09:17:42Z,"Aug 31, 2015, 10:17 AM GMT+1","fofr/sam-and-paul.com",https://github.com/fofr/sam-and-paul.com,"Update to Hexo 3",/fofr/sam-and-paul.com/pull/3
+2015-08-31T08:12:58Z,"Aug 31, 2015, 9:12 AM GMT+1","fofr/paulhayes.photography",https://github.com/fofr/paulhayes.photography,"Update to Hexo 3.1.1",/fofr/paulhayes.photography/pull/2
+2015-08-25T12:14:26Z,"Aug 25, 2015, 1:14 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Remove unused remnants of payment page",/alphagov/static/pull/642
+2015-08-24T15:03:57Z,"Aug 24, 2015, 4:03 PM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Re-design sign in form",/alphagov/signon/pull/390
+2015-08-24T09:00:35Z,"Aug 24, 2015, 10:00 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 2.6.0",/alphagov/govuk_admin_template/pull/86
+2015-08-24T08:23:32Z,"Aug 24, 2015, 9:23 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Port cookie functions from govuk_template",/alphagov/govuk_admin_template/pull/85
+2015-08-17T11:50:05Z,"Aug 17, 2015, 12:50 PM GMT+1","fofr/paulhayes.photography",https://github.com/fofr/paulhayes.photography,"Switch to a sans-serif design",/fofr/paulhayes.photography/pull/1
+2015-09-01T14:07:51Z,"Sep 1, 2015, 3:07 PM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Allow JavaScript error tracking to be filtered",/alphagov/govuk_frontend_toolkit/pull/218
+2015-08-10T11:15:58Z,"Aug 10, 2015, 12:15 PM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Update download link tracker docs",/alphagov/govuk_frontend_toolkit/pull/216
+2015-08-10T11:04:53Z,"Aug 10, 2015, 12:04 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Track downloads with events not pageviews",/alphagov/static/pull/633
+2015-08-10T10:35:05Z,"Aug 10, 2015, 11:35 AM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version 4.2.1",/alphagov/govuk_frontend_toolkit/pull/215
+2015-08-10T10:12:13Z,"Aug 10, 2015, 11:12 AM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Switch download tracking to use events",/alphagov/govuk_frontend_toolkit/pull/214
+2015-08-06T07:58:30Z,"Aug 6, 2015, 8:58 AM GMT+1","alphagov/static",https://github.com/alphagov/static,"Add download and external link tracking",/alphagov/static/pull/631
+2015-08-05T14:56:42Z,"Aug 5, 2015, 3:56 PM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version 4.2.0",/alphagov/govuk_frontend_toolkit/pull/210
+2015-08-05T11:34:50Z,"Aug 5, 2015, 12:34 PM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Create simplest download and external link tracking plugins",/alphagov/govuk_frontend_toolkit/pull/208
+2015-07-29T12:41:33Z,"Jul 29, 2015, 1:41 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Improve inline form controls in IE7",/alphagov/whitehall/pull/2290
+2015-07-29T11:34:43Z,"Jul 29, 2015, 12:34 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 2.5.1",/alphagov/govuk_admin_template/pull/84
+2015-07-29T11:32:01Z,"Jul 29, 2015, 12:32 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Improve inline form controls in IE7",/alphagov/govuk_admin_template/pull/83
+2015-07-28T14:20:05Z,"Jul 28, 2015, 3:20 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 2.5.0",/alphagov/govuk_admin_template/pull/82
+2015-07-28T11:31:29Z,"Jul 28, 2015, 12:31 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Allow table filtering with special characters",/alphagov/govuk_admin_template/pull/81
+2015-07-28T13:56:13Z,"Jul 28, 2015, 2:56 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Allow apps to disable Google Analytics",/alphagov/govuk_admin_template/pull/80
+2015-07-27T14:09:34Z,"Jul 27, 2015, 3:09 PM GMT+1","alphagov/specialist-frontend",https://github.com/alphagov/specialist-frontend,"Remove Jasmine, there are no JavaScript tests",/alphagov/specialist-frontend/pull/97
+2015-07-27T14:45:59Z,"Jul 27, 2015, 3:45 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Make report a problem link always underlined and grey",/alphagov/static/pull/629
+2015-07-27T12:33:32Z,"Jul 27, 2015, 1:33 PM GMT+1","alphagov/collections",https://github.com/alphagov/collections,"Run tests against jQuery 1.11.3",/alphagov/collections/pull/150
+2015-07-28T10:54:11Z,"Jul 28, 2015, 11:54 AM GMT+1","alphagov/finder-frontend",https://github.com/alphagov/finder-frontend,"Run tests against jQuery 1.11.3",/alphagov/finder-frontend/pull/227
+2015-07-28T10:54:23Z,"Jul 28, 2015, 11:54 AM GMT+1","alphagov/manuals-frontend",https://github.com/alphagov/manuals-frontend,"Run tests against jQuery 1.11.3",/alphagov/manuals-frontend/pull/152
+2015-07-27T13:26:07Z,"Jul 27, 2015, 2:26 PM GMT+1","alphagov/specialist-frontend",https://github.com/alphagov/specialist-frontend,"Run tests against jQuery 1.11.3",/alphagov/specialist-frontend/pull/96
+2015-07-30T09:10:53Z,"Jul 30, 2015, 10:10 AM GMT+1","alphagov/static",https://github.com/alphagov/static,"Upgrade jQuery to 1.11.3",/alphagov/static/pull/628
+2015-07-27T09:06:13Z,"Jul 27, 2015, 10:06 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Update accessible media player",/alphagov/whitehall/pull/2287
+2015-07-24T13:29:18Z,"Jul 24, 2015, 2:29 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Remove jquery.history.js dependency on $.browser",/alphagov/static/pull/626
+2015-07-27T09:27:55Z,"Jul 27, 2015, 10:27 AM GMT+1","alphagov/Accessible-Media-Player",https://github.com/alphagov/Accessible-Media-Player,"Fix non-Youtube player test",/alphagov/Accessible-Media-Player/pull/8
+2015-07-23T15:12:01Z,"Jul 23, 2015, 4:12 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Use govuk_frontend_toolkit’s accessible media player",/alphagov/static/pull/625
+2015-07-23T12:31:53Z,"Jul 23, 2015, 1:31 PM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version 4.1.1",/alphagov/govuk_frontend_toolkit/pull/207
+2015-07-23T11:13:17Z,"Jul 23, 2015, 12:13 PM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Bump accessible media player to 2.1.2",/alphagov/govuk_frontend_toolkit/pull/206
+2015-07-23T11:32:57Z,"Jul 23, 2015, 12:32 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Bump accessible media player to 2.1.2",/alphagov/static/pull/624
+2015-07-23T11:48:37Z,"Jul 23, 2015, 12:48 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 2.4.0",/alphagov/govuk_admin_template/pull/78
+2015-07-22T15:07:54Z,"Jul 22, 2015, 4:07 PM GMT+1","alphagov/support",https://github.com/alphagov/support,"Prevent empty URL searches from erroring",/alphagov/support/pull/255
+2015-07-23T10:31:22Z,"Jul 23, 2015, 11:31 AM GMT+1","alphagov/Accessible-Media-Player",https://github.com/alphagov/Accessible-Media-Player,"Remove dependency on $.browser",/alphagov/Accessible-Media-Player/pull/7
+2015-07-15T19:15:36Z,"Jul 15, 2015, 8:15 PM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Let publishers self serve cross-domain analytics tracking",/alphagov/publisher/pull/397
+2015-07-15T09:05:20Z,"Jul 15, 2015, 10:05 AM GMT+1","alphagov/govuk_content_models",https://github.com/alphagov/govuk_content_models,"Version 28.9.0",/alphagov/govuk_content_models/pull/308
+2015-07-15T07:53:41Z,"Jul 15, 2015, 8:53 AM GMT+1","alphagov/govuk_content_models",https://github.com/alphagov/govuk_content_models,"Add analytics profiles to transactions",/alphagov/govuk_content_models/pull/307
+2015-07-16T08:46:51Z,"Jul 16, 2015, 9:46 AM GMT+1","alphagov/manuals-publisher",https://github.com/alphagov/manuals-publisher,"[DO NOT MERGE] Remove EU logo from finder",/alphagov/manuals-publisher/pull/520
+2015-07-15T09:08:24Z,"Jul 15, 2015, 10:08 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Create table filter partial",/alphagov/govuk_admin_template/pull/77
+2015-07-10T15:28:53Z,"Jul 10, 2015, 4:28 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Switch away from deprecated jQuery methods",/alphagov/static/pull/619
+2015-07-10T08:50:59Z,"Jul 10, 2015, 9:50 AM GMT+1","alphagov/feedback",https://github.com/alphagov/feedback,"Choose 'A specific page' option more often",/alphagov/feedback/pull/154
+2015-07-09T13:56:34Z,"Jul 9, 2015, 2:56 PM GMT+1","alphagov/feedback",https://github.com/alphagov/feedback,"Correctly populate the 'specific page' field on the contact form",/alphagov/feedback/pull/153
+2015-07-09T10:36:12Z,"Jul 9, 2015, 11:36 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Bump admin gem for IE7 fixes",/alphagov/whitehall/pull/2264
+2015-07-09T09:47:41Z,"Jul 9, 2015, 10:47 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 2.3.4",/alphagov/govuk_admin_template/pull/76
+2015-07-08T15:16:41Z,"Jul 8, 2015, 4:16 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Improve Bootstrap 3 in IE7",/alphagov/govuk_admin_template/pull/75
+2015-07-06T10:45:11Z,"Jul 6, 2015, 11:45 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Smart quotes ’n’ ellipses…",/alphagov/whitehall/pull/2257
+2015-07-03T11:01:58Z,"Jul 3, 2015, 12:01 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Correctly position 'Latest' block on service priority org pages",/alphagov/whitehall/pull/2255
+2015-07-02T15:45:53Z,"Jul 2, 2015, 4:45 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Show closing quote on govspeak blockquotes",/alphagov/static/pull/611
+2015-06-26T14:50:36Z,"Jun 26, 2015, 3:50 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Allow <nav> elements to be printed",/alphagov/static/pull/610
+2015-06-24T15:57:52Z,"Jun 24, 2015, 4:57 PM GMT+1","alphagov/release",https://github.com/alphagov/release,"Allows notes to be added to applications again",/alphagov/release/pull/98
+2015-06-24T15:22:21Z,"Jun 24, 2015, 4:22 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 2.3.3",/alphagov/govuk_admin_template/pull/74
+2015-06-24T14:56:55Z,"Jun 24, 2015, 3:56 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Fix table filtering on tables that contain multiple forms",/alphagov/govuk_admin_template/pull/73
+2015-07-02T09:02:59Z,"Jul 2, 2015, 10:02 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Switch to using govuk_admin_template and Bootstrap 3",/alphagov/whitehall/pull/2241
+2015-06-22T10:22:40Z,"Jun 22, 2015, 11:22 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 2.3.2",/alphagov/govuk_admin_template/pull/72
+2015-06-19T17:19:15Z,"Jun 19, 2015, 6:19 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Workaround interpolation bug in libsass",/alphagov/govuk_admin_template/pull/71
+2015-06-19T09:15:09Z,"Jun 19, 2015, 10:15 AM GMT+1","alphagov/short-url-manager",https://github.com/alphagov/short-url-manager,"Bump sass to 3.4 and fix glyphicons",/alphagov/short-url-manager/pull/37
+2015-06-19T09:08:04Z,"Jun 19, 2015, 10:08 AM GMT+1","alphagov/search-admin",https://github.com/alphagov/search-admin,"Bump sass to 3.4 and fix glyphicons",/alphagov/search-admin/pull/36
+2015-06-18T13:32:29Z,"Jun 18, 2015, 2:32 PM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Bump sass to 3.4 and fix glyphicons",/alphagov/signon/pull/370
+2015-06-18T13:29:21Z,"Jun 18, 2015, 2:29 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Bump Sass to 3.4.14",/alphagov/transition/pull/495
+2015-06-23T15:06:40Z,"Jun 23, 2015, 4:06 PM GMT+1","twbs/bootstrap-sass",https://github.com/twbs/bootstrap-sass,"Change minimum sass version",/twbs/bootstrap-sass/pull/922
+2015-06-08T10:53:37Z,"Jun 8, 2015, 11:53 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 2.3.0",/alphagov/govuk_admin_template/pull/67
+2015-06-05T14:21:01Z,"Jun 5, 2015, 3:21 PM GMT+1","alphagov/support",https://github.com/alphagov/support,"Improve wrapping of date filter at small widths",/alphagov/support/pull/249
+2015-06-08T09:48:26Z,"Jun 8, 2015, 10:48 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Allow apps to render a custom navbar",/alphagov/govuk_admin_template/pull/66
+2015-06-05T07:17:55Z,"Jun 5, 2015, 8:17 AM GMT+1","alphagov/frontend",https://github.com/alphagov/frontend,"Cross domain tracking for HMRC renew tax credits",/alphagov/frontend/pull/810
+2015-06-02T14:50:57Z,"Jun 2, 2015, 3:50 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Stop tracking Need IDs as custom dimensions",/alphagov/static/pull/599
+2015-06-02T12:08:41Z,"Jun 2, 2015, 1:08 PM GMT+1","alphagov/design-principles",https://github.com/alphagov/design-principles,"Transformation dashboard 52",/alphagov/design-principles/pull/230
+2015-06-02T11:28:45Z,"Jun 2, 2015, 12:28 PM GMT+1","alphagov/design-principles",https://github.com/alphagov/design-principles,"Service manual version 137",/alphagov/design-principles/pull/229
+2015-06-01T17:06:36Z,"Jun 1, 2015, 6:06 PM GMT+1","alphagov/spotlight",https://github.com/alphagov/spotlight,"Remove Google Analytics classic",/alphagov/spotlight/pull/984
+2015-05-28T08:50:04Z,"May 28, 2015, 9:50 AM GMT+1","alphagov/trade-tariff-frontend",https://github.com/alphagov/trade-tariff-frontend,"Fully remove Google Analytics classic",/alphagov/trade-tariff-frontend/pull/182
+2015-06-01T18:45:51Z,"Jun 1, 2015, 7:45 PM GMT+1","alphagov/transformation-dashboard",https://github.com/alphagov/transformation-dashboard,"Remove Google Analytics classic",/alphagov/transformation-dashboard/pull/88
+2015-06-01T18:45:34Z,"Jun 1, 2015, 7:45 PM GMT+1","gds-attic/government-service-design-manual",https://github.com/gds-attic/government-service-design-manual,"Remove Google Analytics classic",/gds-attic/government-service-design-manual/pull/558
+2015-06-01T18:47:06Z,"Jun 1, 2015, 7:47 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Remove Google Analytics classic",/alphagov/static/pull/597
+2015-05-26T13:27:34Z,"May 26, 2015, 2:27 PM GMT+1","alphagov/support",https://github.com/alphagov/support,"Keep items columns readable",/alphagov/support/pull/244
+2015-05-26T13:23:35Z,"May 26, 2015, 2:23 PM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version 4.0.0",/alphagov/govuk_frontend_toolkit/pull/195
+2015-05-26T12:44:50Z,"May 26, 2015, 1:44 PM GMT+1","alphagov/support",https://github.com/alphagov/support,"Tweak organisation summary breadcrumbs",/alphagov/support/pull/243
+2015-05-26T09:21:23Z,"May 26, 2015, 10:21 AM GMT+1","alphagov/support",https://github.com/alphagov/support,"Add sorting to organisation summary table",/alphagov/support/pull/242
+2015-05-26T08:55:42Z,"May 26, 2015, 9:55 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Fix sideways scrolling on service priority organisation pages",/alphagov/whitehall/pull/2194
+2015-05-22T10:01:48Z,"May 22, 2015, 11:01 AM GMT+1","alphagov/support",https://github.com/alphagov/support,"Prevent invalid query strings in referrers from erroring",/alphagov/support/pull/239
+2015-05-21T15:55:28Z,"May 21, 2015, 4:55 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Prevent statistics tabs from causing horizontal scroll",/alphagov/whitehall/pull/2193
+2015-05-21T15:55:48Z,"May 21, 2015, 4:55 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Use 14px external links in HTML publication table",/alphagov/whitehall/pull/2192
+2015-05-26T12:08:47Z,"May 26, 2015, 1:08 PM GMT+1","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Remove Google Analytics classic",/alphagov/govuk_frontend_toolkit/pull/194
+2015-05-19T13:40:26Z,"May 19, 2015, 2:40 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Bump shared_mustache gem",/alphagov/whitehall/pull/2184
+2015-05-19T08:52:10Z,"May 19, 2015, 9:52 AM GMT+1","alphagov/shared_mustache",https://github.com/alphagov/shared_mustache,"Version 0.2.1",/alphagov/shared_mustache/pull/10
+2015-05-19T08:15:41Z,"May 19, 2015, 9:15 AM GMT+1","alphagov/shared_mustache",https://github.com/alphagov/shared_mustache,"Update references to Hogan file",/alphagov/shared_mustache/pull/9
+2015-05-18T15:23:03Z,"May 18, 2015, 4:23 PM GMT+1","alphagov/shared_mustache",https://github.com/alphagov/shared_mustache,"Remove `typeof exports` check in Hogan libraries",/alphagov/shared_mustache/pull/8
+2015-05-18T13:04:09Z,"May 18, 2015, 2:04 PM GMT+1","alphagov/contacts-admin",https://github.com/alphagov/contacts-admin,"Bump admin gem to 2.2.0",/alphagov/contacts-admin/pull/203
+2015-05-15T14:07:07Z,"May 15, 2015, 3:07 PM GMT+1","alphagov/collections-publisher",https://github.com/alphagov/collections-publisher,"Bump admin gem to 2.2.0, include analytics",/alphagov/collections-publisher/pull/63
+2015-05-15T15:03:52Z,"May 15, 2015, 4:03 PM GMT+1","alphagov/policy-publisher",https://github.com/alphagov/policy-publisher,"Bump admin gem to 2.2.0, add analytics",/alphagov/policy-publisher/pull/71
+2015-05-18T13:05:27Z,"May 18, 2015, 2:05 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Bump admin gem to 2.2.0",/alphagov/transition/pull/492
+2015-05-19T22:20:36Z,"May 19, 2015, 11:20 PM GMT+1","alphagov/trade-tariff-frontend",https://github.com/alphagov/trade-tariff-frontend,"Remove Need IDs custom dimension",/alphagov/trade-tariff-frontend/pull/181
+2015-05-14T17:09:47Z,"May 14, 2015, 6:09 PM GMT+1","alphagov/frontend",https://github.com/alphagov/frontend,"Use `addLinkedTrackerDomain` for cross domain analytics",/alphagov/frontend/pull/802
+2015-05-11T12:52:17Z,"May 11, 2015, 1:52 PM GMT+1","alphagov/support",https://github.com/alphagov/support,"Improve formatting of anonymous feedback",/alphagov/support/pull/234
+2015-05-06T14:29:50Z,"May 6, 2015, 3:29 PM GMT+1","alphagov/support",https://github.com/alphagov/support,"Improve feedex homepage",/alphagov/support/pull/227
+2015-05-05T16:06:03Z,"May 5, 2015, 5:06 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Remove bunting styles, they live on in calendars",/alphagov/static/pull/587
+2015-05-05T16:10:13Z,"May 5, 2015, 5:10 PM GMT+1","alphagov/calendars",https://github.com/alphagov/calendars,"Re-hang the bunting so it looks alright",/alphagov/calendars/pull/87
+2015-05-05T15:46:14Z,"May 5, 2015, 4:46 PM GMT+1","alphagov/support",https://github.com/alphagov/support,"Make the referrer column user friendly",/alphagov/support/pull/226
+2015-04-30T11:39:36Z,"Apr 30, 2015, 12:39 PM GMT+1","alphagov/support",https://github.com/alphagov/support,"Be lenient in what the feedback explorer can receive in its URL field",/alphagov/support/pull/222
+2015-04-28T17:48:24Z,"Apr 28, 2015, 6:48 PM GMT+1","alphagov/support",https://github.com/alphagov/support,"Tweak feedback explorer table and page headings",/alphagov/support/pull/221
+2015-04-29T09:14:29Z,"Apr 29, 2015, 10:14 AM GMT+1","alphagov/static",https://github.com/alphagov/static,"AB test “Report a problem” design",/alphagov/static/pull/583
+2015-04-21T16:13:56Z,"Apr 21, 2015, 5:13 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Remove transition progress indicators from organisation list",/alphagov/whitehall/pull/2105
+2015-04-20T15:35:52Z,"Apr 20, 2015, 4:35 PM GMT+1","alphagov/manuals-frontend",https://github.com/alphagov/manuals-frontend,"Prevent only HMRC manuals from being crawled",/alphagov/manuals-frontend/pull/142
+2015-04-15T16:02:28Z,"Apr 15, 2015, 5:02 PM GMT+1","alphagov/specialist-frontend",https://github.com/alphagov/specialist-frontend,"Allow robots to crawl reports",/alphagov/specialist-frontend/pull/86
+2015-04-15T14:03:28Z,"Apr 15, 2015, 3:03 PM GMT+1","alphagov/manuals-publisher",https://github.com/alphagov/manuals-publisher,"Remove custom AAIB beta banner",/alphagov/manuals-publisher/pull/470
+2015-04-15T13:50:35Z,"Apr 15, 2015, 2:50 PM GMT+1","alphagov/finder-frontend",https://github.com/alphagov/finder-frontend,"Allow robots to index AAIB, MAIB and RAIB reports",/alphagov/finder-frontend/pull/186
+2015-04-14T13:00:09Z,"Apr 14, 2015, 2:00 PM GMT+1","alphagov/info-frontend",https://github.com/alphagov/info-frontend,"Link searches to search results",/alphagov/info-frontend/pull/42
+2015-04-10T11:02:02Z,"Apr 10, 2015, 12:02 PM GMT+1","alphagov/manuals-publisher",https://github.com/alphagov/manuals-publisher,"Make UI more like other admin apps, prevent accidental publishing",/alphagov/manuals-publisher/pull/466
+2015-04-07T16:33:07Z,"Apr 7, 2015, 5:33 PM GMT+1","alphagov/static",https://github.com/alphagov/static,"Remove analytics slimmer shims",/alphagov/static/pull/568
+2015-04-09T11:25:28Z,"Apr 9, 2015, 12:25 PM GMT+1","alphagov/manuals-publisher",https://github.com/alphagov/manuals-publisher,"Make UI more like other admin apps, prevent accidental publishing",/alphagov/manuals-publisher/pull/464
+2015-03-31T08:20:12Z,"Mar 31, 2015, 9:20 AM GMT+1","alphagov/manuals-publisher",https://github.com/alphagov/manuals-publisher,"Delete bootstrap CSS",/alphagov/manuals-publisher/pull/460
+2015-03-30T14:18:34Z,"Mar 30, 2015, 3:18 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Version 2.2.0",/alphagov/govuk_admin_template/pull/65
+2015-03-30T14:17:34Z,"Mar 30, 2015, 3:17 PM GMT+1","alphagov/manuals-publisher",https://github.com/alphagov/manuals-publisher,"Search slug and title fields, ignore case",/alphagov/manuals-publisher/pull/459
+2015-03-26T17:10:57Z,"Mar 26, 2015, 5:10 PM GMT","alphagov/support",https://github.com/alphagov/support,"Bump admin gem to 2.1.0",/alphagov/support/pull/216
+2015-03-26T14:08:39Z,"Mar 26, 2015, 2:08 PM GMT","alphagov/contacts-admin",https://github.com/alphagov/contacts-admin,"Bump slimmer to 8.1.0",/alphagov/contacts-admin/pull/200
+2015-03-26T11:57:28Z,"Mar 26, 2015, 11:57 AM GMT","alphagov/manuals-publisher",https://github.com/alphagov/manuals-publisher,"Bump admin gem to 2.1.0",/alphagov/manuals-publisher/pull/457
+2015-03-25T15:40:47Z,"Mar 25, 2015, 3:40 PM GMT","alphagov/govuk-component-guide",https://github.com/alphagov/govuk-component-guide,"Bump slimmer to 8.1.0",/alphagov/govuk-component-guide/pull/13
+2015-03-25T16:28:19Z,"Mar 25, 2015, 4:28 PM GMT","alphagov/static",https://github.com/alphagov/static,"Remove custom variable in a cookie shim",/alphagov/static/pull/564
+2015-03-25T10:33:45Z,"Mar 25, 2015, 10:33 AM GMT","alphagov/finder-frontend",https://github.com/alphagov/finder-frontend,"Bump slimmer to 8.1.0",/alphagov/finder-frontend/pull/180
+2015-03-24T17:05:32Z,"Mar 24, 2015, 5:05 PM GMT","alphagov/business-support-finder",https://github.com/alphagov/business-support-finder,"Bump slimmer to 8.1.0",/alphagov/business-support-finder/pull/82
+2015-03-24T17:17:22Z,"Mar 24, 2015, 5:17 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Add a confirm javascript module",/alphagov/govuk_admin_template/pull/64
+2015-03-25T11:02:50Z,"Mar 25, 2015, 11:02 AM GMT","alphagov/frontend",https://github.com/alphagov/frontend,"Use analytics’s `callOnNextPage` to set search position",/alphagov/frontend/pull/777
+2015-03-19T15:32:10Z,"Mar 19, 2015, 3:32 PM GMT","alphagov/manuals-frontend",https://github.com/alphagov/manuals-frontend,"Allow robots to crawl and index manuals",/alphagov/manuals-frontend/pull/138
+2015-03-19T15:48:45Z,"Mar 19, 2015, 3:48 PM GMT","alphagov/transformation-dashboard",https://github.com/alphagov/transformation-dashboard,"Begin migration from classic to universal Google Analytics",/alphagov/transformation-dashboard/pull/81
+2015-03-17T16:44:22Z,"Mar 17, 2015, 4:44 PM GMT","gds-attic/government-service-design-manual",https://github.com/gds-attic/government-service-design-manual,"Begin migration from Classic to Universal analytics",/gds-attic/government-service-design-manual/pull/532
+2015-03-20T12:22:38Z,"Mar 20, 2015, 12:22 PM GMT","alphagov/static",https://github.com/alphagov/static,"Mechanism for making analytics calls on next page",/alphagov/static/pull/560
+2015-03-17T10:08:39Z,"Mar 17, 2015, 10:08 AM GMT","alphagov/collections",https://github.com/alphagov/collections,"Bump slimmer to 8.1.0",/alphagov/collections/pull/72
+2015-03-18T14:26:10Z,"Mar 18, 2015, 2:26 PM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Update slimmer and remove `proposition` slimmer header",/alphagov/whitehall/pull/2030
+2015-03-16T15:02:42Z,"Mar 16, 2015, 3:02 PM GMT","alphagov/static",https://github.com/alphagov/static,"Remove old print tracking technique",/alphagov/static/pull/559
+2015-03-16T13:52:00Z,"Mar 16, 2015, 1:52 PM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version bump to 3.3.0",/alphagov/govuk_frontend_toolkit/pull/168
+2015-03-16T13:02:59Z,"Mar 16, 2015, 1:02 PM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Track a print pageview on print attempt",/alphagov/govuk_frontend_toolkit/pull/167
+2015-03-13T13:33:10Z,"Mar 13, 2015, 1:33 PM GMT","alphagov/frontend",https://github.com/alphagov/frontend,"Don't load universal analytics libraries twice",/alphagov/frontend/pull/769
+2015-03-16T13:53:33Z,"Mar 16, 2015, 1:53 PM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Move classic analytics logic into classic tracker",/alphagov/govuk_frontend_toolkit/pull/166
+2015-03-14T10:56:43Z,"Mar 14, 2015, 10:56 AM GMT","alphagov/trade-tariff-frontend",https://github.com/alphagov/trade-tariff-frontend,"Use frontend_toolkit analytics",/alphagov/trade-tariff-frontend/pull/173
+2015-03-13T15:43:05Z,"Mar 13, 2015, 3:43 PM GMT","alphagov/static",https://github.com/alphagov/static,"Set analytics custom dimensions from `govuk:` meta tags",/alphagov/static/pull/558
+2015-03-12T11:28:21Z,"Mar 12, 2015, 11:28 AM GMT","alphagov/static",https://github.com/alphagov/static,"Use frontend_toolkit’s analytics",/alphagov/static/pull/557
+2015-03-12T17:35:03Z,"Mar 12, 2015, 5:35 PM GMT","alphagov/slimmer",https://github.com/alphagov/slimmer,"Switch from JS custom variables to HTML meta tags",/alphagov/slimmer/pull/119
+2015-03-11T09:32:18Z,"Mar 11, 2015, 9:32 AM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Version bump to 3.2.0",/alphagov/govuk_frontend_toolkit/pull/163
+2015-03-10T16:35:41Z,"Mar 10, 2015, 4:35 PM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Port analytics API from static",/alphagov/govuk_frontend_toolkit/pull/162
+2015-03-10T11:28:09Z,"Mar 10, 2015, 11:28 AM GMT","alphagov/govuk_frontend_toolkit",https://github.com/alphagov/govuk_frontend_toolkit,"Split mixin and javascript documentation into separate files",/alphagov/govuk_frontend_toolkit/pull/161
+2015-03-10T15:10:48Z,"Mar 10, 2015, 3:10 PM GMT","alphagov/slimmer",https://github.com/alphagov/slimmer,"[DISCUSS] Switch from JS custom variables to HTML meta tags",/alphagov/slimmer/pull/117
+2015-03-03T12:55:01Z,"Mar 3, 2015, 12:55 PM GMT","alphagov/slimmer",https://github.com/alphagov/slimmer,"Remove `GOVUK.Analytics` variables",/alphagov/slimmer/pull/115
+2015-03-03T12:32:39Z,"Mar 3, 2015, 12:32 PM GMT","alphagov/slimmer",https://github.com/alphagov/slimmer,"Remove business proposition custom variable",/alphagov/slimmer/pull/114
+2015-03-03T11:59:06Z,"Mar 3, 2015, 11:59 AM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Anonymise IP addresses sent to Google Analytics",/alphagov/whitehall/pull/2005
+2015-03-02T15:15:35Z,"Mar 2, 2015, 3:15 PM GMT","alphagov/static",https://github.com/alphagov/static,"Don't minify analytics initialisers in template",/alphagov/static/pull/552
+2015-03-02T16:31:54Z,"Mar 2, 2015, 4:31 PM GMT","alphagov/collections",https://github.com/alphagov/collections,"Track pageviews and custom vars in Universal",/alphagov/collections/pull/71
+2015-03-02T16:06:26Z,"Mar 2, 2015, 4:06 PM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Track social media shares in Universal",/alphagov/whitehall/pull/1998
+2015-02-26T15:17:06Z,"Feb 26, 2015, 3:17 PM GMT","alphagov/static",https://github.com/alphagov/static,"Track social media shares in Universal analytics",/alphagov/static/pull/550
+2015-02-25T13:34:41Z,"Feb 25, 2015, 1:34 PM GMT","alphagov/static",https://github.com/alphagov/static,"Begin migration from classic to universal Google Analytics",/alphagov/static/pull/549
+2015-02-23T15:54:00Z,"Feb 23, 2015, 3:54 PM GMT","alphagov/static",https://github.com/alphagov/static,"[DISCUSS] Begin migration from classic to universal Google Analytics",/alphagov/static/pull/548
+2015-02-20T13:48:53Z,"Feb 20, 2015, 1:48 PM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Remove metadata link tracking",/alphagov/whitehall/pull/1982
+2015-02-16T21:13:02Z,"Feb 16, 2015, 9:13 PM GMT","alphagov/trade-tariff-frontend",https://github.com/alphagov/trade-tariff-frontend,"Anonymise IP addresses",/alphagov/trade-tariff-frontend/pull/166
+2015-02-16T10:46:04Z,"Feb 16, 2015, 10:46 AM GMT","alphagov/policy-publisher",https://github.com/alphagov/policy-publisher,"Add environment dependent favicons",/alphagov/policy-publisher/pull/13
+2015-02-20T13:50:14Z,"Feb 20, 2015, 1:50 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Upgrade Bootstrap to 3.3.2 and manage analytics via admin gem",/alphagov/publisher/pull/369
+2015-02-11T15:30:30Z,"Feb 11, 2015, 3:30 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Include Google Analytics tracking code",/alphagov/govuk_admin_template/pull/59
+2015-02-11T10:26:21Z,"Feb 11, 2015, 10:26 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Fix downtime slug links in production",/alphagov/publisher/pull/368
+2015-02-06T18:35:32Z,"Feb 6, 2015, 6:35 PM GMT","alphagov/support",https://github.com/alphagov/support,"Bump admin gem to 1.5.1",/alphagov/support/pull/214
+2015-02-09T14:35:58Z,"Feb 9, 2015, 2:35 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Track flash messages in analytics",/alphagov/publisher/pull/366
+2015-02-09T11:16:58Z,"Feb 9, 2015, 11:16 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Only save when the save button is visible and enabled",/alphagov/publisher/pull/365
+2015-02-05T12:44:03Z,"Feb 5, 2015, 12:44 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Fix SASS deprecation warnings",/alphagov/govuk_admin_template/pull/58
+2015-02-03T14:35:45Z,"Feb 3, 2015, 2:35 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Tweak tab tracking to pass in tab href",/alphagov/publisher/pull/364
+2015-02-03T11:59:09Z,"Feb 3, 2015, 11:59 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Track edition interactions",/alphagov/publisher/pull/363
+2015-02-02T11:49:50Z,"Feb 2, 2015, 11:49 AM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Hide 'more like this' when there are none",/alphagov/whitehall/pull/1959
+2015-02-02T11:52:57Z,"Feb 2, 2015, 11:52 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Make ajax tests more rugged",/alphagov/publisher/pull/362
+2015-01-30T06:16:57Z,"Jan 30, 2015, 6:16 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Improve behaviour of ajax saving",/alphagov/publisher/pull/361
+2015-01-29T10:40:57Z,"Jan 29, 2015, 10:40 AM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Upgrade Bootstrap to 3.3.2",/alphagov/govuk_admin_template/pull/57
+2015-01-27T17:00:52Z,"Jan 27, 2015, 5:00 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Improve auto generation of slugs",/alphagov/publisher/pull/359
+2015-01-29T09:47:55Z,"Jan 29, 2015, 9:47 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Save editions using ajax",/alphagov/publisher/pull/358
+2015-01-23T13:36:36Z,"Jan 23, 2015, 1:36 PM GMT","alphagov/govuk_content_models",https://github.com/alphagov/govuk_content_models,"Release 28.3.0",/alphagov/govuk_content_models/pull/286
+2015-01-23T13:26:40Z,"Jan 23, 2015, 1:26 PM GMT","alphagov/govuk_content_models",https://github.com/alphagov/govuk_content_models,"Show clash between primary topic and additional topic as an error against a field",/alphagov/govuk_content_models/pull/285
+2015-02-02T12:11:59Z,"Feb 2, 2015, 12:11 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Alter expand/collapse text when adding/removing parts",/alphagov/publisher/pull/357
+2015-01-16T08:17:46Z,"Jan 16, 2015, 8:17 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Downtime messages begin at midnight the day before",/alphagov/publisher/pull/354
+2015-01-15T14:32:57Z,"Jan 15, 2015, 2:32 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Remove modal fade shim previously used in tests",/alphagov/publisher/pull/352
+2015-01-15T14:34:06Z,"Jan 15, 2015, 2:34 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Remove old bootstrap js tab shim",/alphagov/publisher/pull/351
+2015-01-15T09:51:49Z,"Jan 15, 2015, 9:51 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Allow claiming of 2i when reviewer has been reset",/alphagov/publisher/pull/350
+2015-01-13T08:13:05Z,"Jan 13, 2015, 8:13 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Improve display of important note changes",/alphagov/publisher/pull/347
+2015-01-09T12:33:43Z,"Jan 9, 2015, 12:33 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"After adding notes, redirect back to notes tab",/alphagov/publisher/pull/345
+2015-01-06T13:43:57Z,"Jan 6, 2015, 1:43 PM GMT","alphagov/release",https://github.com/alphagov/release,"Upgrade Bootstrap to 3.3",/alphagov/release/pull/72
+2015-02-27T10:19:50Z,"Feb 27, 2015, 10:19 AM GMT","alphagov/collections-publisher",https://github.com/alphagov/collections-publisher,"Upgrade to Bootstrap 3.3",/alphagov/collections-publisher/pull/16
+2015-01-05T06:43:02Z,"Jan 5, 2015, 6:43 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Don't let ‘Claim 2i’ work when an edition is already claimed",/alphagov/publisher/pull/344
+2015-01-06T10:34:10Z,"Jan 6, 2015, 10:34 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Make tabs on editions linkable, and work without js",/alphagov/publisher/pull/343
+2014-12-30T12:26:20Z,"Dec 30, 2014, 12:26 PM GMT","alphagov/manuals-publisher",https://github.com/alphagov/manuals-publisher,"Add Google analytics",/alphagov/manuals-publisher/pull/368
+2015-01-06T12:49:35Z,"Jan 6, 2015, 12:49 PM GMT","alphagov/contacts-admin",https://github.com/alphagov/contacts-admin,"Switch to using govuk_admin_template",/alphagov/contacts-admin/pull/167
+2014-12-30T08:56:44Z,"Dec 30, 2014, 8:56 AM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Allow customisation of app's home path",/alphagov/govuk_admin_template/pull/56
+2014-12-24T11:59:54Z,"Dec 24, 2014, 11:59 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Remove ‘Created by’ column from publication tables",/alphagov/publisher/pull/341
+2014-12-24T11:02:41Z,"Dec 24, 2014, 11:02 AM GMT","alphagov/signon",https://github.com/alphagov/signon,"Show all event logs",/alphagov/signon/pull/297
+2014-12-24T12:01:30Z,"Dec 24, 2014, 12:01 PM GMT","alphagov/travel-advice-publisher",https://github.com/alphagov/travel-advice-publisher,"Improve legibility of diff views",/alphagov/travel-advice-publisher/pull/78
+2014-12-24T09:28:18Z,"Dec 24, 2014, 9:28 AM GMT","alphagov/signon",https://github.com/alphagov/signon,"Allow filtering of user list by user status",/alphagov/signon/pull/296
+2014-12-24T12:02:19Z,"Dec 24, 2014, 12:02 PM GMT","alphagov/signon",https://github.com/alphagov/signon,"Prevent environment label from occasionally wrapping",/alphagov/signon/pull/295
+2014-12-19T21:39:13Z,"Dec 19, 2014, 9:39 PM GMT","fofr/sam-and-paul.com",https://github.com/fofr/sam-and-paul.com,"Make sam-and-paul.com mobile friendly",/fofr/sam-and-paul.com/pull/2
+2014-12-24T09:17:57Z,"Dec 24, 2014, 9:17 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Allow editing of business support editions without javascript",/alphagov/publisher/pull/339
+2014-12-18T13:23:08Z,"Dec 18, 2014, 1:23 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Remove `minutes to complete` and `uses government gateway` fields",/alphagov/publisher/pull/338
+2014-12-19T10:09:05Z,"Dec 19, 2014, 10:09 AM GMT","alphagov/frontend",https://github.com/alphagov/frontend,"Remove minutes to complete",/alphagov/frontend/pull/707
+2014-12-18T12:11:17Z,"Dec 18, 2014, 12:11 PM GMT","alphagov/govuk_content_api",https://github.com/alphagov/govuk_content_api,"Remove mins to complete field",/alphagov/govuk_content_api/pull/208
+2014-12-17T16:50:23Z,"Dec 17, 2014, 4:50 PM GMT","alphagov/govuk_content_models",https://github.com/alphagov/govuk_content_models,"Version 28.0.0",/alphagov/govuk_content_models/pull/275
+2014-12-17T16:22:08Z,"Dec 17, 2014, 4:22 PM GMT","alphagov/govuk_content_models",https://github.com/alphagov/govuk_content_models,"Remove minutes to complete and ‘uses government gateway’",/alphagov/govuk_content_models/pull/273
+2014-12-16T16:50:20Z,"Dec 16, 2014, 4:50 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Improve legibility of diff views",/alphagov/publisher/pull/335
+2014-12-16T09:44:58Z,"Dec 16, 2014, 9:44 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Remove the 'Archive by' column from archived publications table",/alphagov/publisher/pull/334
+2014-12-15T09:34:28Z,"Dec 15, 2014, 9:34 AM GMT","fofr/designscifi.com",https://github.com/fofr/designscifi.com,"Create first components",/fofr/designscifi.com/pull/2
+2014-12-14T17:21:31Z,"Dec 14, 2014, 5:21 PM GMT","fofr/designscifi.com",https://github.com/fofr/designscifi.com,"Create static site with Jekyll and Bootstrap",/fofr/designscifi.com/pull/1
+2014-12-12T07:28:59Z,"Dec 12, 2014, 7:28 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Fix wrapping environment label with admin gem bump",/alphagov/publisher/pull/331
+2014-12-12T05:01:49Z,"Dec 12, 2014, 5:01 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Add publication format to edition view",/alphagov/publisher/pull/330
+2014-12-08T15:57:02Z,"Dec 8, 2014, 3:57 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Make event tracking work with universal analytics",/alphagov/govuk_admin_template/pull/55
+2014-12-05T17:18:34Z,"Dec 5, 2014, 5:18 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Prevent environment indicator from occasionally wrapping",/alphagov/govuk_admin_template/pull/54
+2014-12-05T12:35:21Z,"Dec 5, 2014, 12:35 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Tweak messaging and secondary field sizes",/alphagov/publisher/pull/323
+2014-12-02T14:10:24Z,"Dec 2, 2014, 2:10 PM GMT","alphagov/search-admin",https://github.com/alphagov/search-admin,"Upgrade Bootstrap to 3.3",/alphagov/search-admin/pull/21
+2014-12-05T08:49:46Z,"Dec 5, 2014, 8:49 AM GMT","alphagov/short-url-manager",https://github.com/alphagov/short-url-manager,"Upgrade Bootstrap to 3.3",/alphagov/short-url-manager/pull/18
+2014-12-04T16:26:04Z,"Dec 4, 2014, 4:26 PM GMT","alphagov/manuals-publisher",https://github.com/alphagov/manuals-publisher,"Upgrade Bootstrap to 3.3",/alphagov/manuals-publisher/pull/338
+2014-12-03T11:36:55Z,"Dec 3, 2014, 11:36 AM GMT","alphagov/maslow",https://github.com/alphagov/maslow,"Upgrade Bootstrap to 3.3",/alphagov/maslow/pull/134
+2014-12-05T07:49:39Z,"Dec 5, 2014, 7:49 AM GMT","alphagov/travel-advice-publisher",https://github.com/alphagov/travel-advice-publisher,"Upgrade Bootstrap to 3.3",/alphagov/travel-advice-publisher/pull/75
+2014-12-05T07:38:48Z,"Dec 5, 2014, 7:38 AM GMT","alphagov/signon",https://github.com/alphagov/signon,"Upgrade Bootstrap to 3.3",/alphagov/signon/pull/292
+2014-12-05T07:23:57Z,"Dec 5, 2014, 7:23 AM GMT","alphagov/panopticon",https://github.com/alphagov/panopticon,"Upgrade Bootstrap to 3.3",/alphagov/panopticon/pull/238
+2014-12-05T08:29:53Z,"Dec 5, 2014, 8:29 AM GMT","alphagov/imminence",https://github.com/alphagov/imminence,"Upgrade Bootstrap to 3.3",/alphagov/imminence/pull/104
+2014-12-04T14:47:44Z,"Dec 4, 2014, 2:47 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Upgrade to Bootstrap 3.3",/alphagov/publisher/pull/320
+2014-11-24T14:01:53Z,"Nov 24, 2014, 2:01 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Upgrade Bootstrap to 3.3",/alphagov/govuk_admin_template/pull/53
+2014-11-26T13:03:07Z,"Nov 26, 2014, 1:03 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Hide earlier emails in a fact check received email chain",/alphagov/publisher/pull/308
+2014-12-19T10:10:30Z,"Dec 19, 2014, 10:10 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Remove chrome fix now Chrome 39 is out",/alphagov/publisher/pull/307
+2014-11-21T08:26:21Z,"Nov 21, 2014, 8:26 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Disable all fields on published editions",/alphagov/publisher/pull/303
+2014-11-19T10:58:50Z,"Nov 19, 2014, 10:58 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Update notices to success or danger flash messages",/alphagov/publisher/pull/302
+2014-11-18T13:40:34Z,"Nov 18, 2014, 1:40 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Temporarily fix Chrome 38 multiple-select bug",/alphagov/publisher/pull/301
+2014-11-18T13:53:47Z,"Nov 18, 2014, 1:53 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Quick cleanup of admin tab on editions",/alphagov/publisher/pull/300
+2014-11-18T05:26:25Z,"Nov 18, 2014, 5:26 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Avoid submitting business support form with JS",/alphagov/publisher/pull/299
+2014-11-18T05:29:54Z,"Nov 18, 2014, 5:29 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Include fact check request recipients in note",/alphagov/publisher/pull/298
+2014-11-17T11:41:52Z,"Nov 17, 2014, 11:41 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Link to zendesk tickets from edition notes automatically",/alphagov/publisher/pull/296
+2014-11-14T16:40:45Z,"Nov 14, 2014, 4:40 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Simplify page titles",/alphagov/publisher/pull/294
+2014-11-17T12:09:07Z,"Nov 17, 2014, 12:09 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Reintroduce previous important note workflow",/alphagov/publisher/pull/293
+2014-11-14T11:01:22Z,"Nov 14, 2014, 11:01 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Remove autofocus to prevent page scrolling",/alphagov/publisher/pull/291
+2014-11-13T06:42:20Z,"Nov 13, 2014, 6:42 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Make links clickable in notes",/alphagov/publisher/pull/286
+2014-11-11T17:19:25Z,"Nov 11, 2014, 5:19 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Remove important notes from history",/alphagov/publisher/pull/284
+2014-11-12T11:08:17Z,"Nov 12, 2014, 11:08 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Replace grid wrappers with input helper classes",/alphagov/publisher/pull/283
+2014-11-12T11:06:21Z,"Nov 12, 2014, 11:06 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Only show video fields on video formats",/alphagov/publisher/pull/282
+2014-11-10T17:00:28Z,"Nov 10, 2014, 5:00 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Put selectable table JS module back into Transition",/alphagov/transition/pull/454
+2014-11-10T16:26:46Z,"Nov 10, 2014, 4:26 PM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Remove selectable table module",/alphagov/govuk_admin_template/pull/49
+2014-11-10T10:08:33Z,"Nov 10, 2014, 10:08 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Use select2 enhancement on assignee select on editions",/alphagov/publisher/pull/280
+2014-11-07T05:04:23Z,"Nov 7, 2014, 5:04 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Enhanced assignee selector",/alphagov/publisher/pull/278
+2014-11-06T13:18:57Z,"Nov 6, 2014, 1:18 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Fix lead styles when using the `text-muted` class",/alphagov/transition/pull/450
+2014-11-06T07:33:14Z,"Nov 6, 2014, 7:33 AM GMT","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Tweak CSS helpers",/alphagov/govuk_admin_template/pull/48
+2014-11-04T17:00:04Z,"Nov 4, 2014, 5:00 PM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Consolidate publication table views",/alphagov/publisher/pull/275
+2014-10-31T04:33:41Z,"Oct 31, 2014, 4:33 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Improve design of important notes",/alphagov/publisher/pull/274
+2014-10-27T17:59:17Z,"Oct 27, 2014, 5:59 PM GMT","alphagov/support",https://github.com/alphagov/support,"Upgrade admin gem to 1.1.6",/alphagov/support/pull/213
+2014-10-28T02:44:29Z,"Oct 28, 2014, 2:44 AM GMT","alphagov/publisher",https://github.com/alphagov/publisher,"Update admin gem to 1.1.6",/alphagov/publisher/pull/272
+2014-10-27T14:54:50Z,"Oct 27, 2014, 2:54 PM GMT","alphagov/search-admin",https://github.com/alphagov/search-admin,"Upgrade admin gem to 1.1.6 and cleanup templates",/alphagov/search-admin/pull/19
+2014-10-24T14:59:26Z,"Oct 24, 2014, 3:59 PM GMT+1","alphagov/short-url-manager",https://github.com/alphagov/short-url-manager,"Upgrade admin gem to 1.1.6",/alphagov/short-url-manager/pull/14
+2014-10-27T05:20:28Z,"Oct 27, 2014, 5:20 AM GMT","alphagov/whitehall",https://github.com/alphagov/whitehall,"Fix GillSans font stack",/alphagov/whitehall/pull/1805
+2014-10-27T09:58:08Z,"Oct 27, 2014, 9:58 AM GMT","alphagov/signon",https://github.com/alphagov/signon,"Fix GillSans font stack for IE and Chrome on Windows",/alphagov/signon/pull/278
+2014-10-24T08:56:59Z,"Oct 24, 2014, 9:56 AM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Tweak layout of tags on editions",/alphagov/publisher/pull/271
+2014-10-22T10:19:01Z,"Oct 22, 2014, 11:19 AM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Improve table of publications design",/alphagov/publisher/pull/268
+2014-10-15T10:26:49Z,"Oct 15, 2014, 11:26 AM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Quickly expand or collapse parts in a guide or programme",/alphagov/publisher/pull/267
+2014-10-13T11:08:28Z,"Oct 13, 2014, 12:08 PM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Cleanup change email form when there's a pending change",/alphagov/signon/pull/275
+2014-10-14T14:26:53Z,"Oct 14, 2014, 3:26 PM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Remove highlighted editions from publications lists",/alphagov/publisher/pull/266
+2014-10-10T04:51:40Z,"Oct 10, 2014, 5:51 AM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Remove comment field from fact check form",/alphagov/publisher/pull/265
+2014-10-09T11:05:50Z,"Oct 9, 2014, 12:05 PM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Improve edition history and notes",/alphagov/publisher/pull/264
+2014-10-07T05:44:55Z,"Oct 7, 2014, 6:44 AM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Clean up logged-out change email form",/alphagov/signon/pull/274
+2014-10-03T19:08:55Z,"Oct 3, 2014, 8:08 PM GMT+1","alphagov/govuk_need_api",https://github.com/alphagov/govuk_need_api,"Include duplicate_of in need search results",/alphagov/govuk_need_api/pull/66
+2014-09-08T06:50:19Z,"Sep 8, 2014, 7:50 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Include Microsoft version of Gill Sans in font stack",/alphagov/govuk_admin_template/pull/41
+2014-09-09T14:52:18Z,"Sep 9, 2014, 3:52 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Bring `lead` styles more inline with GOV.UK ones",/alphagov/govuk_admin_template/pull/40
+2014-09-09T14:16:43Z,"Sep 9, 2014, 3:16 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Tidy up heading and table styles for big lists",/alphagov/whitehall/pull/1702
+2014-09-04T16:36:12Z,"Sep 4, 2014, 5:36 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Update dashboard link destinations",/alphagov/whitehall/pull/1700
+2014-09-04T15:36:47Z,"Sep 4, 2014, 4:36 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Improve jump to mapping copy without js",/alphagov/transition/pull/390
+2014-09-02T15:07:11Z,"Sep 2, 2014, 4:07 PM GMT+1","alphagov/release",https://github.com/alphagov/release,"Update govuk_admin_template to 1.1.2",/alphagov/release/pull/69
+2014-09-02T15:08:11Z,"Sep 2, 2014, 4:08 PM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Update govuk_admin_template to 1.1.2",/alphagov/signon/pull/264
+2014-09-02T15:08:21Z,"Sep 2, 2014, 4:08 PM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Update govuk_admin_template to 1.1.2",/alphagov/publisher/pull/250
+2014-09-02T15:08:53Z,"Sep 2, 2014, 4:08 PM GMT+1","alphagov/maslow",https://github.com/alphagov/maslow,"Update govuk_admin_template to 1.1.2",/alphagov/maslow/pull/115
+2014-09-05T13:09:00Z,"Sep 5, 2014, 2:09 PM GMT+1","alphagov/travel-advice-publisher",https://github.com/alphagov/travel-advice-publisher,"Allow users to filter table of countries",/alphagov/travel-advice-publisher/pull/72
+2014-08-29T15:21:33Z,"Aug 29, 2014, 4:21 PM GMT+1","alphagov/imminence",https://github.com/alphagov/imminence,"Add environment specific favicons",/alphagov/imminence/pull/94
+2014-09-02T13:42:16Z,"Sep 2, 2014, 2:42 PM GMT+1","alphagov/panopticon",https://github.com/alphagov/panopticon,"Add environment specific favicons",/alphagov/panopticon/pull/201
+2014-08-29T14:06:30Z,"Aug 29, 2014, 3:06 PM GMT+1","alphagov/panopticon",https://github.com/alphagov/panopticon,"Fix display of need IDs in artefacts table",/alphagov/panopticon/pull/200
+2014-08-29T12:07:01Z,"Aug 29, 2014, 1:07 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Stop incorrect date initialisation at month end",/alphagov/whitehall/pull/1691
+2014-08-29T14:08:01Z,"Aug 29, 2014, 3:08 PM GMT+1","alphagov/imminence",https://github.com/alphagov/imminence,"Switch to using govuk_admin_template",/alphagov/imminence/pull/93
+2014-08-28T07:12:32Z,"Aug 28, 2014, 8:12 AM GMT+1","alphagov/panopticon",https://github.com/alphagov/panopticon,"Switch to using govuk_admin_template",/alphagov/panopticon/pull/198
+2014-08-27T13:21:42Z,"Aug 27, 2014, 2:21 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Indicate which SASS files are partials",/alphagov/govuk_admin_template/pull/39
+2014-08-27T13:17:05Z,"Aug 27, 2014, 2:17 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Allow apps to specify a full width page",/alphagov/govuk_admin_template/pull/38
+2014-08-25T12:03:15Z,"Aug 25, 2014, 1:03 PM GMT+1","fofr/sam-and-paul.com",https://github.com/fofr/sam-and-paul.com,"Create a {% figure %} tag",/fofr/sam-and-paul.com/pull/1
+2014-08-22T09:59:35Z,"Aug 22, 2014, 10:59 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Add acronym and abbreviation markdown guidance",/alphagov/whitehall/pull/1675
+2014-08-20T14:02:08Z,"Aug 20, 2014, 3:02 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Tweak styles of document list filters and results",/alphagov/whitehall/pull/1674
+2014-08-20T09:01:34Z,"Aug 20, 2014, 10:01 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Upgrade Bootstrap to 2.3.2",/alphagov/whitehall/pull/1669
+2014-08-20T09:01:09Z,"Aug 20, 2014, 10:01 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Hide display date fields when date is confirmed",/alphagov/whitehall/pull/1663
+2014-08-14T09:12:05Z,"Aug 14, 2014, 10:12 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Tweak statistics announcement copy",/alphagov/whitehall/pull/1661
+2014-08-13T15:56:59Z,"Aug 13, 2014, 4:56 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Improve role date selection",/alphagov/whitehall/pull/1658
+2014-08-12T17:20:34Z,"Aug 12, 2014, 6:20 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Blacken Whitehall admin header",/alphagov/whitehall/pull/1651
+2014-08-11T13:01:48Z,"Aug 11, 2014, 2:01 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Improve stats announcements UI",/alphagov/whitehall/pull/1649
+2014-08-05T09:37:39Z,"Aug 5, 2014, 10:37 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Update the aria-valuenow on batch upload",/alphagov/transition/pull/371
+2014-07-30T13:28:06Z,"Jul 30, 2014, 2:28 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Stop nesting filter search results when dynamically loading",/alphagov/whitehall/pull/1630
+2014-07-24T09:34:33Z,"Jul 24, 2014, 10:34 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Open links when hitting enter on a filtered table",/alphagov/transition/pull/351
+2014-07-23T15:08:51Z,"Jul 23, 2014, 4:08 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"When filtering tables, allow users to easily go to the first item",/alphagov/govuk_admin_template/pull/37
+2014-07-23T07:57:41Z,"Jul 23, 2014, 8:57 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Update jQuery and Bootstrap",/alphagov/transition/pull/347
+2014-07-22T15:02:26Z,"Jul 22, 2014, 4:02 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Simplify markup and styling of admin header",/alphagov/whitehall/pull/1611
+2014-07-22T09:29:13Z,"Jul 22, 2014, 10:29 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Fix JS in old IEs by removing trailing comma",/alphagov/whitehall/pull/1610
+2014-07-21T16:40:49Z,"Jul 21, 2014, 5:40 PM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Don’t load admin CSS twice",/alphagov/whitehall/pull/1604
+2014-07-22T14:05:19Z,"Jul 22, 2014, 3:05 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Improve guidance on buttons and tables",/alphagov/govuk_admin_template/pull/35
+2014-07-22T14:17:52Z,"Jul 22, 2014, 3:17 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Update jQuery and Bootstrap",/alphagov/govuk_admin_template/pull/34
+2014-07-16T08:49:53Z,"Jul 16, 2014, 9:49 AM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Use alphabetical_paginate gem with merged fix",/alphagov/signon/pull/246
+2014-07-16T09:20:22Z,"Jul 16, 2014, 10:20 AM GMT+1","alphagov/travel-advice-publisher",https://github.com/alphagov/travel-advice-publisher,"Add Jasmine for Javascript testing",/alphagov/travel-advice-publisher/pull/65
+2014-07-17T14:10:58Z,"Jul 17, 2014, 3:10 PM GMT+1","alphagov/maslow",https://github.com/alphagov/maslow,"Add Jasmine for Javascript testing",/alphagov/maslow/pull/110
+2014-07-18T08:53:40Z,"Jul 18, 2014, 9:53 AM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Add Jasmine for Javascript testing",/alphagov/signon/pull/244
+2014-07-11T13:39:15Z,"Jul 11, 2014, 2:39 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Switch back to using official jasmine gem build",/alphagov/govuk_admin_template/pull/33
+2014-07-04T22:37:10Z,"Jul 4, 2014, 11:37 PM GMT+1","fofr/paulrhayes.com",https://github.com/fofr/paulrhayes.com,"Add photography to paulrhayes.com",/fofr/paulrhayes.com/pull/4
+2014-07-07T04:22:06Z,"Jul 7, 2014, 5:22 AM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Tidy up diff between publication editions",/alphagov/publisher/pull/229
+2014-07-07T08:38:12Z,"Jul 7, 2014, 9:38 AM GMT+1","alphagov/travel-advice-publisher",https://github.com/alphagov/travel-advice-publisher,"Improve rendering in IE7",/alphagov/travel-advice-publisher/pull/63
+2014-07-04T15:19:01Z,"Jul 4, 2014, 4:19 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Tweak size of input helpers, based on column sizes",/alphagov/govuk_admin_template/pull/32
+2014-07-04T22:40:08Z,"Jul 4, 2014, 11:40 PM GMT+1","fofr/paulrhayes.com-experiments",https://github.com/fofr/paulrhayes.com-experiments,"Future proof experiments with standardised CSS",/fofr/paulrhayes.com-experiments/pull/12
+2014-07-04T09:51:45Z,"Jul 4, 2014, 10:51 AM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Bump admin gem to fix precompile error",/alphagov/signon/pull/242
+2014-07-04T09:30:46Z,"Jul 4, 2014, 10:30 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Precompile IE7 to a CSS file, not SCSS",/alphagov/govuk_admin_template/pull/31
+2014-07-03T21:12:47Z,"Jul 3, 2014, 10:12 PM GMT+1","fofr/paulrhayes.com",https://github.com/fofr/paulrhayes.com,"Prepare for IndieWeb",/fofr/paulrhayes.com/pull/3
+2014-07-03T14:54:54Z,"Jul 3, 2014, 3:54 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Make setting input widths easier with bootstrap 3",/alphagov/govuk_admin_template/pull/30
+2014-07-03T14:52:13Z,"Jul 3, 2014, 3:52 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Improve Bootstrap 3 styles in IE7",/alphagov/govuk_admin_template/pull/29
+2014-07-04T09:13:18Z,"Jul 4, 2014, 10:13 AM GMT+1","alphagov/signon",https://github.com/alphagov/signon,"Switch to using govuk_admin_template",/alphagov/signon/pull/241
+2014-07-13T07:22:12Z,"Jul 13, 2014, 8:22 AM GMT+1","lingz/alphabetical_paginate",https://github.com/lingz/alphabetical_paginate,"Close html list element when using Bootstrap 3",/lingz/alphabetical_paginate/pull/23
+2014-07-01T08:24:46Z,"Jul 1, 2014, 9:24 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Tidy up navbar when no navigation specified",/alphagov/govuk_admin_template/pull/28
+2014-06-27T10:19:22Z,"Jun 27, 2014, 11:19 AM GMT+1","alphagov/travel-advice-publisher",https://github.com/alphagov/travel-advice-publisher,"Bump admin gem to fix IE8 rendering",/alphagov/travel-advice-publisher/pull/62
+2014-06-26T09:15:41Z,"Jun 26, 2014, 10:15 AM GMT+1","alphagov/maslow",https://github.com/alphagov/maslow,"Bump admin gem to fix IE8 rendering",/alphagov/maslow/pull/108
+2014-06-26T09:09:43Z,"Jun 26, 2014, 10:09 AM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Bump admin gem to fix IE8 rendering",/alphagov/publisher/pull/215
+2014-06-26T08:40:35Z,"Jun 26, 2014, 9:40 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Bump admin gem to fix IE8 rendering",/alphagov/transition/pull/332
+2014-06-26T08:12:17Z,"Jun 26, 2014, 9:12 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Move IE8 shims and fixes so they load after styles",/alphagov/govuk_admin_template/pull/27
+2014-06-25T10:47:58Z,"Jun 25, 2014, 11:47 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Add short date and time formats",/alphagov/govuk_admin_template/pull/26
+2014-06-25T10:19:26Z,"Jun 25, 2014, 11:19 AM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Improve contrast of editable fields within 'parts'",/alphagov/publisher/pull/214
+2014-06-24T14:58:35Z,"Jun 24, 2014, 3:58 PM GMT+1","alphagov/smokey",https://github.com/alphagov/smokey,"Update check for mainstream publisher sign in",/alphagov/smokey/pull/96
+2014-06-23T11:09:59Z,"Jun 23, 2014, 12:09 PM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Move business support javascript into tested module",/alphagov/publisher/pull/211
+2014-06-20T12:52:49Z,"Jun 20, 2014, 1:52 PM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Switch to using govuk_admin_template",/alphagov/publisher/pull/210
+2014-06-18T15:32:47Z,"Jun 18, 2014, 4:32 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Update README to include details of apps already using gem",/alphagov/govuk_admin_template/pull/25
+2014-06-13T18:53:23Z,"Jun 13, 2014, 7:53 PM GMT+1","fofr/paulrhayes.com-experiments",https://github.com/fofr/paulrhayes.com-experiments,"Generate experiments via hexo theme",/fofr/paulrhayes.com-experiments/pull/10
+2014-06-13T18:49:33Z,"Jun 13, 2014, 7:49 PM GMT+1","fofr/paulrhayes.com",https://github.com/fofr/paulrhayes.com,"Create a theme for exporting experiments",/fofr/paulrhayes.com/pull/2
+2014-06-18T15:18:16Z,"Jun 18, 2014, 4:18 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Upgrade admin gem to 1.0.0",/alphagov/transition/pull/317
+2014-06-12T21:35:09Z,"Jun 12, 2014, 10:35 PM GMT+1","fofr/paulrhayes.com",https://github.com/fofr/paulrhayes.com,"Add experiments to static site",/fofr/paulrhayes.com/pull/1
+2014-06-13T13:43:38Z,"Jun 13, 2014, 2:43 PM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Upgrade jQuery",/alphagov/publisher/pull/206
+2014-06-12T08:37:57Z,"Jun 12, 2014, 9:37 AM GMT+1","alphagov/whitehall",https://github.com/alphagov/whitehall,"Distinguish between Whitehall environments",/alphagov/whitehall/pull/1557
+2014-06-12T09:22:31Z,"Jun 12, 2014, 10:22 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Put back Bootstrap 2 nav-list styles",/alphagov/govuk_admin_template/pull/22
+2014-06-09T10:54:17Z,"Jun 9, 2014, 11:54 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Create padding helpers",/alphagov/govuk_admin_template/pull/21
+2014-06-09T09:43:49Z,"Jun 9, 2014, 10:43 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Introduce margin mixins",/alphagov/govuk_admin_template/pull/20
+2014-06-09T09:09:54Z,"Jun 9, 2014, 10:09 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Correct spacing when using Bootstrap's page-header class",/alphagov/govuk_admin_template/pull/19
+2014-06-06T15:32:00Z,"Jun 6, 2014, 4:32 PM GMT+1","alphagov/travel-advice-publisher",https://github.com/alphagov/travel-advice-publisher,"Show environment indicator",/alphagov/travel-advice-publisher/pull/61
+2014-06-06T10:14:34Z,"Jun 6, 2014, 11:14 AM GMT+1","alphagov/support",https://github.com/alphagov/support,"Show environment indicator",/alphagov/support/pull/167
+2014-06-05T13:28:13Z,"Jun 5, 2014, 2:28 PM GMT+1","alphagov/maslow",https://github.com/alphagov/maslow,"Show environment indicator",/alphagov/maslow/pull/107
+2014-06-06T13:56:24Z,"Jun 6, 2014, 2:56 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Show environment indicator",/alphagov/transition/pull/305
+2014-06-05T16:03:45Z,"Jun 5, 2014, 5:03 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Restrict bootstrap component visited link styles",/alphagov/govuk_admin_template/pull/18
+2014-06-05T09:13:35Z,"Jun 5, 2014, 10:13 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Distinguish between environments",/alphagov/govuk_admin_template/pull/17
+2014-06-03T18:59:33Z,"Jun 3, 2014, 7:59 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Create a CSS guide",/alphagov/govuk_admin_template/pull/16
+2014-06-02T14:43:48Z,"Jun 2, 2014, 3:43 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Allow content in footer and at the bottom of a page",/alphagov/govuk_admin_template/pull/15
+2014-06-03T14:02:14Z,"Jun 3, 2014, 3:02 PM GMT+1","alphagov/publisher",https://github.com/alphagov/publisher,"Distinguish between Publisher environments",/alphagov/publisher/pull/203
+2014-06-02T09:38:13Z,"Jun 2, 2014, 10:38 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Fix visited link styles on bootstrap components",/alphagov/govuk_admin_template/pull/14
+2014-06-02T09:56:02Z,"Jun 2, 2014, 10:56 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Add date examples to style guide",/alphagov/govuk_admin_template/pull/13
+2014-05-30T13:56:56Z,"May 30, 2014, 2:56 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Namespace gem assets",/alphagov/govuk_admin_template/pull/12
+2014-05-30T15:09:40Z,"May 30, 2014, 4:09 PM GMT+1","alphagov/travel-advice-publisher",https://github.com/alphagov/travel-advice-publisher,"Switch to using govuk_admin_template",/alphagov/travel-advice-publisher/pull/60
+2014-05-30T10:58:41Z,"May 30, 2014, 11:58 AM GMT+1","alphagov/maslow",https://github.com/alphagov/maslow,"Switch to using govuk_admin_template",/alphagov/maslow/pull/105
+2014-05-27T10:37:17Z,"May 27, 2014, 11:37 AM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Add GOV.UK user friendly date formats",/alphagov/govuk_admin_template/pull/9
+2014-05-23T19:52:49Z,"May 23, 2014, 8:52 PM GMT+1","jasmine/jasmine-gem",https://github.com/jasmine/jasmine-gem,"Fix config option typo in jasmine helper",/jasmine/jasmine-gem/pull/215
+2014-05-23T14:35:36Z,"May 23, 2014, 3:35 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Prevent PhantomJS auto install",/alphagov/transition/pull/289
+2014-05-28T09:44:46Z,"May 28, 2014, 10:44 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Switch to using govuk_admin_template",/alphagov/transition/pull/288
+2014-05-23T12:48:18Z,"May 23, 2014, 1:48 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Put gem templates through parent's app controller",/alphagov/govuk_admin_template/pull/7
+2014-05-23T11:04:55Z,"May 23, 2014, 12:04 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Correct gem routes so they may be mounted",/alphagov/govuk_admin_template/pull/6
+2014-05-23T13:12:36Z,"May 23, 2014, 2:12 PM GMT+1","jasmine/jasmine-gem",https://github.com/jasmine/jasmine-gem,"Bump version to 2.0.2 to include PhantomJS download option",/jasmine/jasmine-gem/pull/214
+2014-05-22T16:21:47Z,"May 22, 2014, 5:21 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Port modular javascript framework from transition",/alphagov/govuk_admin_template/pull/3
+2014-05-21T15:54:52Z,"May 21, 2014, 4:54 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Prevent automatic PhantomJS install",/alphagov/govuk_admin_template/pull/2
+2014-05-21T18:12:39Z,"May 21, 2014, 7:12 PM GMT+1","jasmine/jasmine-gem",https://github.com/jasmine/jasmine-gem,"Allow prevention of automatic PhantomJS download",/jasmine/jasmine-gem/pull/213
+2014-05-20T12:17:09Z,"May 20, 2014, 1:17 PM GMT+1","alphagov/govuk_admin_template",https://github.com/alphagov/govuk_admin_template,"Setup testing for gem using dummy application",/alphagov/govuk_admin_template/pull/1
+2014-05-06T11:28:04Z,"May 6, 2014, 12:28 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Remove helpful message when background process succeeds",/alphagov/transition/pull/270
+2014-05-02T10:53:26Z,"May 2, 2014, 11:53 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Make switching between hit periods work without JavaScript",/alphagov/transition/pull/269
+2014-04-28T12:43:33Z,"Apr 28, 2014, 1:43 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Refine background bulk add modal",/alphagov/transition/pull/263
+2014-04-22T14:02:09Z,"Apr 22, 2014, 3:02 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Tidy up bulk add success messages",/alphagov/transition/pull/261
+2014-04-22T11:48:39Z,"Apr 22, 2014, 12:48 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Put transition date on analytics graph",/alphagov/transition/pull/260
+2014-05-02T13:17:01Z,"May 2, 2014, 2:17 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Universal analytics",/alphagov/transition/pull/259
+2014-04-14T14:42:51Z,"Apr 14, 2014, 3:42 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"URL hosts must contain at least one '.'",/alphagov/transition/pull/256
+2014-04-30T15:11:31Z,"Apr 30, 2014, 4:11 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Don't strip out trailing slashes when filtering",/alphagov/transition/pull/255
+2014-04-25T16:09:13Z,"Apr 25, 2014, 5:09 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Don't let the browser show a cached transition page",/alphagov/transition/pull/254
+2014-04-14T09:43:58Z,"Apr 14, 2014, 10:43 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Create a go to mapping modal",/alphagov/transition/pull/253
+2014-04-14T09:49:47Z,"Apr 14, 2014, 10:49 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Highlight bulk edit tools and include guidance",/alphagov/transition/pull/252
+2014-04-14T08:58:10Z,"Apr 14, 2014, 9:58 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Allow entered text to be used as a tag",/alphagov/transition/pull/251
+2014-04-14T09:52:06Z,"Apr 14, 2014, 10:52 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Allow filtering of organisation list",/alphagov/transition/pull/250
+2014-04-08T13:47:37Z,"Apr 8, 2014, 2:47 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Avoid saying '0 mappings updated'",/alphagov/transition/pull/247
+2014-03-14T15:35:20Z,"Mar 14, 2014, 3:35 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Tweak hostnames table",/alphagov/transition/pull/219
+2014-03-14T15:36:22Z,"Mar 14, 2014, 3:36 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Filters on style guide",/alphagov/transition/pull/218
+2014-03-14T11:05:55Z,"Mar 14, 2014, 11:05 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"After editing mappings via hits, return to hits",/alphagov/transition/pull/216
+2014-03-13T09:58:26Z,"Mar 13, 2014, 9:58 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Allow tag autocomplete in <IE8",/alphagov/transition/pull/214
+2014-03-13T10:21:13Z,"Mar 13, 2014, 10:21 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Show transition in desktop mode on IE8 and below",/alphagov/transition/pull/213
+2014-03-10T13:44:29Z,"Mar 10, 2014, 1:44 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Fix mappings header to top when scrolling",/alphagov/transition/pull/212
+2014-03-10T12:03:46Z,"Mar 10, 2014, 12:03 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Track JavaScript interactions in Google Analytics",/alphagov/transition/pull/211
+2014-03-05T17:27:23Z,"Mar 5, 2014, 5:27 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Default hits to last 30 days instead of all time",/alphagov/transition/pull/207
+2014-03-04T11:14:03Z,"Mar 4, 2014, 11:14 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Filter mappings by path, new URL, tag, and type",/alphagov/transition/pull/206
+2014-02-28T15:24:14Z,"Feb 28, 2014, 3:24 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Don't obscure the save button when bulk editing lots of mappings",/alphagov/transition/pull/199
+2014-02-25T16:25:09Z,"Feb 25, 2014, 4:25 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Switch to storing sessions in database",/alphagov/transition/pull/194
+2014-02-25T16:28:51Z,"Feb 25, 2014, 4:28 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"After saving show a modal containing edited mappings",/alphagov/transition/pull/193
+2014-02-24T12:01:56Z,"Feb 24, 2014, 12:01 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Auto-start JavaScript modules that appear in markup",/alphagov/transition/pull/192
+2014-02-19T17:38:06Z,"Feb 19, 2014, 5:38 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Technical Glossary",/alphagov/transition/pull/188
+2014-02-18T10:21:37Z,"Feb 18, 2014, 10:21 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Add Google Analytics tracking to Transition",/alphagov/transition/pull/187
+2014-02-14T13:55:47Z,"Feb 14, 2014, 1:55 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Prevent bulk tag modal from disappearing when selecting many paths",/alphagov/transition/pull/183
+2014-02-13T13:36:09Z,"Feb 13, 2014, 1:36 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Show redirect and archive counts on site dashboard",/alphagov/transition/pull/182
+2014-02-13T15:46:22Z,"Feb 13, 2014, 3:46 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Tag filtering",/alphagov/transition/pull/181
+2014-02-12T12:05:30Z,"Feb 12, 2014, 12:05 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Fix time format to show correct time",/alphagov/transition/pull/179
+2014-02-10T10:09:47Z,"Feb 10, 2014, 10:09 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Update asset pipeline for access to bootstrap SASS",/alphagov/transition/pull/176
+2014-02-07T14:15:27Z,"Feb 7, 2014, 2:15 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Stop the logo being cropped",/alphagov/transition/pull/175
+2014-02-10T10:39:16Z,"Feb 10, 2014, 10:39 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Add a link to the side by side browser on site dashboards",/alphagov/transition/pull/174
+2014-02-06T15:22:07Z,"Feb 6, 2014, 3:22 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Upgrade Jasmine to 2.0.0",/alphagov/transition/pull/173
+2014-02-05T18:36:11Z,"Feb 5, 2014, 6:36 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Upgrade to Bootstrap 3.1 and SASS 3.2.12",/alphagov/transition/pull/171
+2014-01-30T18:49:38Z,"Jan 30, 2014, 6:49 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Minor bulk edit improvements",/alphagov/transition/pull/168
+2014-01-29T12:16:00Z,"Jan 29, 2014, 12:16 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Minor tweaks to site dashboard",/alphagov/transition/pull/165
+2014-01-29T12:01:23Z,"Jan 29, 2014, 12:01 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Check that entered hosts are part of the current site",/alphagov/transition/pull/161
+2014-01-24T13:46:43Z,"Jan 24, 2014, 1:46 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Usability improvements for bulk adding",/alphagov/transition/pull/159
+2014-01-23T14:16:44Z,"Jan 23, 2014, 2:16 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Improve mapping history with friendly messages",/alphagov/transition/pull/157
+2014-01-22T12:52:39Z,"Jan 22, 2014, 12:52 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Create site dashboard components",/alphagov/transition/pull/156
+2014-01-22T13:12:01Z,"Jan 22, 2014, 1:12 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Prevent empty parentheses from showing in site header",/alphagov/transition/pull/155
+2014-01-23T16:48:41Z,"Jan 23, 2014, 4:48 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Add custom button styles to style guide",/alphagov/transition/pull/152
+2014-01-17T10:35:27Z,"Jan 17, 2014, 10:35 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Create a GOVUK date format to match style guide",/alphagov/transition/pull/149
+2014-01-08T10:43:19Z,"Jan 8, 2014, 10:43 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Fix border radius in the modal footer",/alphagov/transition/pull/136
+2014-01-07T12:37:53Z,"Jan 7, 2014, 12:37 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Bootstrap 3 fixes",/alphagov/transition/pull/134
+2013-12-30T11:19:39Z,"Dec 30, 2013, 11:19 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Upgrade to Bootstrap 3",/alphagov/transition/pull/126
+2013-12-20T12:38:59Z,"Dec 20, 2013, 12:38 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Remove extra add mapping button",/alphagov/transition/pull/124
+2013-12-09T11:16:38Z,"Dec 9, 2013, 11:16 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Only show organisations with sites",/alphagov/transition/pull/108
+2013-12-04T13:38:19Z,"Dec 4, 2013, 1:38 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Add 'Your organisation' title attribute to your organisation in navbar",/alphagov/transition/pull/105
+2013-12-05T17:06:41Z,"Dec 5, 2013, 5:06 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Delete 'Others' section from hits",/alphagov/transition/pull/101
+2013-12-02T15:15:50Z,"Dec 2, 2013, 3:15 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Make paths easier to scan",/alphagov/transition/pull/98
+2013-12-02T10:33:18Z,"Dec 2, 2013, 10:33 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Fix unclosed span in mappings form",/alphagov/transition/pull/97
+2013-11-28T14:00:33Z,"Nov 28, 2013, 2:00 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Use mapping path as link text",/alphagov/transition/pull/92
+2013-11-25T12:22:18Z,"Nov 25, 2013, 12:22 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Improvements to suggested and archive URLs when editing a mapping [60838740]",/alphagov/transition/pull/83
+2013-11-21T15:22:29Z,"Nov 21, 2013, 3:22 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Return to the edit mapping page after save",/alphagov/transition/pull/79
+2013-11-18T13:58:23Z,"Nov 18, 2013, 1:58 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Tweak sites table headings",/alphagov/transition/pull/74
+2013-11-19T09:56:01Z,"Nov 19, 2013, 9:56 AM GMT","alphagov/maslow",https://github.com/alphagov/maslow,"Create a need view",/alphagov/maslow/pull/28
+2013-11-15T10:00:11Z,"Nov 15, 2013, 10:00 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Fix organisations feature",/alphagov/transition/pull/70
+2013-11-14T20:13:25Z,"Nov 14, 2013, 8:13 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Remove the services dropdown from the header",/alphagov/transition/pull/68
+2013-11-15T12:45:58Z,"Nov 15, 2013, 12:45 PM GMT","alphagov/transition",https://github.com/alphagov/transition,"Minimise use of HTTP status codes [60348822]",/alphagov/transition/pull/66
+2013-11-01T11:05:57Z,"Nov 1, 2013, 11:05 AM GMT","alphagov/transition",https://github.com/alphagov/transition,"Only show hits graph when JS enabled",/alphagov/transition/pull/55
+2013-10-22T17:46:26Z,"Oct 22, 2013, 6:46 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Create summary and filtered views of hits data [58805750]",/alphagov/transition/pull/49
+2013-10-16T08:35:06Z,"Oct 16, 2013, 9:35 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Introduce a no content style",/alphagov/transition/pull/48
+2013-10-08T09:15:11Z,"Oct 8, 2013, 10:15 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Use local assets over external ones [58158124]",/alphagov/transition/pull/40
+2013-10-07T14:58:11Z,"Oct 7, 2013, 3:58 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Tweak breadcrumb copy in style guide",/alphagov/transition/pull/38
+2013-10-07T14:49:41Z,"Oct 7, 2013, 3:49 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Tweak breadcrumb copy in style guide",/alphagov/transition/pull/37
+2013-10-08T13:28:34Z,"Oct 8, 2013, 2:28 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Hide irrelevant URL fields in Mapping form [57569274]",/alphagov/transition/pull/36
+2013-10-02T16:41:09Z,"Oct 2, 2013, 5:41 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Create a transition style guide [57892632]",/alphagov/transition/pull/33
+2013-10-02T09:33:21Z,"Oct 2, 2013, 10:33 AM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Brand the header",/alphagov/transition/pull/31
+2013-10-01T13:36:19Z,"Oct 1, 2013, 2:36 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Cleanup mapping controls and improve usability [57569076]",/alphagov/transition/pull/28
+2013-09-27T15:49:20Z,"Sep 27, 2013, 4:49 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Style first and last page links [57569170]",/alphagov/transition/pull/26
+2013-09-27T13:11:24Z,"Sep 27, 2013, 2:11 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Fix mapping validation styles [57569316]",/alphagov/transition/pull/25
+2013-09-27T11:45:49Z,"Sep 27, 2013, 12:45 PM GMT+1","alphagov/transition",https://github.com/alphagov/transition,"Update pagination styles to match Publisher et al [57569170]",/alphagov/transition/pull/22
