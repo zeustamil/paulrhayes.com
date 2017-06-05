@@ -8,7 +8,7 @@ categories:
 date: 2013-09-10 14:02:22
 ---
 
-At Last.fm we’ve been gradually upgrading our front-end. In this blog post I’ll outline the fundamentals of our new JavaScript framework, although the full code isn’t open sourced _yet_.
+At Last.fm we’ve been gradually upgrading our frontend. In this blog post I’ll outline the fundamentals of our new JavaScript framework, although the full code isn’t open sourced _yet_.
 
 [Progressive enhancement is important](https://thatemil.com/blog/2013/07/02/progressive-enhancement-still-not-dead/), and Last.fm remains a traditional HTML website with full page reloads. Using layers of unobtrusive JavaScript we build up functionality, not because JavaScript is sometimes disabled (that’s a rarity, [even amongst screen reader users](http://webaim.org/projects/screenreadersurvey4/#javascript)), but [because broken JavaScript happens](https://jakearchibald.com/2013/progressive-enhancement-still-important/).
 

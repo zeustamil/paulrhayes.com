@@ -7,7 +7,7 @@ layout: 'page'
 
 ## Work with me
 
-I’m available for user research, design and front-end development contracts. Please give me as much detail as possible, tell me a bit about the work, why you’d think we’d be a good fit and why the project is worth doing. The more information you share the more swiftly I’ll respond.
+I’m available for user research, design and frontend development contracts. Please give me as much detail as possible, tell me a bit about the work, why you’d think we’d be a good fit and why the project is worth doing. The more information you share the more swiftly I’ll respond.
 
 Email me at {% contact %}
 

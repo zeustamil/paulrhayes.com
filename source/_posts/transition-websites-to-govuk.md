@@ -6,7 +6,7 @@ categories:
 date: 2014-07-01
 ---
 
-For my first 6 months as a contractor at Government Digital Service I worked on the transition tools team as a front-end developer, designer and user researcher. We were building the tools needed to transition 800 government department and agency websites to GOV.UK. [All 24 ministerial departments](https://gds.blog.gov.uk/2013/04/30/24-departments-later/) had already been migrated. In October 2013, transition was in [full swing](https://gds.blog.gov.uk/2013/10/03/welcoming-even-more-people-to-gov-uk/) and [it was a complex process](https://www.gov.uk/guidance/govuk-transition-guidance-for-agencies).
+For my first 6 months as a contractor at Government Digital Service I worked on the transition tools team as a frontend developer, designer and user researcher. We were building the tools needed to transition 800 government department and agency websites to GOV.UK. [All 24 ministerial departments](https://gds.blog.gov.uk/2013/04/30/24-departments-later/) had already been migrated. In October 2013, transition was in [full swing](https://gds.blog.gov.uk/2013/10/03/welcoming-even-more-people-to-gov-uk/) and [it was a complex process](https://www.gov.uk/guidance/govuk-transition-guidance-for-agencies).
 
 ## No link left behind
 

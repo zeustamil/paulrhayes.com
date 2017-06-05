@@ -8,7 +8,7 @@ categories:
 date: 2015-12-24
 ---
 
-A story about my favourite front-end bug of 2015. Or, why you shouldn’t assume `exports` will be falsy.
+A story about my favourite frontend bug of 2015. Or, why you shouldn’t assume `exports` will be falsy.
 
 A combination of an established module pattern, headings with dynamic IDs, content on a specific topic and the quirky way that browsers handle IDs on elements created an obscure bug.
 

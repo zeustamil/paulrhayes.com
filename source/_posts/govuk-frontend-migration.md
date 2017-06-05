@@ -96,4 +96,4 @@ Speech example rendered by government-frontend at a desktop viewport width
 
 Migration continues on the backend. Whitehall is updated to send content to the publishing platform. This can be a complex process depending on the intricacy of the format. When complete, all content for a given format is published through the new pipeline and rendered by government-frontend.
 
-The therapeutic last step is to delete the old template, styles and tests from Whitehall. For example this pull request [deleting the front-end for policy groups](https://github.com/alphagov/whitehall/pull/2526/files).
+The therapeutic last step is to delete the old template, styles and tests from Whitehall. For example this pull request [deleting the frontend for policy groups](https://github.com/alphagov/whitehall/pull/2526/files).
